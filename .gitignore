@@ -25,6 +25,11 @@ config/cofh/world
 config/FlenixCities/*
 !config/FlenixCities/FlenixCities_Core.cfg
 
+!config/gregtech
+config/gregtech/*
+!config/gregtech/oreprocessing.cfg
+!config/gregtech/worldgenerationnew.cfg
+
 !config/Netherlicious
 config/Netherlicious/*
 !config/Netherlicious/Biome_Configuration.cfg
