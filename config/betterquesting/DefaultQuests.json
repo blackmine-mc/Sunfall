@@ -458,6 +458,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
           "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -644,6 +645,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
           "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -695,6 +697,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
           "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -912,6 +915,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
           "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -976,6 +980,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
           "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -1027,6 +1032,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
           "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -1080,6 +1086,7 @@
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
           "allowSmelt:1": 1,
           "ignoreNBT:1": 1,
           "index:3": 0,
@@ -1536,7 +1543,7 @@
       "home_image:8": "blackmine:sunfall_title.png",
       "party_enable:1": 1,
       "pack_version:3": 0,
-      "editMode:1": 1,
+      "editMode:1": 0,
       "home_offset_x:3": -128,
       "home_offset_y:3": 0
     }
