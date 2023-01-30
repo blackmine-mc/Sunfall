@@ -51,5 +51,7 @@ config/Netherlicious/*
 !config/LunatriusCore.cfg
 !config/OpenBlocks.cfg
 !config/OpenComputers.cfg
+!config/xaerominimap.txt
+!config/xaeroworldmap.txt
 
 # scripts
