@@ -29,6 +29,7 @@ config/FlenixCities/*
 config/gregtech/*
 !config/gregtech/oreprocessing.cfg
 !config/gregtech/worldgenerationnew.cfg
+!config/gregtech/materials.cfg
 
 !config/Netherlicious
 config/Netherlicious/*
