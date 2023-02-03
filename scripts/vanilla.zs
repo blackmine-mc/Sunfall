@@ -17,3 +17,9 @@ for toollist in tools {
             NEI.hide(tool);
     }
 }
+
+val dirt = <ore:dirt>;
+val seeds = <ore:seeds>;
+val grass = <minecraft:grass>;
+
+recipes.addShapeless(grass, [seeds, dirt]);
