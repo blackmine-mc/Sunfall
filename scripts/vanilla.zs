@@ -21,5 +21,6 @@ for toollist in tools {
 val dirt = <ore:dirt>;
 val seeds = <ore:seeds>;
 val grass = <minecraft:grass>;
+val waterBottle = <ore:bottleWater>;
 
-recipes.addShapeless(grass, [seeds, dirt]);
+recipes.addShapeless(grass, [seeds, dirt, waterBottle]);
