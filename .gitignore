@@ -5,6 +5,9 @@
 !.gitignore
 !LICENSE.MD
 
+#greg
+!gregtech.cfg
+
 # configs
 !config
 config/*
