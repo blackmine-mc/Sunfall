@@ -21,8 +21,12 @@ config/AppliedEnergistics2/*
 
 !config/cofh
 config/cofh/core/*
-config/cofh/world
 !config/cofh/core/common.cfg
+config/cofh/thermaldynamics
+!config/cofh/thermalfoundation
+config/cofh/thermalfoundation/*
+!config/cofh/thermalfoundation/common.cfg
+config/cofh/world
 
 !config/FlenixCities
 config/FlenixCities/*
