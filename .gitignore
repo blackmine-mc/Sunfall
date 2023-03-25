@@ -8,6 +8,9 @@
 #greg
 !gregtech.cfg
 
+#smart moving
+!smart_moving_options.txt
+
 # configs
 !config
 config/*
