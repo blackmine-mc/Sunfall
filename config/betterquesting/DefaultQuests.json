@@ -2032,6 +2032,736 @@
           }
         }
       }
+    },
+    "33:10": {
+      "questID:3": 33,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.toolHeadPickaxe",
+            "Count:3": 1,
+            "Damage:2": 8214,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Новые инструменты",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Да здравствует массовое производство!\n\nВедро же есть в наличии? Пора сходить и добыть немного лавы.\n\nЛава прекрасно плавится в котле и отливается в обсидиан -- дешевый и приятный в использовании материал для инструментов третьего уровня.\n\nС котлом опыт работы вроде есть, формы крафтятся несложно. Выплавленные в котле наконечники нужно будет дополнительно заточить, но в остальном это отличная вещь для массовых раскопок."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 912,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 914,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.multiitem.randomtools",
+              "Count:3": 1,
+              "Damage:2": 916,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.toolHeadShovel",
+              "Count:3": 1,
+              "Damage:2": 8214,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.toolHeadAxe",
+              "Count:3": 1,
+              "Damage:2": 8214,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "gregtech:gt.meta.toolHeadPickaxe",
+              "Count:3": 1,
+              "Damage:2": 8214,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "34:10": {
+      "questID:3": 34,
+      "preRequisites:11": [
+        33
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 32703,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Заточка",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "На заточку отлитых инструментов тратится прочность напильника. Но для этих целей можно использовать материалы попроще. Так, на точильном камне можно затачивать необработанные (raw) наконечники для инструментов.\n\nВ качестве расходников для точильного круга используется §6песчаник§r (благо, песка вокруг полно). Просто засуньте камень в машину и используйте его для заточки.\n\nСама по себе заточка проходит очень просто, берешь в руку наконечник и тыкаешь правой кнопкой по камню, пока наконечник не станет пригодным к использованию. Ну или пока не сточится песчаник, тогда надо будет засунуть новый камень."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 32703,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "35:10": {
+      "questID:3": 35,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20021,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Круши!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Первая часть производственной цепочки: крушение руды\n\nДробитель (crusher) требует §6кинетическую энергию§r, производимую §6паровым двигателем (steam engine)§r. Но в отличии от других механизмов бронзового века, дробитель особенно требователен к подаче энергии.\n\nРаботающего в нормальном режиме парового двигателя будет недостаточно для дробления руды. Для данной проблемы есть два возможных решения:\n\n1. Гнать обычный §6Steam engine (bronze)§r выше допустимого предела (подключить трубу на 100 l/t, например §6Small copper fluid pipe§r). Это безопасный вариант, но рано или поздно двигатель вырубится от такой нагрузки и потребует подключить его повторно.\n\n2. Скрафтить §6Strong Steam engine (bronze)§r. Эта штука требует больше пара для стабильной работы (к примеру, 150 l/t по бронзовой трубе), крафтится из большего количества ресурсов, но пригодна для непрерывного использования.\n\nВвод руды: сверху\nВывод руды: снизу\nПодача питания: §6Ku/t§r, сзади"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20021,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "36:10": {
+      "questID:3": 36,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20291,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] ПромываЙ!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Вторая часть: промывка руды\n\nРудопромывка (sluice) требует §6вращательную энергию§r, производимую паровой турбиной.\nНикаких дополнительных сложностей с питанием, просто подать 75 l/t пара (§6Tiny bronze fluid pipe§r) на турбину и оно само закрутится как надо.\n\nНо в отличии от предыдущих механизмов, рудопромывка также требует подачу, ну... воды. Где ее брать уже писали.\n\nПомимо промытой руды, используемая вода превращается в §6шлак§r, который рекомендую хранить. В дальнейшем, его можно будет очистить обратно в воду и получить примеси каких-то дополнительных ресуров.\n\nВвод руды: слева\nВывод руды: справа\nПодача воды: сверху\nВывод шлака: снизу\nПодача питания: §6Ru/t§r, сзади"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20291,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "37:10": {
+      "questID:3": 37,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20011,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Измельчай!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Последняя часть базового произвоства: измельчение руды\n\nЕще одна машина, работающая на энергии вращения.\nЗапитывается от §6паровой турбины§r слева или справа (!), §675 L/t §rпара\n\nСверху подавать вывод из центрифуги, снизу можно поставить сундук\n\n§cЯ об этом не говорил, но можно засунуть шреддер в шреддер§r\n\nВвод руды: сверху\nВывод руды: снизу\nПодача питания: §6Ru/t§r, слева/справа\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20011,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "38:10": {
+      "questID:3": 38,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multiitem.technological",
+            "Count:3": 1,
+            "Damage:2": 2000,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Безопасность превыше всего!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Избежать взрыва бойлера (а так же использовать несколько бойлеров) можно путем ограничения давления в трубах. Как это сделать?\n\nОграничивать вход для отдельных механизмов можно используя трубы разной ширины. А для спуска излишнего давления на основную трубу можно повесить защитный клапан.\n\nДля крафта нужна §6латунь (brass)§r, но первый клапан в подарок от компании. В случае апгрейда, снять с существующей трубы можно §6монтировкой из GT6 (crowbar)§r\n\nПоскольку пар невозможно хранить долгосрочно, с этим клапаном можно добавить мощности к бойлерам или заменить их на усиленные варианты (§6Strong boiler§r) с более эффективными горелками (§6Dense Burning box§r)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multiitem.technological",
+              "Count:3": 1,
+              "Damage:2": 2000,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "39:10": {
+      "questID:3": 39,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:tile.stone_resource",
+            "Count:3": 64,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Добыча железа",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Пора добывать железо в промышленных масштабах!\n\nГематит и известняк есть практически везде, так что проблем быть не должно быть. Для эффективной обработки известняка смотрите соседние задания.\n\nДля начала хватит и стака, но вы ничем не ограничены :)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.dust",
+              "Count:3": 64,
+              "Damage:2": 9189,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "hbm:tile.stone_resource",
+              "Count:3": 32,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "40:10": {
+      "questID:3": 40,
+      "preRequisites:11": [
+        33,
+        35,
+        36,
+        37,
+        39,
+        42,
+        43
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 25004,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Пустили по трубам",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Собирать из каждого механизма выработку и руками вставлять в следующий -- дело утомляющее.\n\nПора пустить предметы по предметным трубам!\n\n(и собрать в одно целое всю цепочку обработки руды)\n\nНа кой черт такие большие трубы? Ну, потому что побочных продуктов часто бывает больше, чем один или два.\n\nВ награду отправляем еще трубы. В смысле, зачем?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 16,
+              "Damage:2": 25004,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 16,
+              "Damage:2": 25004,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "41:10": {
+      "questID:3": 41,
+      "preRequisites:11": [
+        44
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8630,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Ееее, сталь",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Есть железо? Пора делать сталь!\n\nНа самом деле, ничего сложного. Всё тот же старый добрый котёл, но с добавлением пара.\n\nТочно так же закладывается железо в котёл, к котлу в упор подключается §oработающий§r §6паровой двигатель§r и при температуре около 2100 градусов с подачей воздуха выплавится сталь.\n\nЭта задача сложнее обычной переплавки, потому что недостаточно просто достичь нужной температуры, а необходимо её поддерживать достаточное для работы двигателя время. Но с наличием температурного датчика и запасов быстрогорящего угля типа лигнита это не должно быть проблемой.\n\nГотовую сталь от железа можно отличить по характерному более красному цвету в котле."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 16,
+              "Damage:2": 8630,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 48,
+              "Damage:2": 8630,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "42:10": {
+      "questID:3": 42,
+      "preRequisites:11": [
+        38
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 20081,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Раскручивай!",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Третья часть цепочки: центрифугирование руды\n\n\nТут все просто, питается от §6паровой турбины§r (§675 l/t§r), из странного - турбина подключается снизу.\n\nНа вход идёт промытая руда из предыдущего механизма.\n\nВвод руды: сверху\nВывод руды: справа\nПодача питания: §6Ru/t§r, снизу"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 1,
+              "Damage:2": 20081,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "43:10": {
+      "questID:3": 43,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.meta.ingot",
+            "Count:3": 1,
+            "Damage:2": 8620,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Латунь",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Важный сплав, который используется для различного количества мелких и не очень деталей.\n\nПохож на бронзу, но использует в составе цинк вместо олова в той же пропорции (3:1)\n\nОчень легкоплавкий (§61160K§r).\n\nИз латуни, к примеру, крафтятся базовые трубы для предметов и защитные клапаны."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.ingot",
+              "Count:3": 16,
+              "Damage:2": 8620,
+              "OreDict:8": "ingotBrass"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.oreRaw",
+              "Count:3": 48,
+              "Damage:2": 290,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.oreRaw",
+              "Count:3": 16,
+              "Damage:2": 300,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "44:10": {
+      "questID:3": 44,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.multitileentity",
+            "Count:3": 1,
+            "Damage:2": 6991,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Логистика",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "С учетом количества переработанных ресурсов, возникает вопрос, а как же это хранить?\n\nВ сундуках это превращается в неорганизованное месиво из нескольких десятков видов измельченных руд нескольких размеров каждая, а электричества для полноценного автокрафтинга и логистики еще нет. Что же делать?\n\nВыход есть!\n\nВсе это добро удобно раскладывается в бочки и остается на видном месте. Бочки подключаются друг к другу последовательно с обратной стороны.\n\n§6§kНУЖНО БОЛЬШЕ БОЧЕК§r\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 16,
+              "Damage:2": 6991,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.multitileentity",
+              "Count:3": 16,
+              "Damage:2": 6991,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -2330,16 +3060,101 @@
       "order:3": 2
     },
     "3:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -48,
+          "id:3": 33,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": 0,
+          "id:3": 34,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -36,
+          "id:3": 35,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -36,
+          "id:3": 36,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -36,
+          "id:3": 37,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -84,
+          "id:3": 38,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": -48,
+          "id:3": 39,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 24,
+          "id:3": 40,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 48,
+          "x:3": -24,
+          "y:3": 120,
+          "id:3": 41,
+          "sizeY:3": 48
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -36,
+          "id:3": 42,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 108,
+          "y:3": 0,
+          "id:3": 43,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 72,
+          "id:3": 44,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "NORMAL",
           "name:8": "3. Стальные шары",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "gregtech:gt.meta.round",
             "Count:3": 1,
-            "Damage:2": 0,
+            "Damage:2": 8630,
             "OreDict:8": ""
           },
           "bg_image:8": "",
