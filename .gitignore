@@ -1,9 +1,10 @@
 # everything
 /*
 
-# but not gitignore and license
+# but not gitignore, license, logo
 !.gitignore
 !LICENSE.MD
+!logo.png
 
 #greg
 !gregtech.cfg
