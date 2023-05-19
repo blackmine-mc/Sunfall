@@ -47,6 +47,12 @@ config/Netherlicious/*
 !config/Netherlicious/Biome_Configuration.cfg
 !config/Netherlicious/Worldgeneration_Configuration.cfg
 
+!config/tabbychat
+config/tabbychat/*
+!config/tabbychat/advanced.cfg
+!config/tabbychat/general.cfg
+!config/tabbychat/spellcheck.cfg
+
 !config/Wasteland
 
 !config/betterquesting.cfg
