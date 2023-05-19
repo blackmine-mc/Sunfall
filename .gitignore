@@ -32,6 +32,11 @@ config/cofh/thermalfoundation/*
 !config/cofh/thermalfoundation/common.cfg
 config/cofh/world
 
+!config/etfuturum
+config/etfuturum/*
+!config/etfuturum/world.cfg
+
+
 !config/FlenixCities
 config/FlenixCities/*
 !config/FlenixCities/FlenixCities_Core.cfg
