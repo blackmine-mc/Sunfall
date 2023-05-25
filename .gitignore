@@ -47,6 +47,11 @@ config/gregtech/*
 !config/gregtech/worldgenerationnew.cfg
 !config/gregtech/materials.cfg
 
+!config/hbmRecipes
+config/hbmRecipes/*
+!config/hbmRecipes/hbmCrucibleSmelting.json
+!config/hbmRecipes/hbmCrucible.json
+
 !config/Netherlicious
 config/Netherlicious/*
 !config/Netherlicious/Biome_Configuration.cfg
