@@ -139,7 +139,7 @@
           "isMain:1": 0,
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "hbm:item.canned_beef",
+            "id:8": "hbm:item.canned_conserve",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -2383,7 +2383,9 @@
     },
     "39:10": {
       "questID:3": 39,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        43
+      ],
       "properties:10": {
         "betterquesting:10": {
           "snd_complete:8": "random.levelup",
@@ -2450,7 +2452,6 @@
         35,
         36,
         37,
-        39,
         42,
         43
       ],
@@ -2517,7 +2518,7 @@
     "41:10": {
       "questID:3": 41,
       "preRequisites:11": [
-        44
+        40
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2762,6 +2763,624 @@
           }
         }
       }
+    },
+    "45:10": {
+      "questID:3": 45,
+      "preRequisites:11": [
+        48
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:tile.machine_crucible",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Котёл 2.0",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Котёл умер, да здравствует §6плавильня§r!\n\nКотёл это, конечно, весело, но времязатратно, да и небезопасно. Как говорится, §omodern problems require modern solutions.§r\n\nПора применить полученную сталь на благое дело (отливать больше стали).\n\nПлавильня это псевдомультиблок из двух основных компонентов:\n\n- §6Топка (firebox)§r (уже использовалась для питания лесопилки)\n- Собственно §6плавильня (crucible)§r. Не спрашивайте, почему Crucible из GT6 это котёл, а Crucible из HBM это плавильня. Котёл это легендарный местный мем, который взрывает дома. Плавильня не взрывает дома и безопасна для использования!\nАдминистрация §2Blackmine§r не несёт ответственности за смерть в результате падения в плавильню.\n\nПлавильня имеет два вывода.\n\n§4Красный вывод§r используется для выводов по рецепту.\n§aЗеленый вывод §rостается для всего остального.\n\nВывод осуществляется в §6литейную форму (foundry mold)§r, установленную в §6литейный резервуар (foundry mold, lmao)§r соответствующей формы. Если нужно отливать в несколько форм, можно использовать §6литейные каналы (foundry channels)§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hbm:tile.heater_firebox",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "hbm:tile.machine_crucible",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "hbm:tile.foundry_mold",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "hbm:item.mold",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "46:10": {
+      "questID:3": 46,
+      "preRequisites:11": [
+        49
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "etfuturum:raw_ore",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] ЕЩЕ БОЛЬШЕ РЕСУРСОВ",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "§6THE FACTORY MUST GROW.§r\n\nникаких исключений.\n\n(сейчас квест не требуется для прогресса из-за отсутствия мода на массовый майнинг)"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:gt.meta.oreRaw",
+              "Count:3": 256,
+              "Damage:2": 8334,
+              "OreDict:8": "oreRawAnyCoalCarbon"
+            },
+            "1:10": {
+              "id:8": "gregtech:gt.meta.oreRaw",
+              "Count:3": 128,
+              "Damage:2": 9104,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "etfuturum:raw_ore",
+              "Count:3": 128,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "etfuturum:raw_ore",
+              "Count:3": 64,
+              "Damage:2": 2,
+              "OreDict:8": "rawGold"
+            },
+            "4:10": {
+              "id:8": "gregtech:gt.meta.oreRaw",
+              "Count:3": 64,
+              "Damage:2": 500,
+              "OreDict:8": "oreRawTin"
+            },
+            "5:10": {
+              "id:8": "gregtech:gt.meta.oreRaw",
+              "Count:3": 64,
+              "Damage:2": 300,
+              "OreDict:8": "oreRawZinc"
+            },
+            "6:10": {
+              "id:8": "gregtech:gt.meta.oreRaw",
+              "Count:3": 16,
+              "Damage:2": 8300,
+              "OreDict:8": "oreRawDiamond"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "47:10": {
+      "questID:3": 47,
+      "preRequisites:11": [
+        41
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:tile.machine_sawmill",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] ГДЕ БУМАГА БЛЕАТЬ",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Шеф сказал неси бумагу, значит неси бумагу\n\nВ смысле, нет тростника. чтобы сделать бумагу? А, ну да, ядерная война, все дела... Ладно, план B. Есть сталь? Можно делать лесопилку.\nВ качестве побочного продукта распила бревен получатся опилки, из которых как раз можно сделать бумагу.\n\nЛесопилка состоит из двух компонентов:\n\n- §6Топка§r, которая аналогична по действию камере сгорания для обычного котла\n- §6Лесопилка§r, которая ставится сверху на топку.\n\nПитается это всё почти от любого вида топлива для обычной печки."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hbm:tile.heater_firebox",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "hbm:tile.machine_sawmill",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:paper",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "48:10": {
+      "questID:3": 48,
+      "preRequisites:11": [
+        47
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:item.template_folder",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Всё идёт по плану",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Какой ключ? Какой границы? Кто его переломал вообще?\n\n§oА моя судьба захотела на покой\nЯ обещал ей не участвовать в военной игре...§r\n\nНо нет, придется обманывать самого себя, игра продолжается. А чтобы всё шло по плану, надо этот самый план составить.\n\nКрасивая папка с картинками, понадобится бумага и разные красители. Измельченный уголь, в принципе, тоже сойдет за чернила. Главное, не надышаться углём и работать с ним в противогазе."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hbm:item.template_folder",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "49:10": {
+      "questID:3": 49,
+      "preRequisites:11": [
+        41
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:gt.metatool.01",
+            "Count:3": 1,
+            "Damage:2": 102,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Я твой мир земля бурил",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Здесь будет рецепт крафта для новой системы добычи ресурсов, которая пока что ещё не готова."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "50:10": {
+      "questID:3": 50,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:sapling",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Советы Доктора Попова",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Это живой саженец. Размер его должен быть примерно, как толщина большого пальца.\n\nЕго нужно очистить, посадить в землю, чтобы вы могли §aне отрывая от ботвы§r зажать §6Ctrl§r (или другую кнопку для спринта) и бегать вокруг саженца, прыгая и приседая.\n\nЭто даст вам прохладу, влажность и, скорее всего, §aсилу земли§r. §mА для дополнительной эффективности, можно снять процесс на камеру и выложить на ютубчик.§r\n\nНа самом деле, вам это ничего не даст, а вот саженец от такой магии реально начнет расти быстрее."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:choice",
+          "index:3": 0,
+          "choices:9": {
+            "0:10": {
+              "id:8": "minecraft:sapling",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:sapling",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:sapling",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "51:10": {
+      "questID:3": 51,
+      "preRequisites:11": [
+        45
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Опять... железо?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "У вас наверняка где-то лежит куча гематита, который неплохо было бы переплавить в железо для нормального использования. Как же это сделать?\n\nОбъясняю работу плавильни на примере железа:\n\nБерем из папки шаблон для плавки железа из гематита (для этого понадобится открыть папку с шаблонами и имея в инвентаре лист бумаги и краситель §7§oммм, снова нюхать измельченный уголь§r ткнуть по шаблону правой кнопкой мыши).\n\nПолученный шаблон ставится в плавильню и гарантирует, что эта плавильня с этим шаблоном не будет выплавлять ничего, кроме железа.\n\nКак и указано в шаблоне, в пропорции 5/1/1 нужно закинуть §6гематит, углерод и флюс (кальцит, он же известняк),§r чтобы получить на выходе два слитка железа. Работает это явно быстрее (и главное безопаснее), чем аналог из GregTech.\n\nИзвестняк можно кидать прямо в виде булыжника, это примерно 4 слитка флюса\nДва куска угля дают 1 слиток углерода.\n"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hbm:item.crucible_template",
+              "Count:3": 1,
+              "Damage:2": 14,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "52:10": {
+      "questID:3": 52,
+      "preRequisites:11": [
+        53
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:tile.machine_difurnace_extension",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Еще больше... стали?",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "Только что ж делали сталь?\n\nДа, но можно быстрее и привычнее. Углерод, железо, да и в принципе всё.\n\nЧерез Shift-клик ставим расширитель на печку, радуемся быстрой переплавке. Главное, не забывать подкидывать топливо."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hbm:tile.machine_difurnace_off",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "hbm:tile.machine_difurnace_extension",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideCommand:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "command:8": "/achievement give achievement.blastFurnace @p"
+        }
+      }
+    },
+    "53:10": {
+      "questID:3": 53,
+      "preRequisites:11": [
+        51
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:tile.machine_press",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Моральный прессинг",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "1 пластина \u003d 1 слиток. А если кто скажет, что это не так, то киньте в него его греговской наковальней!\nВремя для машины, которая специализируется на производстве пластин (ну или чего-то ещё, что можно сделать из одного слитка).\n\nИспользуется просто, сверху штамп (делается из папки со штампами), снизу слиток, на выходе пластина. Питается от топлива.\n\n§cШтампы имеют свой запас прочности.§r"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hbm:tile.machine_press",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "hbm:item.stamp_steel_flat",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        }
+      },
+      "rewards:9": {}
+    },
+    "54:10": {
+      "questID:3": 54,
+      "preRequisites:11": [
+        52
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "snd_complete:8": "random.levelup",
+          "taskLogic:8": "AND",
+          "visibility:8": "NORMAL",
+          "isMain:1": 0,
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "hbm:item.briquette",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "snd_update:8": "random.levelup",
+          "repeatTime:3": -1,
+          "globalShare:1": 0,
+          "questLogic:8": "AND",
+          "repeat_relative:1": 1,
+          "name:8": "[3] Уголь. В брикетах. УГОЛЬ В ЧЕРТОВЫХ БРИКЕТАХ",
+          "lockedProgress:1": 0,
+          "autoClaim:1": 0,
+          "isSilent:1": 0,
+          "desc:8": "§2\u003eуголь в брикетах\n\u003eопять нюхать уголь§r\n\nУголь измельчить, положить под пресс с обычным штампом (не из папки, §6плоский штамп§r), получатся брикеты.\n\nБрикеты можно отправить в коксовую печь (которая так же ставится на топку) и получить §6угольный кокс§r, высококачественное топливо, которое долго горит.\n\nТакже можно получать древесный уголь из бревён, на случай если закончатся запасы ископаемого угля.\n\nХороший апгрейд для всей стальной техники и последий этап перед следующим этапом."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "allowCraftedFromStatistics:1": 0,
+          "allowSmelt:1": 1,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "allowCraft:1": 1,
+          "allowAnvil:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hbm:tile.furnace_combination",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:crafting"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "hbm:item.coke",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -3106,7 +3725,7 @@
         "6:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": -48,
+          "y:3": 0,
           "id:3": 39,
           "sizeY:3": 24
         },
@@ -3120,7 +3739,7 @@
         "8:10": {
           "sizeX:3": 48,
           "x:3": -24,
-          "y:3": 120,
+          "y:3": 72,
           "id:3": 41,
           "sizeY:3": 48
         },
@@ -3134,15 +3753,85 @@
         "10:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": 0,
+          "y:3": -48,
           "id:3": 43,
           "sizeY:3": 24
         },
         "11:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 72,
+          "x:3": -60,
+          "y:3": 24,
           "id:3": 44,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 168,
+          "id:3": 45,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 132,
+          "id:3": 46,
+          "sizeY:3": 24
+        },
+        "14:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 84,
+          "id:3": 47,
+          "sizeY:3": 24
+        },
+        "15:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": 132,
+          "id:3": 48,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 84,
+          "id:3": 49,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 24,
+          "id:3": 50,
+          "sizeY:3": 24
+        },
+        "18:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 216,
+          "id:3": 51,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 264,
+          "id:3": 52,
+          "sizeY:3": 24
+        },
+        "20:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 216,
+          "id:3": 53,
+          "sizeY:3": 24
+        },
+        "21:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 216,
+          "id:3": 54,
           "sizeY:3": 24
         }
       },
