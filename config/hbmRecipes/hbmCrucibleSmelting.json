@@ -144,6 +144,18 @@
     {
       "input": ["dict","oreCopper"],
       "output": [["Copper",144],["Stone",162]]
+    },
+    {
+      "input": ["dict","dustLimestone"],
+      "output": [["Flux",36]]
+    },
+    {
+      "input": ["dict","stoneLimestone"],
+      "output": [["Flux",288]]
+    },
+    {
+      "input": ["dict","stoneCobbleLimestone"],
+      "output": [["Flux",288]]
     }
   ]
 }
