@@ -23,6 +23,8 @@ config/AppliedEnergistics2/*
 
 !config/betterquesting
 
+!config/buildcraft
+
 !config/cofh
 config/cofh/core/*
 !config/cofh/core/common.cfg
@@ -35,7 +37,6 @@ config/cofh/world
 !config/etfuturum
 config/etfuturum/*
 !config/etfuturum/world.cfg
-
 
 !config/FlenixCities
 config/FlenixCities/*
