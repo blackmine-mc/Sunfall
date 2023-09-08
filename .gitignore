@@ -32,7 +32,6 @@ config/cofh/core/*
 !config/cofh/thermalfoundation
 config/cofh/thermalfoundation/*
 !config/cofh/thermalfoundation/common.cfg
-config/cofh/world
 
 !config/etfuturum
 config/etfuturum/*
