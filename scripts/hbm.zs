@@ -103,3 +103,58 @@ recipes.addShaped(coke_oven, [
     [sandstone, steelPlate, sandstone],
     [sandstone, dense_copper, sandstone]
 ]);
+
+//circuit
+recipes.remove(<hbm:item.circuit_raw>);
+recipes.addShaped(<hbm:item.circuit_raw>, [
+    [<ore:wireFineMingrade>, null, null],
+    [<ore:dustRedstone>, null, null],
+    [steelPlate, null, null],
+]);
+
+//antenna and books
+val hbm_circuit1 = <hbm:item.circuit_aluminium>;
+val antenna = <hbm:tile.pole_top>;
+recipes.remove(antenna);
+recipes.addShaped(antenna, [
+    [<ore:stickAnyIronSteel>, null, <ore:stickAnyIronSteel>],
+    [<ore:stickAnyIronSteel>, <hbm:item.circuit_aluminium>, <ore:stickAnyIronSteel>],
+    [<hbm:item.plate_advanced_alloy>, <hbm:item.plate_advanced_alloy>, <hbm:item.plate_advanced_alloy>]
+]);
+
+val book1 = <hbm:item.bobmazon_materials>;
+recipes.remove(book1);
+recipes.addShaped(book1, [
+    [antenna, null],
+    [<ore:bookEmpty>, null]
+]);
+
+val book2 = <hbm:item.bobmazon_machines>;
+recipes.remove(book2);
+recipes.addShaped(book2, [
+    [antenna, null],
+    [<ore:bookEmpty>, <ore:dyeRed>]
+]);
+
+val book3 = <hbm:item.bobmazon_weapons>;
+recipes.remove(book3);
+recipes.addShaped(book3, [
+    [antenna, null],
+    [<ore:bookEmpty>, <ore:dyeGray>]
+]);
+
+val book4 = <hbm:item.bobmazon_tools>;
+recipes.remove(book4);
+recipes.addShaped(book4, [
+    [antenna, null],
+    [<ore:bookEmpty>, <ore:dyeGreen>]
+]);
+
+//stirling generator
+val stirling = <hbm:tile.machine_stirling>;
+recipes.remove(stirling);
+recipes.addShaped(stirling, [
+    [<hbm:item.gear_large>, <ore:plateDoubleAnyIronOrSteel>, <hbm:item.gear_large>],
+    [<ore:plateDoubleAnyIronOrSteel>, <gregtech:gt.multitileentity:10111>, <ore:plateDoubleAnyIronOrSteel>],
+    [<ore:plankAnyWood>, <ore:plateDoubleAnyCopper>, <ore:plankAnyWood>]
+]);

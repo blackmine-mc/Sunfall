@@ -1,0 +1,83 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 18
+    },
+    "1:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 9
+    }
+  },
+  "questIDLow:4": 28,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multiitem.randomtools",
+        "Count:3": 1,
+        "Damage:2": 10000,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "[2] Средняя по больнице",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Сложный квест, но может ощутимо облегчить и обезопасить работу с котлом.\n\n1. Понадобится бронзовая дубина (ну или любой тир-2 материал, но тут же §6бронзовый§r век, лол). Также неплохо работает как оружие.\n2. Найти руду редстоуна в §6обычном камне§r, часто попадается на глубине 10-30 и разбить её дубиной. §6Киноварь (cinnabar ore)§r тоже подойдет.\n3. Расплавить §aтри§r куска cinnabar dust в котле, получится ртуть. Собрать из котла стеклянной бутылкой\n4. ???\n5. PROFIT!\n\nПолучившимся термометром можно измерять температуру котла и точно знать, когда тушить печь при изготовлении сплавов."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {
+              "0:10": {
+                "lvl:2": 1,
+                "id:2": 16
+              },
+              "1:10": {
+                "lvl:2": 2,
+                "id:2": 13
+              }
+            },
+            "GT.ToolStats:10": {
+              "a:2": 8610,
+              "d:8": "AnyWoodOrPlastic",
+              "j:3": 89600
+            }
+          },
+          "Damage:2": 24,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 10000,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {}
+}

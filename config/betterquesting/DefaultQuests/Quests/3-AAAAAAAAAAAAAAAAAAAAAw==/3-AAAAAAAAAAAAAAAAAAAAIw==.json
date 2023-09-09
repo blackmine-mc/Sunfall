@@ -1,0 +1,56 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 38
+    }
+  },
+  "questIDLow:4": 35,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 20021,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "[3] Круши!",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Первая часть производственной цепочки: крушение руды\n\nДробитель (crusher) требует §6кинетическую энергию§r, производимую §6паровым двигателем (steam engine)§r. Но в отличии от других механизмов бронзового века, дробитель особенно требователен к подаче энергии.\n\nРаботающего в нормальном режиме парового двигателя будет недостаточно для дробления руды. Для данной проблемы есть два возможных решения:\n\n1. Гнать обычный §6Steam engine (bronze)§r выше допустимого предела (подключить трубу на 100 l/t, например §6Small copper fluid pipe§r). Это безопасный вариант, но рано или поздно двигатель вырубится от такой нагрузки и потребует подключить его повторно.\n\n2. Скрафтить §6Strong Steam engine (bronze)§r. Эта штука требует больше пара для стабильной работы (к примеру, 150 l/t по бронзовой трубе), крафтится из большего количества ресурсов, но пригодна для непрерывного использования.\n\nВвод руды: сверху\nВывод руды: снизу\nПодача питания: §6Ku/t§r, сзади"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 20021,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {}
+}

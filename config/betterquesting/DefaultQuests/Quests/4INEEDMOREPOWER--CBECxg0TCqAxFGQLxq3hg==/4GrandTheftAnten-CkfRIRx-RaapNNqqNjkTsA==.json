@@ -1,0 +1,55 @@
+{
+  "questIDHigh:4": 740790603867899302,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 980148363143889923,
+      "questIDLow:4": -7133018475787406305
+    }
+  },
+  "questIDLow:4": -6254133557921770576,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "hbm:tile.pole_top",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "[4] Grand Theft Antenna",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Снаряга есть? Отлично! Теперь будет уникальная задача.\n\n§cСпиздить антенну.§r\n\nСтарых коммуникационных башен полно на поверхности земли, но если уж присутствуют моральные терзания - можно и самому скрафтить.\nТак или иначе, нужна антенна. Над планетой сохранилась автоматизированная торговая станция, готовая сбрасывать вам ресурсы в обмен на золото (§aзеленый рынок§r) или крышки (§aчерный рынок§r)"
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "hbm:tile.pole_top",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

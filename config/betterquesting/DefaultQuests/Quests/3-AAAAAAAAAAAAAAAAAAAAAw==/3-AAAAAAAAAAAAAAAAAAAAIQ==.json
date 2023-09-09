@@ -1,0 +1,92 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {},
+  "questIDLow:4": 33,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.toolHeadPickaxe",
+        "Count:3": 1,
+        "Damage:2": 8214,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "[3] Новые инструменты",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Да здравствует массовое производство!\n\nВедро же есть в наличии? Пора сходить и добыть немного лавы.\n\nЛава прекрасно плавится в котле и отливается в обсидиан -- дешевый и приятный в использовании материал для инструментов третьего уровня.\n\nС котлом опыт работы вроде есть, формы крафтятся несложно. Выплавленные в котле наконечники нужно будет дополнительно заточить, но в остальном это отличная вещь для массовых раскопок."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 912,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 914,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.multiitem.randomtools",
+          "Count:3": 1,
+          "Damage:2": 916,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.toolHeadShovel",
+          "Count:3": 1,
+          "Damage:2": 8214,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.meta.toolHeadAxe",
+          "Count:3": 1,
+          "Damage:2": 8214,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.meta.toolHeadPickaxe",
+          "Count:3": 1,
+          "Damage:2": 8214,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

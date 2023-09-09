@@ -1,0 +1,73 @@
+{
+  "questIDHigh:4": 3480329845509148153,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 962064131614785577,
+      "questIDLow:4": -6879408191596570279
+    }
+  },
+  "questIDLow:4": -7337837518473587502,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.gearGt",
+        "Count:3": 1,
+        "Damage:2": 8651,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "[4] Г А Л Ь В А Н И З А Ц И Я",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Ну тут все просто. Цинк в размере 8 слитков закинуть в котёл (старый), разогреть до ~1000 кельвинов, жижу собрать в глиняный горшок и слить в ванночку.\n\nДальше просто райткликом складывать стальные компоненты и через какое-то время доставать. Расплавленный цинк не остынет и его будет вполне достаточно, чтобы обработать детали."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.screw",
+          "Count:3": 3,
+          "Damage:2": 8651,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "gregtech:gt.meta.gearGt",
+          "Count:3": 1,
+          "Damage:2": 8651,
+          "OreDict:8": ""
+        },
+        "2:10": {
+          "id:8": "gregtech:gt.meta.plateDouble",
+          "Count:3": 6,
+          "Damage:2": 8651,
+          "OreDict:8": ""
+        },
+        "3:10": {
+          "id:8": "gregtech:gt.meta.stickLong",
+          "Count:3": 2,
+          "Damage:2": 8651,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {}
+}

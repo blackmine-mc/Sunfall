@@ -1,0 +1,68 @@
+{
+  "questIDHigh:4": 0,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 0,
+      "questIDLow:4": 40
+    }
+  },
+  "questIDLow:4": 41,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.meta.ingot",
+        "Count:3": 1,
+        "Damage:2": 8630,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "[3] Ееее, сталь",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": "Есть железо? Пора делать сталь!\n\nНа самом деле, ничего сложного. Всё тот же старый добрый котёл, но с добавлением пара.\n\nТочно так же закладывается железо в котёл, к котлу в упор подключается §oработающий§r §6паровой двигатель§r и при температуре около 2100 градусов с подачей воздуха выплавится сталь.\n\nЭта задача сложнее обычной переплавки, потому что недостаточно просто достичь нужной температуры, а необходимо её поддерживать достаточное для работы двигателя время. Но с наличием температурного датчика и запасов быстрогорящего угля типа лигнита это не должно быть проблемой.\n\nГотовую сталь от железа можно отличить по характерному более красному цвету в котле."
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "autoConsume:1": 0,
+      "groupDetect:1": 0,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "consume:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.ingot",
+          "Count:3": 16,
+          "Damage:2": 8630,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:retrieval"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.meta.ingot",
+          "Count:3": 48,
+          "Damage:2": 8630,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}

@@ -72,6 +72,7 @@ config/tabbychat/*
 !config/DimDoors.cfg
 !config/falsetweaks.cfg
 !config/foamfix.cfg
+!config/harvestcraft.cg
 !config/hbm.cfg
 !config/hodgepodge.cfg
 !config/hodgepodgeEarly.properties
