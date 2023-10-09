@@ -67,6 +67,24 @@
         }
       },
       "taskID:8": "bq_standard:retrieval"
+    },
+    "1:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 1,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32707,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
     }
   },
   "rewards:9": {}

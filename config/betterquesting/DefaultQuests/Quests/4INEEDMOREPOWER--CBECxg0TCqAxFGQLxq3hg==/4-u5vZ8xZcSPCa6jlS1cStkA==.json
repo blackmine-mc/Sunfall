@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": 0,
+  "questIDHigh:4": -4928105729151448848,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 51
+      "questIDHigh:4": -2179539863509382246,
+      "questIDLow:4": -8246562902140904827
     }
   },
-  "questIDLow:4": 52,
+  "questIDLow:4": -7283946419381817968,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,7 +15,7 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "hbm:tile.machine_difurnace_extension",
+        "id:8": "hbm:tile.machine_assembler",
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": ""
@@ -25,11 +25,11 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "[3] Еще больше... стали?",
+      "name:8": "[4] Промышленность в массы!",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
-      "desc:8": "Только что ж делали сталь?\n\nДа, но можно быстрее и привычнее. Углерод, железо, да и в принципе всё.\n\nЧерез Shift-клик ставим расширитель на печку, радуемся быстрой переплавке. Главное, не забывать подкидывать топливо."
+      "desc:8": "Красивая машина из HBM и по большей части замена верстака на будущее.\n\nКонец эпохи? Да, но это конец эпохи скучных машин! Да здравствует индустриализация!"
     }
   },
   "tasks:9": {
@@ -43,13 +43,7 @@
       "allowAnvil:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "hbm:tile.machine_difurnace_off",
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": ""
-        },
-        "1:10": {
-          "id:8": "hbm:tile.machine_difurnace_extension",
+          "id:8": "hbm:tile.machine_assembler",
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": ""

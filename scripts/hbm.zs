@@ -1,6 +1,21 @@
 import minetweaker.item.IItemStack;
 import mods.nei.NEI;
 
+//gt tools
+val file = <ore:craftingToolFile>;
+val hammer = <ore:craftingToolHardHammer>;
+val screwdriver = <ore:craftingToolScrewdriver>;
+
+//gt components
+val denseSteel = <gregtech:gt.meta.plateDense:8630>;
+val denseBronze = <gregtech:gt.meta.plateDense:8610>;
+val denseCopper = <gregtech:gt.meta.plateDense:290>;
+
+val lvMotor = <gregtech:gt.multiitem.technological:12001>;
+
+//hbm components
+val rGlassPane = <hbm:tile.reinforced_glass_pane>;
+
 //fuck the anvils
 val iron_anvil = <hbm:tile.anvil_iron>;
 val lead_anvil = <hbm:tile.anvil_lead>;
@@ -22,9 +37,6 @@ for anvil in anvils {
 }
 
 //new crucible
-val dense_steel = <gregtech:gt.meta.plateDense:8630>;
-val dense_bronze = <gregtech:gt.meta.plateDense:8610>;
-val dense_copper = <gregtech:gt.meta.plateDense:290>;
 val firebricks = <gregtech:gt.multitileentity:18000>;
 val gt_drain = <gregtech:gt.multiitem.technological:1020>;
 val gt_steel_crucible = <gregtech:gt.multitileentity:1022>;
@@ -50,19 +62,19 @@ val press = <hbm:tile.machine_press>;
 
 
 recipes.addShaped(firebox, [
-    [dense_steel, dense_bronze, dense_steel],
-    [dense_bronze, etfut_furnace, dense_bronze],
-    [dense_steel, dense_bronze, dense_steel],
+    [denseSteel, denseBronze, denseSteel],
+    [denseBronze, etfut_furnace, denseBronze],
+    [denseSteel, denseBronze, denseSteel],
 ]);
 recipes.addShaped(crucible, [
-    [firebricks, dense_bronze, firebricks],
-    [dense_bronze, gt_steel_crucible, dense_bronze],
-    [firebricks, dense_bronze, firebricks],
+    [firebricks, denseBronze, firebricks],
+    [denseBronze, gt_steel_crucible, denseBronze],
+    [firebricks, denseBronze, firebricks],
 ]);
 recipes.addShaped(sawmill, [
     [planks, steelSaw, planks],
-    [dense_steel, gt_bronze_turbine, dense_steel],
-    [planks, dense_steel, planks],
+    [denseSteel, gt_bronze_turbine, denseSteel],
+    [planks, denseSteel, planks],
 ]);
 
 recipes.remove(press);
@@ -73,7 +85,7 @@ recipes.addShaped(press, [
 ]);
 
 recipes.addShaped(blast_furnace, [
-    [firebricks, dense_copper, firebricks],
+    [firebricks, denseCopper, firebricks],
     [firebricks, steelPlate, firebricks],
     [firebricks, firebricks, firebricks],
 ]);
@@ -101,7 +113,7 @@ recipes.addShapeless(<hbm:item.stamp_desh_flat>, [<ore:plateObsidian>]);
 recipes.addShaped(coke_oven, [
     [null, sandstone, null],
     [sandstone, steelPlate, sandstone],
-    [sandstone, dense_copper, sandstone]
+    [sandstone, denseCopper, sandstone]
 ]);
 
 //circuit
@@ -158,3 +170,125 @@ recipes.addShaped(stirling, [
     [<ore:plateDoubleAnyIronOrSteel>, <gregtech:gt.multitileentity:10111>, <ore:plateDoubleAnyIronOrSteel>],
     [<ore:plankAnyWood>, <ore:plateDoubleAnyCopper>, <ore:plankAnyWood>]
 ]);
+
+//use tin instead of aluminium
+val coalDust = <ore:dustCoal>;
+val copperWire = <ore:wireFineAnyCopper>;
+val curvedTin = <ore:plateCurvedTin>;
+val paper = <ore:paperEmpty>;
+val redstone = <ore:itemRedstone>;
+val steelWire = <ore:wireFineAnyIronSteel>;
+val stick = <ore:stickAnyWood>;
+val tinPlate = <ore:plateTin>;
+val tinWire = <ore:wireFineTin>;
+
+val bwire = <hbm:tile.barbed_wire>;
+recipes.remove(bwire);
+recipes.addShaped(bwire, [
+    [steelWire,     stick,      steelWire],
+    [stick,         null,       stick],
+    [steelWire,     stick,      steelWire],
+]);
+
+val batPotato = <hbm:item.battery_potato>;
+recipes.remove(batPotato);
+recipes.addShaped(batPotato.withTag({charge: 1000 as long}), [
+    [<ore:cropPotato>, tinWire],
+    [copperWire, null],
+]);
+
+val bat1 = <hbm:item.battery_generic>;
+recipes.remove(bat1);
+recipes.addShaped(bat1.withTag({charge: 0 as long}), [
+    [null,          tinWire,    null],
+    [curvedTin,     redstone,   curvedTin],
+    [curvedTin,     redstone,   curvedTin]
+]);
+
+val batRed1 = <hbm:item.battery_red_cell>;
+recipes.remove(batRed1);
+recipes.addShaped(batRed1.withTag({charge: 0 as long}), [
+    [tinWire,       bat1,   tinWire],
+    [curvedTin,     bat1,   curvedTin],
+    [tinWire,       bat1,   tinWire],
+]);
+
+val batRed6 = <hbm:item.battery_red_cell_6>;
+recipes.remove(batRed6);
+recipes.addShaped(batRed6.withTag({charge: 0 as long}), [
+    [batRed1,       batRed1,        batRed1],
+    [tinWire,       tinWire,        tinWire],
+    [batRed1,       batRed1,        batRed1]
+]);
+
+val batRed24 = <hbm:item.battery_red_cell_24>;
+recipes.remove(batRed24);
+recipes.addShaped(batRed24.withTag({charge: 0 as long}), [
+    [batRed6,       tinWire,        batRed6],
+    [tinWire,       tinPlate,        tinWire],
+    [batRed6,       tinWire,        batRed6]
+]);
+
+val batSuBig = <hbm:item.battery_su_l>;
+recipes.remove(batSuBig);
+recipes.addShaped(batSuBig, [
+    [null,          tinWire,        null],
+    [redstone,      paper,          redstone],
+    [coalDust,      paper,          coalDust]
+]);
+
+//gun stuff
+val steelGear = <ore:gearAnyIronSteel>;
+val steelLongRod = <ore:stickLongAnyIronSteel>;
+val steelSmallGear = <ore:gearGtSmallAnyIronSteel>;
+val steelSmallSpring = <ore:springSmallAnyIronSteel>;
+val steelSpring = <ore:springAnyIronSteel>;
+val steelScrew = <ore:screwAnyIronSteel>;
+
+val revolverMech = <hbm:item.mechanism_revolver_1>;
+recipes.remove(revolverMech);
+recipes.addShaped(revolverMech, [
+    [steelRod,          steelSmallSpring,       steelScrew],
+    [steelSmallGear,    screwdriver,            steelSmallGear],
+    [steelScrew,        steelSmallSpring,       steelRod]
+]);
+
+val rifleMech = <hbm:item.mechanism_rifle_1>;
+recipes.remove(rifleMech);
+recipes.addShaped(rifleMech, [
+    [steelScrew,        revolverMech,           steelScrew],
+    [steelLongRod,      screwdriver,            steelLongRod],
+    [steelSmallSpring,  revolverMech,           steelSmallSpring],
+]);
+
+val launcherMech = <hbm:item.mechanism_launcher_1>;
+recipes.remove(launcherMech);
+recipes.addShaped(launcherMech, [
+    [steelPlate,        steelPlate,           steelPlate],
+    [rifleMech,         screwdriver,          steelSpring],
+    [steelPlate,        steelPlate,           steelPlate],
+]);
+
+val energyStorage = <hbm:tile.machine_battery>;
+recipes.remove(energyStorage);
+recipes.addShaped(energyStorage, [
+    [hammer, denseCopper, screwdriver],
+    [denseCopper, batRed24, denseCopper],
+    [denseSteel, denseSteel, denseSteel]
+]);
+
+val assembler = <hbm:tile.machine_assembler>;
+recipes.remove(assembler);
+recipes.addShaped(assembler, [
+    [rGlassPane, denseSteel, rGlassPane],
+    [lvMotor, hbm_circuit1, lvMotor],
+    [denseCopper, denseSteel, denseCopper]
+]);
+
+//easy pump go away
+val steamWaterPump = <hbm:tile.pump_steam>;
+recipes.remove(steamWaterPump);
+NEI.hide(steamWaterPump);
+
+//fucking mega sword
+recipes.addShapeless(<hbm:item.meteorite_sword_reforged>, [<gregtech:gt.multitileentity:1005>, <hbm:item.meteorite_sword_seared>]);

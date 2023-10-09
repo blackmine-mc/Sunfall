@@ -41,6 +41,11 @@ config/etfuturum/*
 config/FlenixCities/*
 !config/FlenixCities/FlenixCities_Core.cfg
 
+!config/Galacticraft
+config/Galacticraft/*
+!config/Galacticraft/core.conf
+!config/Galacticraft/planets.conf
+
 !config/gregtech
 config/gregtech/*
 !config/gregtech/oreprocessing.cfg
@@ -49,8 +54,10 @@ config/gregtech/*
 
 !config/hbmRecipes
 config/hbmRecipes/*
+!config/hbmRecipes/hbmBlastFurnace.json
 !config/hbmRecipes/hbmCrucibleSmelting.json
 !config/hbmRecipes/hbmCrucible.json
+!config/hbmAssembler.json
 
 !config/Netherlicious
 config/Netherlicious/*
