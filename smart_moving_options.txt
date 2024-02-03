@@ -81,7 +81,7 @@ move.speed.user.exponent:0
 move.climb.base:free
 
 # To switch on/off free climbing
-move.climb.free:false
+move.climb.free:true
 
 # To switch on/off remaining base climbing behavior on ladders while free climbing is enabled for ladders (also see "move.climb.base")
 move.climb.free.base.ladder:false
@@ -108,11 +108,9 @@ move.climb.free.direction.diagonal.angle:80
 
 
 # Whether the "grab" button will automatically be triggered while being on ladders and looking in the right direction
-#! Interpreted value "true" is ignored because one of the restricting expressions evaluated to "false" !#
 move.climb.free.ladder.auto:true
 
 # Whether the "grab" button will automatically be triggered while being on standard climbable vines and looking in the right direction
-#! Interpreted value "true" is ignored because one of the restricting expressions evaluated to "false" !#
 move.climb.free.vine.auto:true
 
 # Additional speed factor when climbing straight up on one ladder block (>= 0)
@@ -295,11 +293,14 @@ move.sprint.factor:1.5
 # Generic sprinting factor while levitating (>= 1.1 AND >= 'move.run.factor.levitate' + 0.1 if relevant)
 move.sprint.factor.levitate:1.5;c:3
 
+# Amount of vertical speed boost applied when ascending while sprinting during levitation (>= 0, is multiplied with levitation sprinting factor)
+move.sprint.factor.levitate.vertical:0.185
+
 # To switch on/off sprinting exhaustion
 move.sprint.exhaustion:true;e:false
 
-# Always transition to run when releasing the sprint key.
-move.sprint.always.run:true
+# Allow sprinting on the ground while standing. If disabled, pressing the sprint key on ground will attempt to activate running instead.
+move.sprint.enable.ground:true
 
 
 # Maximum exhaustion to start a sprint (>= 0)
@@ -1114,6 +1115,12 @@ move.global.speed.right.local.user:true
 # Fading speed factor between the different perspectives (>= 0.1, <= 1, set to '1' to switch off)
 move.perspective.fade.factor:0.5
 
+# Movement speed-based perspective factor (set to '0' to switch off)
+move.perspective.speed.factor:1
+
+# Maximum movement speed-based FOV change. Setting this to x means the allowed range is [1-x, 1+x]. (>= 0, set to '0' to uncap)
+move.perspective.speed.factor.max:0
+
 # Standard sprinting perspective (set to '0' to switch off)
 move.perspective.run.factor:1
 
@@ -1143,6 +1150,10 @@ move.jump.wall.double.click.ticks:3
 
 # Whether pressing or not pressing the grab button while climb jumping back results in a head jump
 move.jump.climb.back.head.on.grab:true
+
+
+# Determines what should happen when the sprint key is released (possible values are "run" and "walk")
+move.sprint.key.release.action:run
 
 
 # Whether to display the exhaustion bar in the game overlay
