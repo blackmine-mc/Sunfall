@@ -1,4 +1,5 @@
 ![sunfall](logo.png)
+
 # Sunfall, postapocalyptic modpack for ancient Minecraft version
 
 ### Trying to fit everything around [GregTech 6](https://github.com/GregTech6/gregtech6) and [HBM's Nuclear Tech Mod](https://github.com/HbmMods/Hbm-s-Nuclear-Tech-GIT)
@@ -8,4 +9,4 @@ Not sure it will be done.
 
 Expect a lot of russian and swearing
 
-More info at [Discord](https://discord.gg/rHaPnQ7) (warning, even more russian and swearing)
+More info at [Discord](https://discord.gg/BxQJcpxZHY) (warning, even more russian and swearing)
