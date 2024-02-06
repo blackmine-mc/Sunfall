@@ -8,3 +8,5 @@
 !config
 config/*
 !config/angelica.cfg
+
+!config/immersivecavegen.cfg
