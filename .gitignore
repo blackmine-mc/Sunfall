@@ -4,3 +4,7 @@
 !LICENSE.MD
 !logo.png
 !README.MD
+
+!config
+config/*
+!config/angelica.cfg
