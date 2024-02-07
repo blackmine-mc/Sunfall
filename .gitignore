@@ -9,6 +9,8 @@
 config/*
 !config/angelica.cfg
 
+!config/betterquesting
+
 !config/immersivecavegen.cfg
 
 !config/smoothfont
