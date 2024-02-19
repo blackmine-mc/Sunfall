@@ -22,6 +22,8 @@ config/AppliedEnergistics2/*
 config/cofh/*
 !config/cofh/thermaldynamics/
 
+!config/defaultworldgenerator.cfg
+
 !config/Enderlicious
 config/Enderlicious/*
 !config/Enderlicious/Biome_Configuration.cfg
