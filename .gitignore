@@ -26,6 +26,10 @@ config/cofh/*
 config/Enderlicious/*
 !config/Enderlicious/Biome_Configuration.cfg
 
+!config/Galacticraft
+config/Galacticraft/*
+!config/Galacticraft/core.conf
+
 !config/hodgepodge.cfg
 
 !config/immersivecavegen.cfg
