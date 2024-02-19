@@ -32,6 +32,8 @@ config/Galacticraft/*
 
 !config/hodgepodge.cfg
 
+!config/IGWMod.cfg
+
 !config/immersivecavegen.cfg
 
 !config/Netherlicious
