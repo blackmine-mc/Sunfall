@@ -36,6 +36,10 @@ config/Galacticraft/*
 
 !config/immersivecavegen.cfg
 
+!config/NEI
+config/NEI/*
+!config/NEI/hiddenhandlers.csv
+
 !config/Netherlicious
 config/Netherlicious/*
 !config/Netherlicious/Biome_Configuration.cfg
