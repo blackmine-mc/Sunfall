@@ -12,9 +12,17 @@ config/*
 
 !config/betterquesting
 
+!config/Enderlicious
+config/Enderlicious/*
+!config/Enderlicious/Biome_Configuration.cfg
+
 !config/hodgepodge.cfg
 
 !config/immersivecavegen.cfg
+
+!config/Netherlicious
+config/Netherlicious/*
+!config/Netherlicious/Biome_Configuration.cfg
 
 !config/smoothfont
 
