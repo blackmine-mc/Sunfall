@@ -23,6 +23,7 @@ config/AppliedEnergistics2/*
 !config/cofh
 config/cofh/*
 !config/cofh/thermaldynamics/
+!config/cofh/world
 
 !config/defaultworldgenerator.cfg
 
