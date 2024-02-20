@@ -39,6 +39,8 @@ config/etfuturum/*
 config/Galacticraft/*
 !config/Galacticraft/core.conf
 
+!config/hbm.cfg
+
 !config/hodgepodge.cfg
 
 !config/IGWMod.cfg
