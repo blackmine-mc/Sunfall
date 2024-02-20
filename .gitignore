@@ -31,7 +31,6 @@ config/cofh/*
 config/Enderlicious/*
 !config/Enderlicious/Biome_Configuration.cfg
 
-
 !config/etfuturum/
 config/etfuturum/*
 !config/etfuturum/world.cfg
@@ -53,6 +52,10 @@ config/NEI/*
 !config/Netherlicious
 config/Netherlicious/*
 !config/Netherlicious/Biome_Configuration.cfg
+
+!config/railcraft
+config/railcraft/*
+!config/railcraft/railcraft.cfg
 
 !config/smoothfont
 
