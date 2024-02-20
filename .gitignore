@@ -55,4 +55,6 @@ config/Netherlicious/*
 
 !config/xaerominimap.txt
 
+!config/Ztones.cfg
+
 !fontfiles
