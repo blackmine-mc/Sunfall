@@ -18,6 +18,8 @@ config/AppliedEnergistics2/*
 
 !config/betterquesting
 
+!config/chisel.cfg
+
 !config/cofh
 config/cofh/*
 !config/cofh/thermaldynamics/
