@@ -58,6 +58,7 @@ config/Netherlicious/*
 !config/railcraft
 config/railcraft/*
 !config/railcraft/railcraft.cfg
+!config/railcraft/modules.cfg
 
 !config/smoothfont
 
