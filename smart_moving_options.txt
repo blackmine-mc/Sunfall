@@ -65,7 +65,7 @@ move.speed.user:false;c:true
 move.speed.user.factor:0.2
 
 # The exponent for in-game speed manipulation
-move.speed.user.exponent:4
+move.speed.user.exponent:1
 
 
 
@@ -78,7 +78,7 @@ move.speed.user.exponent:4
 # =====================================================================
 
 # To manipulate the ladder and vine climbing mode (possible values are "free", "smart", "simple" and "standard")
-move.climb.base:free
+move.climb.base:standard
 
 # To switch on/off free climbing
 move.climb.free:true
@@ -108,9 +108,11 @@ move.climb.free.direction.diagonal.angle:80
 
 
 # Whether the "grab" button will automatically be triggered while being on ladders and looking in the right direction
+#! Interpreted value "true" is ignored because one of the restricting expressions evaluated to "false" !#
 move.climb.free.ladder.auto:true
 
 # Whether the "grab" button will automatically be triggered while being on standard climbable vines and looking in the right direction
+#! Interpreted value "true" is ignored because one of the restricting expressions evaluated to "false" !#
 move.climb.free.vine.auto:true
 
 # Additional speed factor when climbing straight up on one ladder block (>= 0)
@@ -1037,7 +1039,7 @@ move.mod.rope.replace.climb.rope:true
 # =====================================================================
 
 # A list of survival option configuration keys, entries seperated by ','
-move.config.survival.keys:e,m,h
+move.config.survival.keys:e
 
 # The option configuration to start the next minecraft survival game with (can also be modified via in-game option configuration toggling)
 move.config.survival.keys.default:e
@@ -1051,10 +1053,10 @@ move.config.creative.keys.default:c
 
 
 # A list of adventure option configuration keys, entries seperated by ','
-move.config.adventure.keys:e,m,h
+move.config.adventure.keys:h
 
 # The option configuration to start the next minecraft adventure game with (can also be modified via in-game option configuration toggling)
-move.config.adventure.keys.default:m
+move.config.adventure.keys.default:h
 
 
 # The display names of the option configuration keys
