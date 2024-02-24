@@ -41,6 +41,11 @@ config/etfuturum/*
 config/Galacticraft/*
 !config/Galacticraft/core.conf
 
+!config/gregtech
+config/gregtech/*
+!config/gregtech/gregtech.cfg
+!config/gregtech/worldgenerationnew.cfg
+
 !config/hbm.cfg
 
 !config/hodgepodge.cfg
@@ -71,5 +76,7 @@ config/railcraft/*
 !config/Ztones.cfg
 
 !fontfiles
+
+!gregtech.cfg
 
 !smart_moving_options.txt
