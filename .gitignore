@@ -69,3 +69,5 @@ config/railcraft/*
 !config/Ztones.cfg
 
 !fontfiles
+
+!smart_moving_options.txt
