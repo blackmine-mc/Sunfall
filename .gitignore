@@ -20,6 +20,8 @@ config/AppliedEnergistics2/*
 
 !config/chisel.cfg
 
+!config/CodeChickenCore.cfg
+
 !config/cofh
 config/cofh/*
 !config/cofh/thermaldynamics/
