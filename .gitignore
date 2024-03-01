@@ -66,6 +66,8 @@ config/Netherlicious/*
 
 !config/OpenComputers.cfg
 
+!config/powercrystals
+
 !config/smoothfont
 
 !config/Wasteland
