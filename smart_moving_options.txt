@@ -1215,6 +1215,7 @@ move.config.chat:true
 move.config.chat.init:false
 
 # To switch on/off the initial option help message (Relevant only if "move.config.chat.init" is not false and no improved keybinding GUI (Minecraft Forge or the Macros/Keybind mod) is installed)
+#! Interpreted value "true" is ignored because the default value of property "move.config.chat.init" is "false" !#
 move.config.chat.init.help:true
 
 # To switch on/off the server config overridden status message when joining a multiplayer game (Relevant only if "move.config.chat" is not false)

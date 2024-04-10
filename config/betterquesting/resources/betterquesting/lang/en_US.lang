@@ -1,0 +1,61 @@
+# [url]https://discord.gg/BxQJcpxZHY[/url] url syntax
+# [img height=<px>]questimages:q0.png[/img] #put image in config/betterquesting/resources/questimages/q0.png
+#
+# §0 	#000000
+# §1 	#0000AA
+# §2 	#00AA00
+# §3 	#00AAAA
+# §4 	#AA0000
+# §5 	#AA00AA
+# §6 	#FFAA00
+# §7 	#AAAAAA
+# §8 	#555555
+# §9 	#5555FF
+# §a 	#55FF55
+# §b 	#55FFFF
+# §c 	#FF5555
+# §d 	#FF55FF
+# §e 	#FFFF55
+# §f 	#FFFFFF
+# §k 	Obfuscated
+# §l 	Bold
+# §m 	Strikethrough
+# §n 	Underline
+# §o 	Italic
+# §r 	Reset
+# %n    Newline
+
+betterquesting.questline.Uzso-aReTUq6ViiuG3HcLQ.name=The Awakening
+
+betterquesting.quest.EzxQ8R5kQliUucTyZ-fRaw.name=Hello, world!
+betterquesting.quest.EzxQ8R5kQliUucTyZ-fRaw.desc=Welcome to Sunfall!%n%nThis book will guide you through the pack. If you have questions or stuck somewhere, feel free to join our discord at §9§n[url]https://discord.gg/BxQJcpxZHY[/url]§r.%n%nActivate the checkbox to complete this task and proceed.
+
+betterquesting.quest.3L2hYY7IQMy3CI0g7ZWwHg.name=The Transmission
+betterquesting.quest.3L2hYY7IQMy3CI0g7ZWwHg.desc=§7§nStarting from this quest the questbook would be presented as narrative messages§r%n%n§eYou hear something on your terminal...§r%n%n§2 - Message to the all the remaining bunkers. You are not the only survivors. Respond if you can.%n§9 - Hello?%n§2 - Oh god, we never expected anyone to answer! My name is Gregor, chief engineer of the Horizon. Have you already been outside? If you want to §clive§2, do not go there... yet.§r%n§9 - Why? What happened?%n§2 - Well... we thought there's not a single soul left on the Earth. We even renamed the planet to Dead Earth. We evacuated to the Horizon, orbital space station and managed to build a community there, but everything else is gone. Only thing we have here is small amount of renewable resources, some preserved knowledge... and that's it. And down below (where you are now) is a living hell. Atmosphere is heavily damaged, radiation hotspots are still there and many creatures are mutated. We can't expect you to rebuild the society alone, but we'll try to make some help.
+
+betterquesting.quest.LujsSmw_Rza38WLoSXAkWA.name=I never asked for this
+betterquesting.quest.LujsSmw_Rza38WLoSXAkWA.desc=§eI don't want this. Oh, a shotgun from the past. That's the only option left for me, I guess.
+
+betterquesting.quest.B1hV3MdTSnGnaKau2Q8puQ.name=Smells like teen spirit
+betterquesting.quest.B1hV3MdTSnGnaKau2Q8puQ.desc=§eFuck me, fuck Gregor, fuck everyone. I'm going out on my own path.%n%n§7§nHold right click with the gun to cosplay Kurt Cobain
+
+betterquesting.quest.7zla-QZgRE2iq8dzcOxJjA.name=???
+betterquesting.quest.7zla-QZgRE2iq8dzcOxJjA.desc=§eThe shackles of death... begone. I've surely blown my brains out. Why am I alive? Or am I alive... §5again?§e Time to get back to that Gregor and check what he actually wants.
+
+betterquesting.quest.uKeXcyolQL-m2in-pt_Xbw.name=The Transmission pt.2
+betterquesting.quest.uKeXcyolQL-m2in-pt_Xbw.desc=§9 - What do I need to do?%n§2 - Let me introduce you to the dangers of the Dead Earth. There are many and you definitely should hear about them before going out.%n§9 - Okay%n§2 - I'll introduce you to the basics. There are things you can see, things you can hear, things you can smell, things you can't feel and, well... living things.%n§9 - Living things? %n§2 - Yes. Radiation did a thing on Earth's fauna. What do you want to hear about first?
+
+betterquesting.quest.9hPMqzrNQ8OAYTlf5jPTGA.name=Things you can see
+betterquesting.quest.9hPMqzrNQ8OAYTlf5jPTGA.desc=§9 - So, what I should be looking for?%n§2 - The Earth you know is dead. The atmosphere is heavily damaged, oceans dried, most of the flora is dead. You still can get §ewater§2 underground, just don't try to look under the mountains, you'll only find lava there. Stay away from the liquids on the surface, those are mostly chemical waste. Or some §eoil§2 on the surface, but we'll get to that later.%n§9 - What about exploring?%n§2 - Stay away from the industrial ruins and the cities for now. You aren't equipped to deal with it.%n§9 - Anything else?%n§2 - Don't look at the sun. It WILL kill you.%n§9 - Really?%n§2 - No, but take those sunglasses anyway. You want to look cool.
+
+betterquesting.quest.sKjI0My2QlqqoaZGPzgpEA.name=Things you can hear
+betterquesting.quest.sKjI0My2QlqqoaZGPzgpEA.desc=§9 - What about loud sounds?%n§2 - There are two things you should be aware of. First and foremost -- the mines. Not the underground ones like in Minecraft. No, I'm talking about land mines that can kill you. For whatever reason they started to §ebeep§2 once you're nearby.%n§9 - And the second thing?%n§2 - If you hear a loud explosion (louder than a mine exploding something on the ground), take a look at the sky. You'll probably see a §emeteor trail§2. Reduction of Earth's atmosphere allowed for larger chunks to drop so be careful. Also it's a very good material for tools. Also meteor steel is an extremely good material for a sword. I think, we'll be able to send you one of those.%n§9 - Thank you, Gregor.%n§2 - Take care of it and you'll be able to upgrade it later.
+
+betterquesting.quest._D55B6-wT9-sasOA-ZWLYg.name=Things you can smell
+betterquesting.quest._D55B6-wT9-sasOA-ZWLYg.desc=§2 - There are some stuff that can damage your lungs. And unlike radiation this can't be cured, so only way to protect you is preventing this in the first place.%n§9 - What is it and how do I avoid it?%n§2 - First (and the one you'll likely encounter) is the coal dust. Be very careful with mining coal and don't use a hammer to make it into a dust. Another one is asbestos. Even worse, but nevertheless you will need it.%n§9 - So what about protection?%n§2 - That's simple, use a gasmask. You don't need to wear it all the time, just when you're working with dangerous materials. I'll include a couple of good filters, that should be enough until you can make your own.
+
+betterquesting.quest.iz_whyBRRSO_jy4--vQOLA.name=Things you CAN'T feel
+betterquesting.quest.iz_whyBRRSO_jy4--vQOLA.desc=§2 - Ah yes, the radiation. Extremely dangerous because right now there is no way for you to get it out of your body. And worst thing of all? You can't even detect it.%n§9 - What about Geiger counter?%n§2 - That's a good point. You should have one in your bunker. If you don't, we can airdrop you another one.%n§9 - That would be great...%n§2 - Dropping some antirads as well. Don't lose it, you won't be able to get new ones soon.
+
+betterquesting.quest._bKNjfPLRDGlg06VlykpMg.name=Living things
+betterquesting.quest._bKNjfPLRDGlg06VlykpMg.desc=§9 - Living things? I'm not the only one survivor?%n§2 - I'm not sure about this. But Dead Earth is definitely populated. Brainless fanatics, mutants... some even say there are some intact pre-war secret facilities that suvived the blasts.%n§9 - Anything else?%n§2 - Yes, glyphids, the special kind. They look like oversized ants and they won't hesitate attacking everyone around.%n§9 - How do I counter them?%n§2 - Dropping a grenade into the hive (pinkish spherical structure) would be the best solution. If you don't have grenades or any other explosives, better just stay away. You'll anger the hive if you'll try to break it.%n§9 - Ok, got it.%n§2 - Wait, that's not all. You'll have to fight some of those things anyway and I don't think you'll get out without a scratch. You'll need healing and your food supply is likely running low. I'll add some food to the next airdrop.

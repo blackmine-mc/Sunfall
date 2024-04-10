@@ -1,0 +1,64 @@
+{
+  "questIDHigh:4": 3380211324729378614,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -2540697174387703604,
+      "questIDLow:4": -5257797392390574050
+    }
+  },
+  "questIDLow:4": -5192260145577450408,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "UNLOCKED",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "OpenBlocks:grave",
+        "Count:3": 1,
+        "Damage:2": 0,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "bm.ql1.q1a",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": ""
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    }
+  },
+  "rewards:9": {
+    "0:10": {
+      "rewardID:8": "bq_standard:item",
+      "index:3": 0,
+      "rewards:9": {
+        "0:10": {
+          "id:8": "hbm:item.gun_lever_action_sonata",
+          "Count:3": 1,
+          "tag:10": {
+            "animation:3": 0
+          },
+          "Damage:2": 3,
+          "OreDict:8": ""
+        },
+        "1:10": {
+          "id:8": "hbm:item.ammo_20gauge",
+          "Count:3": 1,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      }
+    }
+  }
+}
