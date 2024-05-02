@@ -71,6 +71,8 @@ config/Netherlicious/*
 
 !config/smoothfont
 
+!config/Traincraft.cfg
+
 !config/Wasteland
 
 !config/xaerominimap.txt
