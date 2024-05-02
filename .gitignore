@@ -17,6 +17,7 @@ config/AppliedEnergistics2/*
 !config/archaicfix.cfg
 
 !config/betterquesting
+!config/betterquesting.cfg
 
 !config/chisel.cfg
 
