@@ -32,6 +32,8 @@ config/cofh/*
 config/Enderlicious/*
 !config/Enderlicious/Biome_Configuration.cfg
 
+!config/endlessids.cfg
+
 !config/etfuturum/
 config/etfuturum/*
 !config/etfuturum/world.cfg
