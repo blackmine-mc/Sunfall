@@ -1,0 +1,72 @@
+{
+  "questIDHigh:4": -2154228505701826157,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": 3907667043797975750,
+      "questIDLow:4": -8624987130765867136
+    }
+  },
+  "questIDLow:4": -6864315170395722617,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.metatool.01",
+        "Count:3": 1,
+        "tag:10": {
+          "ench:9": {},
+          "GT.ToolStats:10": {
+            "a:2": 8507,
+            "c:2": 8221,
+            "j:2": 6400
+          }
+        },
+        "Damage:2": 12,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "bm.ql2.q1",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": ""
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.metatool.01",
+          "Count:3": 1,
+          "tag:10": {
+            "ench:9": {},
+            "GT.ToolStats:10": {
+              "a:2": 8507,
+              "c:2": 8221,
+              "j:2": 6400
+            }
+          },
+          "Damage:2": 12,
+          "OreDict:8": "craftingToolHardHammer"
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {}
+}

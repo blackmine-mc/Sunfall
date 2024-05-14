@@ -26,7 +26,10 @@
 # %n    Newline
 
 betterquesting.questline.Uzso-aReTUq6ViiuG3HcLQ.name=The Awakening
+betterquesting.questline.689KEB-uTgqqqmbN0Z1OFQ.name=Path to Bronze
 
+
+#Questline 1
 betterquesting.quest.EzxQ8R5kQliUucTyZ-fRaw.name=Hello, world!
 betterquesting.quest.EzxQ8R5kQliUucTyZ-fRaw.desc=Welcome to Sunfall!%n%nThis book will guide you through the pack. If you have questions or stuck somewhere, feel free to join our discord at §9§n[url]https://discord.gg/BxQJcpxZHY[/url]§r.%n%nActivate the checkbox to complete this task and proceed.
 
@@ -77,3 +80,65 @@ betterquesting.quest.iQNSR3GOTveFPL62IVdOJg.desc=§2 - You can use that furnace 
 
 betterquesting.quest.NjrSeP4UQsaITePm1mKHgA.name=The journey begins
 betterquesting.quest.NjrSeP4UQsaITePm1mKHgA.desc=§2 - Feels better, right?%n§9 - Indeed, it's more comfortable to wield now.%n§2 - With that sword you can finally go outside and look for a permanent base. Remember those oversized ants, glyphids?%n§9 - Yeah, what's with them?%n§2 - Their nests are mostly organic. Steel cuts those like Rambo's machete through jungle. Get inside the nest, cut the yellow eggs and you'll find some of their loot. They tend to hoard different stuff into the nests. It's all yours if you can get there.%n§9 - What should I look for before establishing a permanent base?%n§2 - First, look for a source of fuel. You gonna need a lot of it. The huge deposits of §6Lignite§2 and §6Antracite§2 are common. Just don't forget about the gas mask, it's a coal after all. Another thing is a water source. If you can find a sinkhole, below is likely a lot of water. Get both water and fuel and you're ready to go.%n§9 - How do I secure myself while sleeping?%n§2 - That's a good question. Good point would also be mining a tunnel under the highways. Local life hates asphalt for whatever reason. Probably reminds them of men.%n§9 - Then it's time to go, I guess.%n§2 - Wait, I'll airdrop you a couple of stimpacks. Won't save you from a mine explosion, but would be enough to heal and desinfect a wound by glyphids. Contact me again when you got a base, I'll send you more info.
+
+#Questline 2
+# 1     4hqklnCfQZOgvQ24ojzshw      STOP! HAMMER TIME!
+# 2     2_rwTbwLTJi6NS5QufFoXw      Strike, while... wait, strike what?
+# 3a    gulCtShnRMaoJWKYFdNIvQ      Bending your lead
+# 3b    v_ngTxU9QNiy3UBkU69W6Q      Bending your copper
+# 3c    k4U6E16pR1-oNK32vV6lXQ      Clay... but not exactly
+# 4     64TOV_OURRCn2vc9v5eCdA      Clay, the real one!
+# 5     KglwhW8eScOHRJJalhSEAA      The Crucible
+# 6a    vhZFXv34Rky9xr6uavTIhw      Fuel supply
+# 6b    E2cgCAcETUyHH28iKNx7cw      The firebox?
+# 7a    gGH6et0wSmuh2mZVmKFb8Q      Safety measures
+# 7b    Hrv9NO3KSBWb-GFuzraFFQ      Advanced safety measures
+# 8     JBLjvRjYQmOgC8pIgNY-Pg      Preparing the forms
+# 9     1EwvcNoTS1GH6QAIsgP8Ug      My first bronze
+# 10    z-UnPgqqSdyOLEIYvQ6VMg      The metallic sky
+# 11    6zB8EH48S22xMao4eum_9w      Upgrading your weapon (Bronze)
+
+betterquesting.quest.4hqklnCfQZOgvQ24ojzshw.name=STOP! HAMMER TIME!
+betterquesting.quest.4hqklnCfQZOgvQ24ojzshw.desc=§2 - Guess you've got a new space to live now. Congratulations! Now we can start THE GREGIFICATION.%n§9 - The what?%n§2 - Just kidding, it's already started. You need to get a hammer.%n§9 - Can I hit someone with a hammer?%n§2 - Yes, but that's not what's important. Question is the material. You could use almost everything but I'd stick with something harder than stone (unless you want to replace it after a couple of strikes). Like lead, which you can find in small ores or granite which is... just rocks, yeah.
+
+betterquesting.quest.2_rwTbwLTJi6NS5QufFoXw.name=Strike, while... wait, strike what?
+betterquesting.quest.2_rwTbwLTJi6NS5QufFoXw.desc=§9 - I want to strike something with that hammer. §2 - Right, airdropping you an anvil. The ones you can craft right now would only be useful for a couple of strikes. Just don't melt it for steel, you'll get to that later. %n§9 - Thanks?
+
+betterquesting.quest.gulCtShnRMaoJWKYFdNIvQ.name=Bending your lead
+betterquesting.quest.gulCtShnRMaoJWKYFdNIvQ.desc=§2 - Time for some advanced tasks.%n§9 - What is it this time?%n§2 - You need to place TWO ingots of lead on two different places on the anvil (there are two of them) and slap the hammer on top of that.%n§9 - That's it?.%n§2 - Haha, no. Smash that double ingot again to get a plate. Then use the §6FAT SIDE§2 of the anvil to get a nice bent plate. Just don't hit the wrong side or you'll get a foil out of this plate.%n§9 - Looks not hard, I'll try it.%n§2 - That's not everything. Then you can use the plate you've made for a mixing bowl. I'll explain later why you will need it.
+
+betterquesting.quest.v_ngTxU9QNiy3UBkU69W6Q.name=Bending your copper
+betterquesting.quest.v_ngTxU9QNiy3UBkU69W6Q.desc=§2 - Now the same but for the copper.%n§9 - What is it for?%n§2 - You will need a bucket. Too early to get an iron one, but copper and wood is fine for anything not too hot or corrosive.%n§9 - Nice. The water is underground but not under the mountains?%n§2 - Correct. It's a good idea to stockpile some of it.%n%n§7Infinite water sources are disabled in the pack, but you'll get one later. So it's a good idea to craft a several buckets and fill it with water.
+
+betterquesting.quest.k4U6E16pR1-oNK32vV6lXQ.name=Clay... but not exactly
+betterquesting.quest.k4U6E16pR1-oNK32vV6lXQ.desc=§2 - You're doing good. For the next part you gonna need some clay. But there is an issue.%n§9 - Spill it out.%n§2 - It's completely dried out. Some of our farmers tried to protect the trees with clay from the heat but it ended up with CERAMIC FUCKING TREES.%n§9 - And how do I get clay out of that?%n§2 - Well, do what you can do. Smash them to pieces with your hammer or club and collect the dust. Those trees are common in the places where forests used to be.
+
+betterquesting.quest.64TOV_OURRCn2vc9v5eCdA.name=The actual clay!
+betterquesting.quest.64TOV_OURRCn2vc9v5eCdA.desc=§2 - Great, now you should have everything you need to get some fresh clay.%n§9 - Wouldn't I need a furnace?%n§2 - You already have one. So pour a bucket of water into the mixing bowl, drop some clay powder there and mix it. You'll have to do it with your hands.%n§9 - I really hope that's for the best.
+
+betterquesting.quest.KglwhW8eScOHRJJalhSEAA.name=The Crucible
+betterquesting.quest.KglwhW8eScOHRJJalhSEAA.desc=§2 - HAHAHAHAHA THIS IS IT.%n§9 - Gregor, are you OK?%n§2 - I just remember other people dying to that thing.%n§9 - And you want me to craft it?%n§2 - Of course! How else would you mix your alloys? The crucible is a first step to rebuilding the industrial complex. If you can get past this, you'll likely be fine with the rest%n%n§7This is a reference to many people who died because of exploding crucibles back in pre-release. And there were no guide. And the pack maker knows a lot more about GregTech 6 now. So I guess we're lucky now?
+
+betterquesting.quest.vhZFXv34Rky9xr6uavTIhw.name=Fuel supply
+betterquesting.quest.vhZFXv34Rky9xr6uavTIhw.desc=§2 - This is a part of safety measures, I won't let you ignore this one.%n§9 - But what is it?%n§2 - You need a special kind of coal. Most people would call it poor or even shitty because it can't burn a lot of items, but this is exactly what you need%n§9 - Why would I need a shitty coal?%n§2 - The crucible is very volatile and you want to have a precise control over the temperature. One simple rule. Anything you'll put into the firebox will burn until it turns to ash. Even if you blocked the air vent.
+
+betterquesting.quest.E2cgCAcETUyHH28iKNx7cw.name=The firebox?
+betterquesting.quest.E2cgCAcETUyHH28iKNx7cw.desc=§2 - Yes, the firebox. Also known as the burning box. That's a thing that you put under the crucible to heat it up. There are different types of them, but you'll want to use the lead one.%n§9 - Why lead of all materials?%n§2 - It's cheap, you can get it everywhere. Well, if you somehow got a hand on tantalum hafnium carbide one, I won't stop you. But good luck controlling the temps of that thing with the tools you have. Remember? It can explode. It WILL kill you if you're not careful.%n§9 - How to operate that thing.%n§2 - No interface, no shiny sensors, nothing, just plain old mechanics. First, put your fuel inside the burning box. Second, light it up with a flint and tinder. Third, block the front side with air-sealing block to stop the box from burning the next fuel. Very simple, yet so easy to get hit by a exploding crucible shrapnel.
+
+betterquesting.quest.gGH6et0wSmuh2mZVmKFb8Q.name=Safety measures
+betterquesting.quest.gGH6et0wSmuh2mZVmKFb8Q.desc=§2 - Before I'll tell you how to fire this thing I need you to get some safety measures.%n§9 - What kind of measures?%n§2 - First of all, get a §6club§2 and make an expedition to the depths. Around 20-30 meters you'll find this rock called Deepslate.%n§9 - What's so special about it?%n§2 - It's a natural source for the §6Redstone§9. But you don't need redstone, you need cinnabar. Hit a redstone deposit with a club to get it. But you may also want to mine some of redstone for that.%n§9 - And what to do with all that findings?%n§2 - Get your chipped cinnabar to an anvil and hit it with a hammer. You'll get small cinnabar dust. Combine 4 of them to get a normal one. Get enough material for the three normal pieces of dust and some actual redstone that you can extract with a pickaxe.%n§9 - Just get it?%n§9 - No, you need to process it. Also I'll show you how to test-fire a crucible. Ah, and before you start you'll need a glass bottle. But there's a lot of sand around you!%n§9 - ...everything's ready.%n§2 - Fire up the burning box and immediately close the air vent. I prefer to use a stone wall, because it's enough to block the air but you still can see if the box is still burning.%n§9 - What's after?%n§2 - Two options. First, safe one. Drop the cinnabar inside the crucible, fire it up, immediately close the air vent, wait for the burning box to stop burning and then use the bottle to extract the mercury. Second option is reckless, but still an option. Drop the cinnabar, fire the box, extract the mercury and run far away. The crucible will probably explode, but who cares about that, right?
+
+betterquesting.quest.Hrv9NO3KSBWb-GFuzraFFQ.name=Advanced safety measures
+betterquesting.quest.Hrv9NO3KSBWb-GFuzraFFQ.desc=§2 - And if you want to be really safe...%n§9 - Do I?%n§2 - I don't know, I won't stop you if you don't want.%n§9 - And what is it?%n§2 - You can make a full-fledged thermal sensor and slap it on one of the crucible sides. It's really hard to craft, but it can make your life more convenient.
+
+betterquesting.quest.JBLjvRjYQmOgC8pIgNY-Pg.name=Preparing the forms
+betterquesting.quest.JBLjvRjYQmOgC8pIgNY-Pg.desc=§2 - Great, thanks for actually listening to me.%n§9 - What's next?%n§2 - Make a clay mold and shape it to ingot using any other ingot. Then put in the furnace%n§9 - Just like the crucible itself?n§2 - Yup. And now that I know you're actually ready to use it, I finally managed to order and send some concrete for you. Make a 5x5 square around it, that thing will withstand even the crucible explosion. Not sure about something bigger, but that won't left a dent at it. Put your new mold on one of the sides of the crucible.
+
+betterquesting.quest.1EwvcNoTS1GH6QAIsgP8Ug.name=My first bronze
+betterquesting.quest.1EwvcNoTS1GH6QAIsgP8Ug.desc=§2 - Now use everything I've said to you to make your first bronze ingot! Ratio of copper to tin is 3 to 1, and you need to heat the crucible to the highest point of both metals. In this case it's copper with its §61357K§2. If you heat it too much, it will become annealed copper, but that's not a problem. Put the fire down when it reaches §61357K§2 or when it changes color to orange if you somehow lost your thermometer.%n§9 - And what's next?%n§2 - Interact with the mold to pour the liquid metal inside it to get your first ingot. Make sure the burning box is not running, or it would heat up the the crucible very fast. Also let the ingot to cool down before picking it up.
+
+betterquesting.quest.z-UnPgqqSdyOLEIYvQ6VMg.name=The metallic sky
+betterquesting.quest.z-UnPgqqSdyOLEIYvQ6VMg.desc=§2 - If I'm hearing you then you've managed not to blow yourself up with the crucible. Congratulations! I have one last task for this part.%n§9 - Another one?%n§2 - Not the last one for sure.%n§9 - Ah, damn. Get it here.%n§2 - This one is much harder and would be your death for sure if you didn't get that coal deposit. Time to smelt IRON.%n§9 - Wait, I was just working with bronze and iron already?%n§2 - It's fine, it's not a mass production, just upgrades for your stuff. Meteoric iron melting point is 2011K which is close to ceramic itself (~2500K). So be extremely careful.%n§9 - Anything else?%n§2 - Good news, one ground meteorite would be enough to get two ingots.
+
+betterquesting.quest.6zB8EH48S22xMao4eum_9w.name=Upgrading your weapon (Bronze)
+betterquesting.quest.6zB8EH48S22xMao4eum_9w.desc=§2 - Now put those ingots in your regular furnace to forge them.%n§9 - Is that how you make those swords in the first place?%n§2 - No, we use a more difficult process involving meteoric steel, but you'll get to that soon.%n§9 - What should I do with this thing?%n§2 - You wouldn't believe it, but put it in the furnace again. It's gonna be warm enough to work it. Now listen closely, you have only A COUPLE OF SECONDS before those ingots will be cold again. While they are not black QUICKLY move them to the crafting table and work on your existing sword and those using a hammer. Ingots should still be orange when you work with them. After that you should have an even better sword than before.%n§9 - Noice. %n§2 - And that sword could be even better! So stay tuned.
