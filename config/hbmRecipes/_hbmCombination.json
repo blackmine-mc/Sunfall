@@ -1,0 +1,108 @@
+{
+  "recipes": [
+    {
+      "input": ["item","hbm:item.briquette"],
+      "output": ["hbm:item.coke"],
+      "fluid": ["COALCREOSOTE",150]
+    },
+    {
+      "input": ["item","hbm:item.briquette",1,1],
+      "output": ["hbm:item.coke",1,1],
+      "fluid": ["COALCREOSOTE",100]
+    },
+    {
+      "input": ["dict","dustCoal"],
+      "output": ["hbm:item.coke"],
+      "fluid": ["COALCREOSOTE",100]
+    },
+    {
+      "input": ["dict","dustChlorocalcite"],
+      "output": ["hbm:item.powder_calcium"],
+      "fluid": ["CHLORINE",250]
+    },
+    {
+      "input": ["dict","dustMolysite"],
+      "output": ["minecraft:iron_ingot"],
+      "fluid": ["CHLORINE",250]
+    },
+    {
+      "input": ["item","hbm:item.briquette",1,2],
+      "output": ["minecraft:coal",1,1],
+      "fluid": ["WOODOIL",500]
+    },
+    {
+      "input": ["item","hbm:tile.stone_resource",1,5],
+      "output": ["hbm:item.ingot_aluminium",2],
+      "fluid": ["REDMUD",250]
+    },
+    {
+      "input": ["dict","logWood"],
+      "output": ["minecraft:coal",1,1],
+      "fluid": ["WOODOIL",250]
+    },
+    {
+      "input": ["dict","treeSapling"],
+      "output": ["hbm:item.powder_ash"],
+      "fluid": ["WOODOIL",50]
+    },
+    {
+      "input": ["item","minecraft:glowstone_dust"],
+      "output": ["hbm:item.sulfur"],
+      "fluid": ["CHLORINE",100]
+    },
+    {
+      "input": ["item","hbm:item.oil_tar",1,3],
+      "output": ["hbm:item.coke"]
+    },
+    {
+      "input": ["dict","gemSodalite"],
+      "output": ["hbm:item.powder_sodium"],
+      "fluid": ["CHLORINE",100]
+    },
+    {
+      "input": ["item","hbm:item.oil_tar",1,1],
+      "output": ["hbm:item.coke",1,2]
+    },
+    {
+      "input": ["item","minecraft:reeds"],
+      "output": ["minecraft:sugar",2],
+      "fluid": ["ETHANOL",50]
+    },
+    {
+      "input": ["item","minecraft:clay"],
+      "output": ["minecraft:brick_block"]
+    },
+    {
+      "input": ["item","hbm:item.oil_tar",1,2],
+      "output": ["hbm:item.coke"]
+    },
+    {
+      "input": ["dict","crystalCinnabar"],
+      "output": ["hbm:item.sulfur"],
+      "fluid": ["MERCURY",100]
+    },
+    {
+      "input": ["dict","dustSodium"],
+      "fluid": ["SODIUM",100]
+    },
+    {
+      "input": ["item","hbm:item.oil_tar"],
+      "output": ["hbm:item.coke",1,2]
+    },
+    {
+      "input": ["dict","gemLignite"],
+      "output": ["hbm:item.coke",1,1],
+      "fluid": ["COALCREOSOTE",50]
+    },
+    {
+      "input": ["dict","dustLignite"],
+      "output": ["hbm:item.coke",1,1],
+      "fluid": ["COALCREOSOTE",50]
+    },
+    {
+      "input": ["dict","gemCoal"],
+      "output": ["hbm:item.coke"],
+      "fluid": ["COALCREOSOTE",100]
+    }
+  ]
+}

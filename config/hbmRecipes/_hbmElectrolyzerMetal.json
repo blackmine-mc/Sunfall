@@ -1,0 +1,155 @@
+{
+  "recipes": [
+    {
+      "input": ["item","hbm:item.crystal_titanium"],
+      "output1": ["Titanium",432],
+      "output2": ["Iron",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_tungsten"],
+      "output1": ["Tungsten",432],
+      "output2": ["Iron",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_cobalt"],
+      "output1": ["Cobalt",216],
+      "output2": ["Iron",288],
+      "byproducts": [
+        ["hbm:item.powder_copper",4],
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_trixite"],
+      "output1": ["Plutonium",216],
+      "output2": ["Cobalt",288],
+      "byproducts": [
+        ["hbm:item.powder_niobium",4],
+        ["hbm:item.powder_nitan_mix",2]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_starmetal"],
+      "output1": ["DuraSteel",288],
+      "output2": ["Cobalt",288],
+      "byproducts": [
+        ["hbm:item.powder_astatine",3],
+        ["hbm:item.nugget_mercury",8]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_schrabidium"],
+      "output1": ["Schrabidium",432],
+      "output2": ["Plutonium",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_rare"],
+      "output1": ["Zirconium",48],
+      "output2": ["Boron",16],
+      "byproducts": [
+        ["hbm:item.powder_desh_mix",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_gold"],
+      "output1": ["Gold",432],
+      "output2": ["Lead",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3],
+        ["hbm:item.nugget_mercury",2]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_iron"],
+      "output1": ["Iron",432],
+      "output2": ["Titanium",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_uranium"],
+      "output1": ["Uraninite",432],
+      "output2": ["Radium226",32],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_lithium"],
+      "output1": ["Lithium",432],
+      "output2": ["Boron",144],
+      "byproducts": [
+        ["hbm:item.powder_quartz",2],
+        ["hbm:item.fluorite",2]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_copper"],
+      "output1": ["Copper",432],
+      "output2": ["Lead",32],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3],
+        ["hbm:item.sulfur",2]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_lead"],
+      "output1": ["Lead",432],
+      "output2": ["Gold",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_beryllium"],
+      "output1": ["Beryllium",432],
+      "output2": ["Lead",32],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3],
+        ["hbm:item.powder_quartz",2]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_schraranium"],
+      "output1": ["Schrabidium",40],
+      "output2": ["Uraninite",16],
+      "byproducts": [
+        ["hbm:item.nugget_neptunium",2]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_thorium"],
+      "output1": ["Thorium232",432],
+      "output2": ["Uraninite",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_plutonium"],
+      "output1": ["Plutonium",432],
+      "output2": ["Polonium210",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    },
+    {
+      "input": ["item","hbm:item.crystal_aluminium"],
+      "output1": ["Aluminum",432],
+      "output2": ["Iron",144],
+      "byproducts": [
+        ["hbm:item.powder_lithium_tiny",3]
+      ]
+    }
+  ]
+}
