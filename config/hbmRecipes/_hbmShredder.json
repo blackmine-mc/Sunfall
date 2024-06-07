@@ -86,6 +86,10 @@
       "output": ["hbm:item.dust"]
     },
     {
+      "input": ["etfuturum:sapling",1,1],
+      "output": ["minecraft:stick"]
+    },
+    {
       "input": ["hbm:tile.sellafield"],
       "output": ["hbm:item.scrap_nuclear"]
     },
@@ -1051,7 +1055,7 @@
     },
     {
       "input": ["minecraft:sand"],
-      "output": ["GalacticraftCore:item.basicItem",1,2]
+      "output": ["hbm:item.dust",2]
     },
     {
       "input": ["gregtech:gt.block.log.b"],

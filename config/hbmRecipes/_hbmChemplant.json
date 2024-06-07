@@ -147,7 +147,7 @@
       ],
       "itemInput": [],
       "fluidOutput": [
-        ["ACID",800]
+        ["PEROXIDE",800]
       ],
       "itemOutput": []
     },
@@ -156,13 +156,14 @@
       "name": "SULFURIC_ACID",
       "duration": 50,
       "fluidInput": [
-        ["ACID",800]
+        ["PEROXIDE",800],
+        ["WATER",1000]
       ],
       "itemInput": [
         ["dict","dustSulfur"]
       ],
       "fluidOutput": [
-        ["SULFURIC_ACID",500]
+        ["SULFURIC_ACID",2000]
       ],
       "itemOutput": []
     },
@@ -353,7 +354,7 @@
       "name": "YELLOWCAKE",
       "duration": 250,
       "fluidInput": [
-        ["ACID",500]
+        ["PEROXIDE",500]
       ],
       "itemInput": [
         ["dict","billetUraninite",2],
@@ -403,7 +404,7 @@
       "name": "SAS3",
       "duration": 200,
       "fluidInput": [
-        ["ACID",2000]
+        ["PEROXIDE",2000]
       ],
       "itemInput": [
         ["dict","dustSchrabidium"],
@@ -595,7 +596,7 @@
       "duration": 100,
       "fluidInput": [
         ["SAS3",8000],
-        ["ACID",6000]
+        ["PEROXIDE",6000]
       ],
       "itemInput": [
         ["item","hbm:item.pellet_charged"]
@@ -625,7 +626,7 @@
       "name": "COLTAN_CLEANING",
       "duration": 60,
       "fluidInput": [
-        ["ACID",250],
+        ["PEROXIDE",250],
         ["HYDROGEN",500]
       ],
       "itemInput": [
@@ -664,7 +665,7 @@
       "duration": 80,
       "fluidInput": [
         ["PAIN",1000],
-        ["ACID",500]
+        ["PEROXIDE",500]
       ],
       "itemInput": [],
       "fluidOutput": [
@@ -855,7 +856,7 @@
       "name": "OSMIRIDIUM_DEATH",
       "duration": 240,
       "fluidInput": [
-        ["ACID",1000,5]
+        ["PEROXIDE",1000,5]
       ],
       "itemInput": [
         ["item","hbm:item.powder_paleogenite"],
@@ -886,7 +887,7 @@
       "duration": 30,
       "fluidInput": [
         ["LUBRICANT",400],
-        ["ACID",400]
+        ["PEROXIDE",400]
       ],
       "itemInput": [
         ["item","minecraft:wheat"],

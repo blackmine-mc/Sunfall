@@ -834,18 +834,14 @@
     {
       "output": ["hbm:tile.machine_crystallizer"],
       "input": [
-        ["dict","shellSteel",4],
-        ["dict","ntmpipeSteel",8],
+        ["dict","plateSextupleSteel",2],
+        ["dict","shellTitanium",3],
         ["dict","ingotWorkersAlloy",4],
-        ["item","hbm:item.motor",2],
-        ["item","hbm:item.blades_advanced_alloy",2],
-        ["dict","plateSextupleSteel",4],
-        ["dict","plateTitanium",16],
-        ["item","minecraft:glass",4],
-        ["item","hbm:item.circuit",4,8],
+        ["item","hbm:item.motor"],
+        ["item","hbm:item.circuit",2,8],
         ["item","hbm:item.circuit",15,10]
       ],
-      "duration": 400
+      "duration": 200
     },
     {
       "output": ["hbm:item.ammo_75bolt",2],
@@ -922,8 +918,8 @@
       ],
       "duration": 600,
       "folders": [
-        "hbm:item.journal_pip",
-        "hbm:item.journal_bj"
+        "hbm:item.journal_bj",
+        "hbm:item.journal_pip"
       ]
     },
     {
@@ -1709,7 +1705,7 @@
         ["item","hbm:item.rocket_fuel",36],
         ["item","hbm:item.ball_tatb",24],
         ["dict","container1000kerosenereform",16],
-        ["dict","container1000acid",16],
+        ["dict","container1000peroxide",16],
         ["item","hbm:item.circuit",1,9]
       ],
       "duration": 100
@@ -2032,7 +2028,7 @@
         ["item","hbm:item.rocket_fuel",48],
         ["item","hbm:item.ball_tatb",32],
         ["dict","container1000kerosenereform",12],
-        ["dict","container1000acid",12],
+        ["dict","container1000peroxide",12],
         ["item","hbm:item.circuit",6,8]
       ],
       "duration": 100

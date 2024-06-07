@@ -146,7 +146,7 @@
       [["hbm:item.screwdriver"],1,1,2]
     ],
     "POOL_VAULT_LAB": [
-      [["hbm:item.blowtorch",1,0,"{GAS:0}"],1,1,4],
+      [["hbm:item.blowtorch",1,0,"{23:0}"],1,1,4],
       [["hbm:item.chemistry_set"],1,1,15],
       [["hbm:item.screwdriver"],1,1,10],
       [["hbm:item.nugget_mercury_tiny"],1,1,3],

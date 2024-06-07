@@ -1,6 +1,11 @@
 {
   "recipes": [
     {
+      "input": ["HEAVYWATER",2000],
+      "output1": ["DEUTERIUM",200],
+      "output2": ["OXYGEN",200]
+    },
+    {
       "input": ["POTASSIUM_CHLORIDE",250],
       "output1": ["CHLORINE",125],
       "output2": ["NONE",0],
@@ -9,19 +14,14 @@
       ]
     },
     {
-      "input": ["HEAVYWATER",2000],
-      "output1": ["DEUTERIUM",200],
-      "output2": ["OXYGEN",200]
+      "input": ["CALCIUM_CHLORIDE",250],
+      "output1": ["CHLORINE",125],
+      "output2": ["CALCIUM_SOLUTION",125]
     },
     {
       "input": ["WATER",2000],
       "output1": ["HYDROGEN",200],
       "output2": ["OXYGEN",200]
-    },
-    {
-      "input": ["CALCIUM_CHLORIDE",250],
-      "output1": ["CHLORINE",125],
-      "output2": ["CALCIUM_SOLUTION",125]
     }
   ]
 }
