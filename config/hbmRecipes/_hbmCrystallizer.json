@@ -2,16 +2,82 @@
   "comment": "The acidizer also supports stack size requirements for input items, eg. the cadmium recipe requires 10 willow leaves.",
   "recipes": [
     {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,3],
-      "output": ["hbm:item.ore_nitrated",1,3]
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreFluorite"],
+      "output": ["hbm:item.crystal_fluorite"]
     },
     {
-      "duration": 20,
-      "fluid": ["WOODOIL",100],
-      "input": ["dict","dustCobalt"],
-      "output": ["hbm:item.chemical_dye",4,4]
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,11],
+      "output": ["hbm:item.ore_deepcleaned",1,11]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,15],
+      "output": ["hbm:item.circuit_star_piece",1,15]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,3],
+      "output": ["hbm:item.ore_cleaned",1,3]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["dict","oreRareEarth"],
+      "output": ["hbm:item.crystal_rare"]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreAluminum"],
+      "output": ["hbm:item.crystal_aluminium"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,5],
+      "output": ["hbm:item.ore_nitrated",1,5]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,384],
+      "output": ["hbm:item.bedrock_ore",1,400]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,8],
+      "output": ["hbm:item.ore_purified",1,8]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,368],
+      "output": ["hbm:item.bedrock_ore",1,400]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreRedstone"],
+      "output": ["hbm:item.crystal_redstone"]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["dict","oreLithium"],
+      "output": ["hbm:item.crystal_lithium"]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,352],
+      "output": ["hbm:item.bedrock_ore",1,400]
     },
     {
       "duration": 200,
@@ -20,46 +86,40 @@
       "output": ["hbm:item.ore_seared"]
     },
     {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","blockRedstone"],
-      "output": ["hbm:item.nugget_mercury"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,50],
-      "output": ["hbm:item.bedrock_ore",1,194]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,115],
-      "output": ["hbm:item.bedrock_ore",1,195]
-    },
-    {
       "duration": 200,
       "fluid": ["PEROXIDE",500],
       "input": ["item","hbm:item.ore_centrifuged",1,2],
       "output": ["hbm:item.ore_cleaned",1,2]
     },
     {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,16],
+      "output": ["hbm:item.circuit_star_piece",1,16]
+    },
+    {
       "duration": 200,
       "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,10],
-      "output": ["hbm:item.ore_deepcleaned",1,10]
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,12],
+      "output": ["hbm:item.ore_deepcleaned",1,12]
+    },
+    {
+      "duration": 100,
+      "fluid": ["RADIOSOLVENT",100],
+      "input": ["item","hbm:item.scrap_oil",16],
+      "output": ["hbm:item.nugget_arsenic"]
     },
     {
       "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,66],
-      "output": ["hbm:item.bedrock_ore",1,194]
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,128],
+      "output": ["hbm:item.bedrock_ore",1,176]
     },
     {
       "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,131],
-      "output": ["hbm:item.bedrock_ore",1,195]
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,6],
+      "output": ["hbm:item.ore_nitrated",1,6]
     },
     {
       "duration": 600,
@@ -68,16 +128,70 @@
       "output": ["hbm:item.crystal_lapis"]
     },
     {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,9],
+      "output": ["hbm:item.ore_purified",1,9]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,144],
+      "output": ["hbm:item.bedrock_ore",1,176]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","blockRedstone"],
+      "output": ["hbm:item.nugget_mercury"]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreSaltpeter"],
+      "output": ["hbm:item.crystal_niter"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,160],
+      "output": ["hbm:item.bedrock_ore",1,176]
+    },
+    {
+      "duration": 100,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.powder_meteorite"],
+      "output": ["hbm:item.fragment_meteorite"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,7],
+      "output": ["hbm:item.ore_nitrated",1,7]
+    },
+    {
       "duration": 100,
       "fluid": ["OXYGEN",250],
       "input": ["dict","ingotSilicon"],
       "output": ["minecraft:quartz",2]
     },
     {
-      "duration": 100,
+      "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["dict","dustLapis"],
-      "output": ["minecraft:dye",1,4]
+      "input": ["dict","oreSulfur"],
+      "output": ["hbm:item.crystal_sulfur"]
+    },
+    {
+      "duration": 100,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.plant_item",10,2],
+      "output": ["hbm:item.powder_cadmium"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,1],
+      "output": ["hbm:item.ore_cleaned",1,1]
     },
     {
       "duration": 600,
@@ -87,9 +201,897 @@
     },
     {
       "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,64],
+      "output": ["hbm:item.bedrock_ore",1,176]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,129],
+      "output": ["hbm:item.bedrock_ore",1,177]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,6],
+      "output": ["hbm:item.ore_purified",1,6]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,80],
+      "output": ["hbm:item.bedrock_ore",1,176]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,145],
+      "output": ["hbm:item.bedrock_ore",1,177]
+    },
+    {
+      "duration": 100,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","dustLapis"],
+      "output": ["minecraft:dye",1,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,9],
+      "output": ["hbm:item.ore_deepcleaned",1,9]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,13],
+      "output": ["hbm:item.ore_seared",1,13]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreCertusQuartz"],
+      "output": ["appliedenergistics2:item.ItemMultiMaterial",12]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,161],
+      "output": ["hbm:item.bedrock_ore",1,177]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,96],
+      "output": ["hbm:item.bedrock_ore",1,176]
+    },
+    {
+      "duration": 20,
+      "fluid": ["WOODOIL",100],
+      "input": ["dict","dustIron"],
+      "output": ["hbm:item.chemical_dye",4,1]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,8],
+      "output": ["hbm:item.ore_nitrated",1,8]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,112],
+      "output": ["hbm:item.bedrock_ore",1,176]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged"],
+      "output": ["hbm:item.ore_cleaned"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,10],
+      "output": ["hbm:item.ore_deepcleaned",1,10]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,14],
+      "output": ["hbm:item.circuit_star_piece",1,14]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,65],
+      "output": ["hbm:item.bedrock_ore",1,177]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,130],
+      "output": ["hbm:item.bedrock_ore",1,178]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,14],
+      "output": ["hbm:item.ore_seared",1,14]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,7],
+      "output": ["hbm:item.ore_purified",1,7]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,81],
+      "output": ["hbm:item.bedrock_ore",1,177]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,146],
+      "output": ["hbm:item.bedrock_ore",1,178]
+    },
+    {
+      "duration": 100,
+      "fluid": ["FISHOIL",250],
+      "input": ["dict","dustCadmium"],
+      "output": ["hbm:item.ingot_rubber"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,97],
+      "output": ["hbm:item.bedrock_ore",1,177]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,162],
+      "output": ["hbm:item.bedrock_ore",1,178]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreGold"],
+      "output": ["hbm:item.crystal_gold"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,9],
+      "output": ["hbm:item.ore_nitrated",1,9]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,48],
+      "output": ["hbm:item.bedrock_ore",1,176]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,113],
+      "output": ["hbm:item.bedrock_ore",1,177]
+    },
+    {
+      "duration": 20,
+      "fluid": ["COLLOID",1000],
+      "input": ["dict","sand"],
+      "output": ["minecraft:clay"]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,11],
+      "output": ["hbm:item.circuit_star_piece",1,11]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,160],
+      "output": ["hbm:item.bedrock_ore",1,192]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,101],
+      "output": ["hbm:item.bedrock_ore",1,117]
+    },
+    {
+      "duration": 100,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","dustEmerald"],
+      "output": ["minecraft:emerald"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,144],
+      "output": ["hbm:item.bedrock_ore",1,192]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,97],
+      "output": ["hbm:item.bedrock_ore",1,145]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,4],
+      "output": ["hbm:item.ore_purified",1,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,11],
+      "output": ["hbm:item.ore_seared",1,11]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,53],
+      "output": ["hbm:item.bedrock_ore",1,117]
+    },
+    {
+      "duration": 20,
+      "fluid": ["FISHOIL",100],
+      "input": ["dict","dustCobalt"],
+      "output": ["hbm:item.chemical_dye",4,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,128],
+      "output": ["hbm:item.bedrock_ore",1,192]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,49],
+      "output": ["hbm:item.bedrock_ore",1,145]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,10],
+      "output": ["hbm:item.ore_nitrated",1,10]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,69],
+      "output": ["hbm:item.bedrock_ore",1,117]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,112],
+      "output": ["hbm:item.bedrock_ore",1,192]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,161],
+      "output": ["hbm:item.bedrock_ore",1,193]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,65],
+      "output": ["hbm:item.bedrock_ore",1,145]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,130],
+      "output": ["hbm:item.bedrock_ore",1,146]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,12],
+      "output": ["hbm:item.circuit_star_piece",1,12]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,5],
+      "output": ["hbm:item.bedrock_ore",1,37]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","ingotSchraranium"],
+      "output": ["hbm:item.crystal_schraranium"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,100],
+      "output": ["hbm:item.bedrock_ore",1,116]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline"],
+      "output": ["hbm:item.ore_deepcleaned"]
+    },
+    {
+      "duration": 200,
       "fluid": ["SULFURIC_ACID",500],
       "input": ["item","hbm:item.ore_separated",1,5],
       "output": ["hbm:item.ore_purified",1,5]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,96],
+      "output": ["hbm:item.bedrock_ore",1,144]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,12],
+      "output": ["hbm:item.ore_seared",1,12]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,52],
+      "output": ["hbm:item.bedrock_ore",1,116]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,48],
+      "output": ["hbm:item.bedrock_ore",1,144]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,68],
+      "output": ["hbm:item.bedrock_ore",1,116]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,11],
+      "output": ["hbm:item.ore_nitrated",1,11]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,14],
+      "output": ["hbm:item.ore_cleaned",1,14]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,129],
+      "output": ["hbm:item.bedrock_ore",1,145]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,64],
+      "output": ["hbm:item.bedrock_ore",1,144]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreCopper"],
+      "output": ["hbm:item.crystal_copper"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,13],
+      "output": ["hbm:item.ore_deepcleaned",1,13]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,81],
+      "output": ["hbm:item.bedrock_ore",1,193]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,9],
+      "output": ["hbm:item.circuit_star_piece",1,9]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,146],
+      "output": ["hbm:item.bedrock_ore",1,194]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,4],
+      "output": ["hbm:item.bedrock_ore",1,36]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreCinnabar"],
+      "output": ["hbm:item.crystal_cinnebar"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,99],
+      "output": ["hbm:item.bedrock_ore",1,115]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["dict","oreCobalt"],
+      "output": ["hbm:item.crystal_cobalt"]
+    },
+    {
+      "duration": 100,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.coal_infernal"],
+      "output": ["hbm:item.solid_fuel"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,65],
+      "output": ["hbm:item.bedrock_ore",1,193]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,130],
+      "output": ["hbm:item.bedrock_ore",1,194]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,9],
+      "output": ["hbm:item.ore_seared",1,9]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,2],
+      "output": ["hbm:item.ore_purified",1,2]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,51],
+      "output": ["hbm:item.bedrock_ore",1,115]
+    },
+    {
+      "duration": 20,
+      "fluid": ["NITROGLYCERIN",1000],
+      "input": ["item","hbm:tile.sand_quartz"],
+      "output": ["hbm:item.ball_dynamite",16]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,49],
+      "output": ["hbm:item.bedrock_ore",1,193]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,114],
+      "output": ["hbm:item.bedrock_ore",1,194]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",1000],
+      "input": ["item","hbm:item.bedrock_ore",64,212],
+      "output": ["hbm:item.bedrock_ore",1,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,67],
+      "output": ["hbm:item.bedrock_ore",1,115]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,13],
+      "output": ["hbm:item.ore_cleaned",1,13]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,12],
+      "output": ["hbm:item.ore_nitrated",1,12]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,98],
+      "output": ["hbm:item.bedrock_ore",1,194]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,128],
+      "output": ["hbm:item.bedrock_ore",1,144]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,163],
+      "output": ["hbm:item.bedrock_ore",1,195]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,21],
+      "output": ["hbm:item.bedrock_ore",1,37]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,14],
+      "output": ["hbm:item.ore_deepcleaned",1,14]
+    },
+    {
+      "duration": 20,
+      "fluid": ["FISHOIL",100],
+      "input": ["dict","dustTitanium"],
+      "output": ["hbm:item.chemical_dye",4,15]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,96],
+      "output": ["hbm:item.bedrock_ore",1,192]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,145],
+      "output": ["hbm:item.bedrock_ore",1,193]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,10],
+      "output": ["hbm:item.circuit_star_piece",1,10]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,3],
+      "output": ["hbm:item.bedrock_ore",1,35]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,98],
+      "output": ["hbm:item.bedrock_ore",1,114]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,80],
+      "output": ["hbm:item.bedrock_ore",1,192]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,129],
+      "output": ["hbm:item.bedrock_ore",1,193]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,3],
+      "output": ["hbm:item.ore_purified",1,3]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,10],
+      "output": ["hbm:item.ore_seared",1,10]
+    },
+    {
+      "duration": 20,
+      "fluid": ["FISHOIL",100],
+      "input": ["dict","dustTungsten"],
+      "output": ["hbm:item.chemical_dye",4,11]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,50],
+      "output": ["hbm:item.bedrock_ore",1,114]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,64],
+      "output": ["hbm:item.bedrock_ore",1,192]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,113],
+      "output": ["hbm:item.bedrock_ore",1,193]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",1000],
+      "input": ["item","hbm:item.bedrock_ore",64,213],
+      "output": ["hbm:item.bedrock_ore",1,5]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,66],
+      "output": ["hbm:item.bedrock_ore",1,114]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,12],
+      "output": ["hbm:item.ore_cleaned",1,12]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,13],
+      "output": ["hbm:item.ore_nitrated",1,13]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,97],
+      "output": ["hbm:item.bedrock_ore",1,193]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,48],
+      "output": ["hbm:item.bedrock_ore",1,192]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,162],
+      "output": ["hbm:item.bedrock_ore",1,194]
+    },
+    {
+      "duration": 100,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","sand"],
+      "output": ["hbm:item.ingot_fiberglass"]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,20],
+      "output": ["hbm:item.bedrock_ore",1,36]
+    },
+    {
+      "duration": 20,
+      "fluid": ["CHLORINE",100],
+      "input": ["item","hbm:item.oil_tar",1,5],
+      "output": ["hbm:item.oil_tar",1,4]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["dict","dustBorax"],
+      "output": ["hbm:item.powder_boron_tiny",3]
+    },
+    {
+      "duration": 20,
+      "fluid": ["WOODOIL",100],
+      "input": ["dict","dustCoal"],
+      "output": ["hbm:item.chemical_dye",4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,83],
+      "output": ["hbm:item.bedrock_ore",1,195]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,7],
+      "output": ["hbm:item.circuit_star_piece",1,7]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,11],
+      "output": ["hbm:item.ore_cleaned",1,11]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,2],
+      "output": ["hbm:item.bedrock_ore",1,34]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,148],
+      "output": ["hbm:item.bedrock_ore",1,196]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,67],
+      "output": ["hbm:item.bedrock_ore",1,195]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,7],
+      "output": ["hbm:item.ore_seared",1,7]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,3],
+      "output": ["hbm:item.ore_deepcleaned",1,3]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:tile.ore_tikite"],
+      "output": ["hbm:item.crystal_trixite"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,132],
+      "output": ["hbm:item.bedrock_ore",1,196]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.powder_desh_ready"],
+      "output": ["hbm:item.ingot_desh"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,97],
+      "output": ["hbm:item.bedrock_ore",1,113]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,101],
+      "output": ["hbm:item.bedrock_ore",1,149]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated"],
+      "output": ["hbm:item.ore_purified"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,51],
+      "output": ["hbm:item.bedrock_ore",1,83]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",1000],
+      "input": ["item","hbm:item.bedrock_ore",64,210],
+      "output": ["hbm:item.bedrock_ore",1,2]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,51],
+      "output": ["hbm:item.bedrock_ore",1,195]
+    },
+    {
+      "duration": 200,
+      "fluid": ["IONGEL",500],
+      "input": ["item","hbm:item.oil_tar",1,4],
+      "output": ["hbm:item.pellet_charged"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,116],
+      "output": ["hbm:item.bedrock_ore",1,196]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,49],
+      "output": ["hbm:item.bedrock_ore",1,113]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,53],
+      "output": ["hbm:item.bedrock_ore",1,149]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,67],
+      "output": ["hbm:item.bedrock_ore",1,83]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,14],
+      "output": ["hbm:item.ore_nitrated",1,14]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,100],
+      "output": ["hbm:item.bedrock_ore",1,196]
+    },
+    {
+      "duration": 20,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.oil_tar"],
+      "output": ["hbm:item.oil_tar",1,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,165],
+      "output": ["hbm:item.bedrock_ore",1,197]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,19],
+      "output": ["hbm:item.bedrock_ore",1,35]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,65],
+      "output": ["hbm:item.bedrock_ore",1,113]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,69],
+      "output": ["hbm:item.bedrock_ore",1,149]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,53],
+      "output": ["hbm:item.bedrock_ore",1,181]
+    },
+    {
+      "duration": 20,
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","minecraft:dye",1,15],
+      "output": ["minecraft:slime_ball",4]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,1],
+      "output": ["hbm:item.bedrock_ore",1,33]
     },
     {
       "duration": 200,
@@ -104,696 +1106,6 @@
       "output": ["hbm:item.bedrock_ore",1,195]
     },
     {
-      "duration": 20,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.oil_tar"],
-      "output": ["hbm:item.oil_tar",1,4]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreSulfur"],
-      "output": ["hbm:item.crystal_sulfur"]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreGold"],
-      "output": ["hbm:item.crystal_gold"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,163],
-      "output": ["hbm:item.bedrock_ore",1,195]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,98],
-      "output": ["hbm:item.bedrock_ore",1,194]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,49],
-      "output": ["hbm:item.bedrock_ore",1,193]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,2],
-      "output": ["hbm:item.ore_nitrated",1,2]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,114],
-      "output": ["hbm:item.bedrock_ore",1,194]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreAluminum"],
-      "output": ["hbm:item.crystal_aluminium"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,11],
-      "output": ["hbm:item.ore_deepcleaned",1,11]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreRedstone"],
-      "output": ["hbm:item.crystal_redstone"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,3],
-      "output": ["hbm:item.ore_cleaned",1,3]
-    },
-    {
-      "duration": 20,
-      "fluid": ["SOURGAS",25],
-      "input": ["dict","ingotLatex"],
-      "output": ["hbm:item.ingot_rubber"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,65],
-      "output": ["hbm:item.bedrock_ore",1,193]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,130],
-      "output": ["hbm:item.bedrock_ore",1,194]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,6],
-      "output": ["hbm:item.ore_purified",1,6]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,12],
-      "output": ["hbm:item.circuit_star_piece",1,12]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,81],
-      "output": ["hbm:item.bedrock_ore",1,193]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,146],
-      "output": ["hbm:item.bedrock_ore",1,194]
-    },
-    {
-      "duration": 200,
-      "fluid": ["IONGEL",500],
-      "input": ["item","hbm:item.oil_tar",1,4],
-      "output": ["hbm:item.pellet_charged"]
-    },
-    {
-      "duration": 20,
-      "fluid": ["CHLORINE",100],
-      "input": ["item","hbm:item.oil_tar",1,1],
-      "output": ["hbm:item.oil_tar",1,4]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,97],
-      "output": ["hbm:item.bedrock_ore",1,193]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,162],
-      "output": ["hbm:item.bedrock_ore",1,194]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,128],
-      "output": ["hbm:item.bedrock_ore",1,144]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,5],
-      "output": ["hbm:item.ore_nitrated",1,5]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,101],
-      "output": ["hbm:item.bedrock_ore",1,197]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,2],
-      "output": ["hbm:item.ore_seared",1,2]
-    },
-    {
-      "duration": 20,
-      "fluid": ["SULFURIC_ACID",1000],
-      "input": ["item","minecraft:bone"],
-      "output": ["minecraft:slime_ball",16]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,52],
-      "output": ["hbm:item.bedrock_ore",1,196]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,8],
-      "output": ["hbm:item.ore_deepcleaned",1,8]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,117],
-      "output": ["hbm:item.bedrock_ore",1,197]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,16],
-      "output": ["hbm:item.circuit_star_piece",1,16]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged"],
-      "output": ["hbm:item.ore_cleaned"]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,5],
-      "output": ["hbm:item.bedrock_ore",1,37]
-    },
-    {
-      "duration": 100,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","dustEmerald"],
-      "output": ["minecraft:emerald"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,68],
-      "output": ["hbm:item.bedrock_ore",1,196]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,133],
-      "output": ["hbm:item.bedrock_ore",1,197]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,15],
-      "output": ["hbm:item.circuit_star_piece",1,15]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,7],
-      "output": ["hbm:item.ore_purified",1,7]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,84],
-      "output": ["hbm:item.bedrock_ore",1,196]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,149],
-      "output": ["hbm:item.bedrock_ore",1,197]
-    },
-    {
-      "duration": 100,
-      "fluid": ["RADIOSOLVENT",100],
-      "input": ["item","hbm:item.scrap_oil",16],
-      "output": ["hbm:item.nugget_arsenic"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,100],
-      "output": ["hbm:item.bedrock_ore",1,196]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,4],
-      "output": ["hbm:item.ore_nitrated",1,4]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,4],
-      "output": ["hbm:item.bedrock_ore",1,36]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,165],
-      "output": ["hbm:item.bedrock_ore",1,197]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,1],
-      "output": ["hbm:item.ore_seared",1,1]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","oreThorium232"],
-      "output": ["hbm:item.crystal_thorium"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,116],
-      "output": ["hbm:item.bedrock_ore",1,196]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreCertusQuartz"],
-      "output": ["appliedenergistics2:item.ItemMultiMaterial",12]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,51],
-      "output": ["hbm:item.bedrock_ore",1,195]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,20],
-      "output": ["hbm:item.bedrock_ore",1,36]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,52],
-      "output": ["hbm:item.bedrock_ore",1,116]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,1],
-      "output": ["hbm:item.ore_cleaned",1,1]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,9],
-      "output": ["hbm:item.ore_deepcleaned",1,9]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","oreRareEarth"],
-      "output": ["hbm:item.crystal_rare"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,101],
-      "output": ["hbm:item.bedrock_ore",1,117]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,132],
-      "output": ["hbm:item.bedrock_ore",1,196]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreFluorite"],
-      "output": ["hbm:item.crystal_fluorite"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,69],
-      "output": ["hbm:item.bedrock_ore",1,85]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,67],
-      "output": ["hbm:item.bedrock_ore",1,195]
-    },
-    {
-      "duration": 20,
-      "fluid": ["FISHOIL",100],
-      "input": ["dict","dustIron"],
-      "output": ["hbm:item.chemical_dye",4,1]
-    },
-    {
-      "duration": 20,
-      "fluid": ["WOODOIL",100],
-      "input": ["dict","dustCoal"],
-      "output": ["hbm:item.chemical_dye",4]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,8],
-      "output": ["hbm:item.ore_purified",1,8]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,14],
-      "output": ["hbm:item.circuit_star_piece",1,14]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,53],
-      "output": ["hbm:item.bedrock_ore",1,117]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,148],
-      "output": ["hbm:item.bedrock_ore",1,196]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,21],
-      "output": ["hbm:item.bedrock_ore",1,37]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,53],
-      "output": ["hbm:item.bedrock_ore",1,85]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,83],
-      "output": ["hbm:item.bedrock_ore",1,195]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","oreLithium"],
-      "output": ["hbm:item.crystal_lithium"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,99],
-      "output": ["hbm:item.bedrock_ore",1,195]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,164],
-      "output": ["hbm:item.bedrock_ore",1,196]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,69],
-      "output": ["hbm:item.bedrock_ore",1,117]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,3],
-      "output": ["hbm:item.bedrock_ore",1,35]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,100],
-      "output": ["hbm:item.bedrock_ore",1,116]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,7],
-      "output": ["hbm:item.ore_nitrated",1,7]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:tile.ore_nether_fire"],
-      "output": ["hbm:item.crystal_phosphorus"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,14],
-      "output": ["hbm:item.ore_cleaned",1,14]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,160],
-      "output": ["hbm:item.bedrock_ore",1,176]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,19],
-      "output": ["hbm:item.bedrock_ore",1,35]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,51],
-      "output": ["hbm:item.bedrock_ore",1,115]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,14],
-      "output": ["hbm:item.ore_deepcleaned",1,14]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,12],
-      "output": ["hbm:item.ore_seared",1,12]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","oreSchrabidium"],
-      "output": ["hbm:item.crystal_schrabidium"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,98],
-      "output": ["hbm:item.bedrock_ore",1,146]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,68],
-      "output": ["hbm:item.bedrock_ore",1,116]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,128],
-      "output": ["hbm:item.bedrock_ore",1,176]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,9],
-      "output": ["hbm:item.circuit_star_piece",1,9]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,1],
-      "output": ["hbm:item.ore_purified",1,1]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,50],
-      "output": ["hbm:item.bedrock_ore",1,146]
-    },
-    {
-      "duration": 100,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","minecraft:cobblestone"],
-      "output": ["hbm:tile.reinforced_stone"]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreDiamond"],
-      "output": ["hbm:item.crystal_diamond"]
-    },
-    {
-      "duration": 20,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","minecraft:dye",1,15],
-      "output": ["minecraft:slime_ball",4]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,144],
-      "output": ["hbm:item.bedrock_ore",1,176]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,131],
-      "output": ["hbm:item.bedrock_ore",1,147]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,66],
-      "output": ["hbm:item.bedrock_ore",1,146]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,2],
-      "output": ["hbm:item.bedrock_ore",1,34]
-    },
-    {
-      "duration": 20,
-      "fluid": ["NITROGLYCERIN",1000],
-      "input": ["item","hbm:tile.sand_quartz"],
-      "output": ["hbm:item.ball_dynamite",16]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,99],
-      "output": ["hbm:item.bedrock_ore",1,115]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,6],
-      "output": ["hbm:item.ore_nitrated",1,6]
-    },
-    {
-      "duration": 20,
-      "fluid": ["WOODOIL",100],
-      "input": ["dict","dustTungsten"],
-      "output": ["hbm:item.chemical_dye",4,11]
-    },
-    {
-      "duration": 100,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.plant_item",10,2],
-      "output": ["hbm:item.powder_cadmium"]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,18],
-      "output": ["hbm:item.bedrock_ore",1,34]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,53],
-      "output": ["hbm:item.bedrock_ore",1,197]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,50],
-      "output": ["hbm:item.bedrock_ore",1,114]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,11],
-      "output": ["hbm:item.ore_seared",1,11]
-    },
-    {
-      "duration": 100,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.coal_infernal"],
-      "output": ["hbm:item.solid_fuel"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,99],
-      "output": ["hbm:item.bedrock_ore",1,147]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,69],
-      "output": ["hbm:item.bedrock_ore",1,197]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,67],
-      "output": ["hbm:item.bedrock_ore",1,115]
-    },
-    {
-      "duration": 100,
-      "fluid": ["AROMATICS",50],
-      "input": ["dict","dustWhitePhosphorus"],
-      "output": ["hbm:item.ingot_phosphorus"]
-    },
-    {
-      "duration": 20,
-      "fluid": ["WOODOIL",100],
-      "input": ["dict","dustTitanium"],
-      "output": ["hbm:item.chemical_dye",4,15]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,2],
-      "output": ["hbm:item.ore_purified",1,2]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,51],
-      "output": ["hbm:item.bedrock_ore",1,147]
-    },
-    {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
       "input": ["item","hbm:item.scrap_plastic",1,8],
@@ -801,33 +1113,9 @@
     },
     {
       "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,85],
-      "output": ["hbm:item.bedrock_ore",1,197]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,132],
-      "output": ["hbm:item.bedrock_ore",1,148]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,67],
-      "output": ["hbm:item.bedrock_ore",1,147]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,1],
-      "output": ["hbm:item.bedrock_ore",1,33]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,98],
-      "output": ["hbm:item.bedrock_ore",1,114]
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,10],
+      "output": ["hbm:item.ore_cleaned",1,10]
     },
     {
       "duration": 100,
@@ -836,34 +1124,82 @@
       "output": ["hbm:item.bedrock_ore",1,277]
     },
     {
-      "duration": 200,
-      "fluid": ["ESTRADIOL",250],
-      "input": ["item","hbm:item.oil_tar",1,5],
-      "output": ["hbm:item.pill_red"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,9],
-      "output": ["hbm:item.ore_nitrated",1,9]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,12],
-      "output": ["hbm:item.ore_cleaned",1,12]
-    },
-    {
       "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,17],
-      "output": ["hbm:item.bedrock_ore",1,33]
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","dustDiamond"],
+      "output": ["minecraft:diamond"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,66],
+      "output": ["hbm:item.bedrock_ore",1,194]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,4],
+      "output": ["hbm:item.ore_deepcleaned",1,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,131],
+      "output": ["hbm:item.bedrock_ore",1,195]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,8],
+      "output": ["hbm:item.ore_seared",1,8]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","blockCoal"],
+      "output": ["hbm:tile.block_graphite"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,1],
+      "output": ["hbm:item.ore_purified",1,1]
     },
     {
       "duration": 100,
       "fluid": ["WATER",250],
       "input": ["item","hbm:item.bedrock_ore",4,245],
       "output": ["hbm:item.bedrock_ore",1,277]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,96],
+      "output": ["hbm:item.bedrock_ore",1,112]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,100],
+      "output": ["hbm:item.bedrock_ore",1,148]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,50],
+      "output": ["hbm:item.bedrock_ore",1,82]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",1000],
+      "input": ["item","hbm:item.bedrock_ore",64,211],
+      "output": ["hbm:item.bedrock_ore",1,3]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,50],
+      "output": ["hbm:item.bedrock_ore",1,194]
     },
     {
       "duration": 20,
@@ -873,27 +1209,9 @@
     },
     {
       "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,14],
-      "output": ["hbm:item.ore_seared",1,14]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,12],
-      "output": ["hbm:item.ore_deepcleaned",1,12]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,49],
-      "output": ["hbm:item.bedrock_ore",1,113]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,96],
-      "output": ["hbm:item.bedrock_ore",1,144]
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,115],
+      "output": ["hbm:item.bedrock_ore",1,195]
     },
     {
       "duration": 100,
@@ -904,62 +1222,80 @@
     {
       "duration": 200,
       "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,66],
-      "output": ["hbm:item.bedrock_ore",1,114]
-    },
-    {
-      "duration": 100,
-      "fluid": ["FISHOIL",250],
-      "input": ["dict","dustCadmium"],
-      "output": ["hbm:item.ingot_rubber"]
+      "input": ["item","hbm:item.bedrock_ore",1,48],
+      "output": ["hbm:item.bedrock_ore",1,112]
     },
     {
       "duration": 200,
       "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,48],
-      "output": ["hbm:item.bedrock_ore",1,144]
+      "input": ["item","hbm:item.bedrock_ore",1,52],
+      "output": ["hbm:item.bedrock_ore",1,148]
     },
     {
-      "duration": 100,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.powder_meteorite"],
-      "output": ["hbm:item.fragment_meteorite"]
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,66],
+      "output": ["hbm:item.bedrock_ore",1,82]
     },
     {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,11],
-      "output": ["hbm:item.circuit_star_piece",1,11]
+      "input": ["dict","oreCoal"],
+      "output": ["hbm:item.crystal_coal"]
     },
     {
       "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,3],
-      "output": ["hbm:item.ore_purified",1,3]
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,99],
+      "output": ["hbm:item.bedrock_ore",1,195]
     },
     {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,64],
-      "output": ["hbm:item.bedrock_ore",1,144]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,129],
-      "output": ["hbm:item.bedrock_ore",1,145]
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreDiamond"],
+      "output": ["hbm:item.crystal_diamond"]
     },
     {
       "duration": 100,
       "fluid": ["PEROXIDE",500],
-      "input": ["dict","sand"],
-      "output": ["hbm:item.ingot_fiberglass"]
+      "input": ["item","minecraft:cobblestone"],
+      "output": ["hbm:tile.reinforced_stone"]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["dict","oreTitanium"],
+      "output": ["hbm:item.crystal_titanium"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,164],
+      "output": ["hbm:item.bedrock_ore",1,196]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,18],
+      "output": ["hbm:item.bedrock_ore",1,34]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,133],
+      "output": ["hbm:item.bedrock_ore",1,149]
     },
     {
       "duration": 200,
       "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,97],
-      "output": ["hbm:item.bedrock_ore",1,113]
+      "input": ["item","hbm:item.bedrock_ore",1,64],
+      "output": ["hbm:item.bedrock_ore",1,112]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,68],
+      "output": ["hbm:item.bedrock_ore",1,148]
     },
     {
       "duration": 100,
@@ -969,9 +1305,9 @@
     },
     {
       "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,8],
-      "output": ["hbm:item.ore_nitrated",1,8]
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,85],
+      "output": ["hbm:item.bedrock_ore",1,197]
     },
     {
       "duration": 100,
@@ -981,51 +1317,27 @@
     },
     {
       "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,13],
-      "output": ["hbm:item.ore_cleaned",1,13]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,48],
-      "output": ["hbm:item.bedrock_ore",1,112]
-    },
-    {
-      "duration": 200,
       "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,13],
-      "output": ["hbm:item.ore_seared",1,13]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,309],
-      "output": ["hbm:item.bedrock_ore",1,341]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","dustBorax"],
-      "output": ["hbm:item.powder_boron_tiny",3]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",1,16],
-      "output": ["hbm:item.bedrock_ore",1,32]
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,5],
+      "output": ["hbm:item.ore_seared",1,5]
     },
     {
       "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,13],
-      "output": ["hbm:item.ore_deepcleaned",1,13]
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,9],
+      "output": ["hbm:item.ore_cleaned",1,9]
+    },
+    {
+      "duration": 100,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:tile.stone_gneiss"],
+      "output": ["hbm:item.powder_lithium"]
     },
     {
       "duration": 600,
-      "fluid": ["XYLENE",1000],
-      "input": ["item","hbm:item.powder_ash",4,5],
-      "output": ["hbm:item.ingot_cft"]
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,5],
+      "output": ["hbm:item.circuit_star_piece",1,5]
     },
     {
       "duration": 100,
@@ -1035,15 +1347,63 @@
     },
     {
       "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,97],
-      "output": ["hbm:item.bedrock_ore",1,145]
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,69],
+      "output": ["hbm:item.bedrock_ore",1,85]
     },
     {
       "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,65],
-      "output": ["hbm:item.bedrock_ore",1,113]
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,14],
+      "output": ["hbm:item.ore_purified",1,14]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,309],
+      "output": ["hbm:item.bedrock_ore",1,341]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,69],
+      "output": ["hbm:item.bedrock_ore",1,197]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,1],
+      "output": ["hbm:item.ore_deepcleaned",1,1]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,21],
+      "output": ["hbm:item.circuit_star_piece",1,21]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,99],
+      "output": ["hbm:item.bedrock_ore",1,147]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,244],
+      "output": ["hbm:item.bedrock_ore",1,276]
+    },
+    {
+      "duration": 20,
+      "fluid": ["SULFURIC_ACID",1000],
+      "input": ["item","minecraft:bone"],
+      "output": ["minecraft:slime_ball",16]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",1000],
+      "input": ["item","hbm:item.bedrock_ore",64,208],
+      "output": ["hbm:item.bedrock_ore"]
     },
     {
       "duration": 100,
@@ -1053,45 +1413,21 @@
     },
     {
       "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,4],
-      "output": ["hbm:item.ore_purified",1,4]
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,53],
+      "output": ["hbm:item.bedrock_ore",1,197]
     },
     {
       "duration": 200,
-      "fluid": ["NITRIC_ACID",1000],
-      "input": ["item","hbm:item.bedrock_ore",64,208],
-      "output": ["hbm:item.bedrock_ore"]
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,51],
+      "output": ["hbm:item.bedrock_ore",1,147]
     },
     {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,10],
-      "output": ["hbm:item.circuit_star_piece",1,10]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,49],
-      "output": ["hbm:item.bedrock_ore",1,145]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,244],
-      "output": ["hbm:item.bedrock_ore",1,276]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,130],
-      "output": ["hbm:item.bedrock_ore",1,146]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,65],
-      "output": ["hbm:item.bedrock_ore",1,145]
+      "input": ["item","hbm:tile.ore_nether_fire"],
+      "output": ["hbm:item.crystal_phosphorus"]
     },
     {
       "duration": 100,
@@ -1100,100 +1436,40 @@
       "output": ["hbm:item.bedrock_ore",1,276]
     },
     {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",1,17],
+      "output": ["hbm:item.bedrock_ore",1,33]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,67],
+      "output": ["hbm:item.bedrock_ore",1,147]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,132],
+      "output": ["hbm:item.bedrock_ore",1,148]
+    },
+    {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
       "input": ["item","hbm:item.meteorite_sword_treated"],
       "output": ["hbm:item.meteorite_sword_etched"]
     },
     {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,389],
-      "output": ["hbm:item.bedrock_ore",1,405]
-    },
-    {
       "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,96],
-      "output": ["hbm:item.bedrock_ore",1,112]
-    },
-    {
-      "duration": 20,
-      "fluid": ["FISHOIL",100],
-      "input": ["dict","dustCoal"],
-      "output": ["hbm:item.chemical_dye",4]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,10],
-      "output": ["hbm:item.ore_cleaned",1,10]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,99],
-      "output": ["hbm:item.bedrock_ore",1,179]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,164],
-      "output": ["hbm:item.bedrock_ore",1,180]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreCoal"],
-      "output": ["hbm:item.crystal_coal"]
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,53],
+      "output": ["hbm:item.bedrock_ore",1,85]
     },
     {
       "duration": 600,
       "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","oreTungsten"],
-      "output": ["hbm:item.crystal_tungsten"]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,22],
-      "output": ["hbm:item.circuit_star_piece",1,22]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,373],
-      "output": ["hbm:item.bedrock_ore",1,405]
-    },
-    {
-      "duration": 100,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","dustDiamond"],
-      "output": ["minecraft:diamond"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,11],
-      "output": ["hbm:item.ore_nitrated",1,11]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,8],
-      "output": ["hbm:item.ore_seared",1,8]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,50],
-      "output": ["hbm:item.bedrock_ore",1,178]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,115],
-      "output": ["hbm:item.bedrock_ore",1,179]
+      "input": ["dict","oreSchrabidium"],
+      "output": ["hbm:item.crystal_schrabidium"]
     },
     {
       "duration": 100,
@@ -1204,56 +1480,62 @@
     {
       "duration": 100,
       "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,259],
-      "output": ["hbm:item.bedrock_ore",1,275]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,357],
+      "input": ["item","hbm:item.bedrock_ore",4,389],
       "output": ["hbm:item.bedrock_ore",1,405]
     },
     {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,5],
-      "output": ["hbm:item.circuit_star_piece",1,5]
+      "input": ["dict","oreBeryllium"],
+      "output": ["hbm:item.crystal_beryllium"]
     },
     {
       "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,13],
-      "output": ["hbm:item.ore_purified",1,13]
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,84],
+      "output": ["hbm:item.bedrock_ore",1,196]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,8],
+      "output": ["hbm:item.ore_cleaned",1,8]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated"],
+      "output": ["hbm:item.ore_nitrated"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,149],
+      "output": ["hbm:item.bedrock_ore",1,197]
+    },
+    {
+      "duration": 200,
+      "fluid": ["ESTRADIOL",250],
+      "input": ["item","hbm:item.oil_tar",1,5],
+      "output": ["hbm:item.pill_red"]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,6],
+      "output": ["hbm:item.circuit_star_piece",1,6]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,259],
+      "output": ["hbm:item.bedrock_ore",1,275]
     },
     {
       "duration": 200,
       "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,64],
-      "output": ["hbm:item.bedrock_ore",1,80]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,64],
-      "output": ["hbm:item.bedrock_ore",1,112]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",1000],
-      "input": ["item","hbm:item.bedrock_ore",64,209],
-      "output": ["hbm:item.bedrock_ore",1,1]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,67],
-      "output": ["hbm:item.bedrock_ore",1,179]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,132],
-      "output": ["hbm:item.bedrock_ore",1,180]
+      "input": ["item","hbm:item.bedrock_ore",1,68],
+      "output": ["hbm:item.bedrock_ore",1,84]
     },
     {
       "duration": 100,
@@ -1262,10 +1544,46 @@
       "output": ["hbm:item.bedrock_ore",1,340]
     },
     {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,373],
+      "output": ["hbm:item.bedrock_ore",1,405]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,68],
+      "output": ["hbm:item.bedrock_ore",1,196]
+    },
+    {
       "duration": 200,
       "fluid": ["SOLVENT",500],
       "input": ["item","hbm:item.ore_nitrocrystalline",1,2],
       "output": ["hbm:item.ore_deepcleaned",1,2]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,6],
+      "output": ["hbm:item.ore_seared",1,6]
+    },
+    {
+      "duration": 200,
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,133],
+      "output": ["hbm:item.bedrock_ore",1,197]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,22],
+      "output": ["hbm:item.circuit_star_piece",1,22]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,98],
+      "output": ["hbm:item.bedrock_ore",1,146]
     },
     {
       "duration": 100,
@@ -1275,21 +1593,39 @@
     },
     {
       "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,48],
-      "output": ["hbm:item.bedrock_ore",1,80]
+      "fluid": ["NITRIC_ACID",1000],
+      "input": ["item","hbm:item.bedrock_ore",64,209],
+      "output": ["hbm:item.bedrock_ore",1,1]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,292],
+      "output": ["hbm:item.bedrock_ore",1,340]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,357],
+      "output": ["hbm:item.bedrock_ore",1,405]
     },
     {
       "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,83],
-      "output": ["hbm:item.bedrock_ore",1,179]
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,52],
+      "output": ["hbm:item.bedrock_ore",1,196]
     },
     {
       "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,148],
-      "output": ["hbm:item.bedrock_ore",1,180]
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,117],
+      "output": ["hbm:item.bedrock_ore",1,197]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,50],
+      "output": ["hbm:item.bedrock_ore",1,146]
     },
     {
       "duration": 100,
@@ -1300,56 +1636,128 @@
     {
       "duration": 100,
       "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,292],
-      "output": ["hbm:item.bedrock_ore",1,340]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","oreCobalt"],
-      "output": ["hbm:item.crystal_cobalt"]
+      "input": ["item","hbm:item.bedrock_ore",1,16],
+      "output": ["hbm:item.bedrock_ore",1,32]
     },
     {
       "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,10],
-      "output": ["hbm:item.ore_nitrated",1,10]
+      "fluid": ["CHLORINE",250],
+      "input": ["item","hbm:item.bedrock_ore",1,101],
+      "output": ["hbm:item.bedrock_ore",1,197]
+    },
+    {
+      "duration": 100,
+      "fluid": ["AROMATICS",50],
+      "input": ["dict","dustWhitePhosphorus"],
+      "output": ["hbm:item.ingot_phosphorus"]
+    },
+    {
+      "duration": 20,
+      "fluid": ["SOURGAS",25],
+      "input": ["dict","ingotLatex"],
+      "output": ["hbm:item.ingot_rubber"]
+    },
+    {
+      "duration": 20,
+      "fluid": ["WOODOIL",100],
+      "input": ["dict","dustCopper"],
+      "output": ["hbm:item.chemical_dye",4,2]
+    },
+    {
+      "duration": 20,
+      "fluid": ["CHLORINE",100],
+      "input": ["item","hbm:item.oil_tar",1,1],
+      "output": ["hbm:item.oil_tar",1,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,66],
+      "output": ["hbm:item.bedrock_ore",1,146]
     },
     {
       "duration": 100,
       "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:tile.stone_gneiss"],
-      "output": ["hbm:item.powder_lithium"]
+      "input": ["item","minecraft:rotten_flesh"],
+      "output": ["minecraft:leather"]
     },
     {
       "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,163],
-      "output": ["hbm:item.bedrock_ore",1,179]
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,52],
+      "output": ["hbm:item.bedrock_ore",1,84]
     },
     {
       "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,11],
-      "output": ["hbm:item.ore_cleaned",1,11]
+      "fluid": ["RADIOSOLVENT",250],
+      "input": ["item","hbm:item.bedrock_ore",1,131],
+      "output": ["hbm:item.bedrock_ore",1,147]
     },
     {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,98],
-      "output": ["hbm:item.bedrock_ore",1,178]
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,323],
+      "output": ["hbm:item.bedrock_ore",1,339]
     },
     {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,21],
-      "output": ["hbm:item.circuit_star_piece",1,21]
+      "duration": 20,
+      "fluid": ["FISHOIL",100],
+      "input": ["dict","dustCoal"],
+      "output": ["hbm:item.chemical_dye",4]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,388],
+      "output": ["hbm:item.bedrock_ore",1,404]
     },
     {
       "duration": 200,
       "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,7],
-      "output": ["hbm:item.ore_seared",1,7]
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,3],
+      "output": ["hbm:item.ore_seared",1,3]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,1],
+      "output": ["hbm:item.ore_nitrated",1,1]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["dict","orePlutonium"],
+      "output": ["hbm:item.crystal_plutonium"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,66],
+      "output": ["hbm:item.bedrock_ore",1,178]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,131],
+      "output": ["hbm:item.bedrock_ore",1,179]
+    },
+    {
+      "duration": 100,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:tile.gravel_obsidian"],
+      "output": ["hbm:tile.brick_obsidian"]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,3],
+      "output": ["hbm:item.circuit_star_piece",1,3]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,7],
+      "output": ["hbm:item.ore_cleaned",1,7]
     },
     {
       "duration": 100,
@@ -1360,50 +1768,50 @@
     {
       "duration": 100,
       "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,323],
+      "input": ["item","hbm:item.bedrock_ore",4,307],
       "output": ["hbm:item.bedrock_ore",1,339]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,388],
-      "output": ["hbm:item.bedrock_ore",1,404]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,49],
-      "output": ["hbm:item.bedrock_ore",1,177]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,114],
-      "output": ["hbm:item.bedrock_ore",1,178]
     },
     {
       "duration": 200,
       "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,14],
-      "output": ["hbm:item.ore_purified",1,14]
+      "input": ["item","hbm:item.ore_separated",1,12],
+      "output": ["hbm:item.ore_purified",1,12]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,372],
+      "output": ["hbm:item.bedrock_ore",1,404]
     },
     {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreCinnabar"],
-      "output": ["hbm:item.crystal_cinnebar"]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,4],
-      "output": ["hbm:item.circuit_star_piece",1,4]
+      "input": ["item","hbm:tile.gravel_diamond"],
+      "output": ["hbm:item.crystal_diamond"]
     },
     {
       "duration": 200,
-      "fluid": ["NITRIC_ACID",1000],
-      "input": ["item","hbm:item.bedrock_ore",64,210],
-      "output": ["hbm:item.bedrock_ore",1,2]
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,82],
+      "output": ["hbm:item.bedrock_ore",1,178]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,147],
+      "output": ["hbm:item.bedrock_ore",1,179]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,7],
+      "output": ["hbm:item.ore_deepcleaned",1,7]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,19],
+      "output": ["hbm:item.circuit_star_piece",1,19]
     },
     {
       "duration": 100,
@@ -1414,31 +1822,19 @@
     {
       "duration": 100,
       "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,307],
+      "input": ["item","hbm:item.bedrock_ore",4,291],
       "output": ["hbm:item.bedrock_ore",1,339]
     },
     {
       "duration": 100,
       "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,372],
+      "input": ["item","hbm:item.bedrock_ore",4,356],
       "output": ["hbm:item.bedrock_ore",1,404]
     },
     {
       "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,3],
-      "output": ["hbm:item.ore_deepcleaned",1,3]
-    },
-    {
-      "duration": 200,
       "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,131],
-      "output": ["hbm:item.bedrock_ore",1,179]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,66],
+      "input": ["item","hbm:item.bedrock_ore",1,98],
       "output": ["hbm:item.bedrock_ore",1,178]
     },
     {
@@ -1450,74 +1846,38 @@
     {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,147],
+      "input": ["item","hbm:item.bedrock_ore",1,163],
       "output": ["hbm:item.bedrock_ore",1,179]
     },
     {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,356],
-      "output": ["hbm:item.bedrock_ore",1,404]
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.scrap_plastic",1,2],
+      "output": ["hbm:item.circuit_star_piece",1,2]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.powder_semtex_mix"],
+      "output": ["hbm:item.ingot_semtex"]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreIron"],
+      "output": ["hbm:item.crystal_iron"]
     },
     {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,82],
-      "output": ["hbm:item.bedrock_ore",1,178]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,291],
-      "output": ["hbm:item.bedrock_ore",1,339]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,133],
-      "output": ["hbm:item.bedrock_ore",1,149]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,97],
+      "input": ["item","hbm:item.bedrock_ore",1,49],
       "output": ["hbm:item.bedrock_ore",1,177]
     },
     {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,162],
+      "input": ["item","hbm:item.bedrock_ore",1,114],
       "output": ["hbm:item.bedrock_ore",1,178]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,8],
-      "output": ["hbm:item.ore_cleaned",1,8]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,13],
-      "output": ["hbm:item.ore_nitrated",1,13]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,48],
-      "output": ["hbm:item.bedrock_ore",1,176]
-    },
-    {
-      "duration": 20,
-      "fluid": ["FISHOIL",100],
-      "input": ["dict","dustTungsten"],
-      "output": ["hbm:item.chemical_dye",4,11]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,100],
-      "output": ["hbm:item.bedrock_ore",1,148]
     },
     {
       "duration": 100,
@@ -1528,68 +1888,68 @@
     {
       "duration": 100,
       "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,387],
-      "output": ["hbm:item.bedrock_ore",1,403]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,113],
-      "output": ["hbm:item.bedrock_ore",1,177]
-    },
-    {
-      "duration": 20,
-      "fluid": ["FISHOIL",100],
-      "input": ["dict","dustCopper"],
-      "output": ["hbm:item.chemical_dye",4,2]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","ingotSchraranium"],
-      "output": ["hbm:item.crystal_schraranium"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,10],
-      "output": ["hbm:item.ore_seared",1,10]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
       "input": ["item","hbm:item.bedrock_ore",4,322],
       "output": ["hbm:item.bedrock_ore",1,338]
     },
     {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,387],
+      "output": ["hbm:item.bedrock_ore",1,403]
+    },
+    {
+      "duration": 600,
+      "fluid": ["XYLENE",1000],
+      "input": ["item","hbm:item.powder_ash",4,5],
+      "output": ["hbm:item.ingot_cft"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,4],
+      "output": ["hbm:item.ore_seared",1,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,2],
+      "output": ["hbm:item.ore_nitrated",1,2]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,67],
+      "output": ["hbm:item.bedrock_ore",1,179]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,6],
+      "output": ["hbm:item.ore_cleaned",1,6]
+    },
+    {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,7],
-      "output": ["hbm:item.circuit_star_piece",1,7]
+      "input": ["item","hbm:item.scrap_plastic",1,4],
+      "output": ["hbm:item.circuit_star_piece",1,4]
     },
     {
       "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,101],
-      "output": ["hbm:item.bedrock_ore",1,149]
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,132],
+      "output": ["hbm:item.bedrock_ore",1,180]
+    },
+    {
+      "duration": 20,
+      "fluid": ["WOODOIL",100],
+      "input": ["dict","dustTitanium"],
+      "output": ["hbm:item.chemical_dye",4,15]
     },
     {
       "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline"],
-      "output": ["hbm:item.ore_deepcleaned"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",1000],
-      "input": ["item","hbm:item.bedrock_ore",64,211],
-      "output": ["hbm:item.bedrock_ore",1,3]
-    },
-    {
-      "duration": 600,
       "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","oreTitanium"],
-      "output": ["hbm:item.crystal_titanium"]
+      "input": ["item","hbm:item.ore_separated",1,13],
+      "output": ["hbm:item.ore_purified",1,13]
     },
     {
       "duration": 100,
@@ -1600,44 +1960,44 @@
     {
       "duration": 100,
       "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,371],
-      "output": ["hbm:item.bedrock_ore",1,403]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,52],
-      "output": ["hbm:item.bedrock_ore",1,148]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,65],
-      "output": ["hbm:item.bedrock_ore",1,177]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,130],
-      "output": ["hbm:item.bedrock_ore",1,178]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
       "input": ["item","hbm:item.bedrock_ore",4,306],
       "output": ["hbm:item.bedrock_ore",1,338]
     },
     {
       "duration": 100,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","minecraft:rotten_flesh"],
-      "output": ["minecraft:leather"]
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,371],
+      "output": ["hbm:item.bedrock_ore",1,403]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,83],
+      "output": ["hbm:item.bedrock_ore",1,179]
     },
     {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreCopper"],
-      "output": ["hbm:item.crystal_copper"]
+      "input": ["item","hbm:item.scrap_plastic",1,20],
+      "output": ["hbm:item.circuit_star_piece",1,20]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,8],
+      "output": ["hbm:item.ore_deepcleaned",1,8]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,148],
+      "output": ["hbm:item.bedrock_ore",1,180]
+    },
+    {
+      "duration": 20,
+      "fluid": ["NITROGLYCERIN",250],
+      "input": ["dict","dustNetherQuartz"],
+      "output": ["hbm:item.ball_dynamite",4]
     },
     {
       "duration": 100,
@@ -1659,69 +2019,57 @@
     },
     {
       "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,68],
-      "output": ["hbm:item.bedrock_ore",1,148]
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,99],
+      "output": ["hbm:item.bedrock_ore",1,179]
     },
     {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,81],
-      "output": ["hbm:item.bedrock_ore",1,177]
+      "input": ["item","hbm:item.bedrock_ore",1,164],
+      "output": ["hbm:item.bedrock_ore",1,180]
     },
     {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,146],
-      "output": ["hbm:item.bedrock_ore",1,178]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,69],
-      "output": ["hbm:item.bedrock_ore",1,149]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,96],
-      "output": ["hbm:item.bedrock_ore",1,176]
+      "duration": 20,
+      "fluid": ["WOODOIL",100],
+      "input": ["dict","dustTungsten"],
+      "output": ["hbm:item.chemical_dye",4,11]
     },
     {
       "duration": 600,
       "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:tile.ore_tikite"],
-      "output": ["hbm:item.crystal_trixite"]
+      "input": ["dict","oreThorium232"],
+      "output": ["hbm:item.crystal_thorium"]
     },
     {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,9],
-      "output": ["hbm:item.ore_cleaned",1,9]
+      "duration": 600,
+      "fluid": ["SCHRABIDIC",1000],
+      "input": ["item","hbm:item.powder_impure_osmiridium"],
+      "output": ["hbm:item.crystal_osmiridium"]
     },
     {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,161],
-      "output": ["hbm:item.bedrock_ore",1,177]
+      "input": ["item","hbm:item.bedrock_ore",1,50],
+      "output": ["hbm:item.bedrock_ore",1,178]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,115],
+      "output": ["hbm:item.bedrock_ore",1,179]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["dict","oreTungsten"],
+      "output": ["hbm:item.crystal_tungsten"]
     },
     {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.powder_desh_ready"],
-      "output": ["hbm:item.ingot_desh"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,12],
-      "output": ["hbm:item.ore_nitrated",1,12]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,112],
-      "output": ["hbm:item.bedrock_ore",1,176]
+      "input": ["item","hbm:item.scrap_plastic",1,17],
+      "output": ["hbm:item.circuit_star_piece",1,17]
     },
     {
       "duration": 100,
@@ -1730,10 +2078,46 @@
       "output": ["hbm:item.bedrock_ore",1,272]
     },
     {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,386],
+      "output": ["hbm:item.bedrock_ore",1,402]
+    },
+    {
       "duration": 200,
       "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,9],
-      "output": ["hbm:item.ore_seared",1,9]
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,1],
+      "output": ["hbm:item.ore_seared",1,1]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","crystalCinnabar"],
+      "output": ["hbm:item.nugget_mercury",3]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,5],
+      "output": ["hbm:item.ore_cleaned",1,5]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,68],
+      "output": ["hbm:item.bedrock_ore",1,180]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,133],
+      "output": ["hbm:item.bedrock_ore",1,181]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,3],
+      "output": ["hbm:item.ore_nitrated",1,3]
     },
     {
       "duration": 100,
@@ -1742,22 +2126,10 @@
       "output": ["hbm:item.bedrock_ore",1,337]
     },
     {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,386],
-      "output": ["hbm:item.bedrock_ore",1,402]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,6],
-      "output": ["hbm:item.circuit_star_piece",1,6]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,64],
-      "output": ["hbm:item.bedrock_ore",1,176]
+      "duration": 20,
+      "fluid": ["FISHOIL",100],
+      "input": ["dict","dustCopper"],
+      "output": ["hbm:item.chemical_dye",4,2]
     },
     {
       "duration": 100,
@@ -1766,10 +2138,34 @@
       "output": ["hbm:item.bedrock_ore",1,272]
     },
     {
+      "duration": 100,
+      "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,370],
+      "output": ["hbm:item.bedrock_ore",1,402]
+    },
+    {
       "duration": 200,
       "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated"],
-      "output": ["hbm:item.ore_purified"]
+      "input": ["item","hbm:item.ore_separated",1,10],
+      "output": ["hbm:item.ore_purified",1,10]
+    },
+    {
+      "duration": 600,
+      "fluid": ["SULFURIC_ACID",500],
+      "input": ["dict","oreUraninite"],
+      "output": ["hbm:item.crystal_uranium"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,5],
+      "output": ["hbm:item.ore_deepcleaned",1,5]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,149],
+      "output": ["hbm:item.bedrock_ore",1,181]
     },
     {
       "duration": 100,
@@ -1780,44 +2176,8 @@
     {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,129],
-      "output": ["hbm:item.bedrock_ore",1,177]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,370],
-      "output": ["hbm:item.bedrock_ore",1,402]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,1],
-      "output": ["hbm:item.ore_deepcleaned",1,1]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",1000],
-      "input": ["item","hbm:item.bedrock_ore",64,212],
-      "output": ["hbm:item.bedrock_ore",1,4]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",250],
-      "input": ["item","hbm:item.bedrock_ore",1,53],
-      "output": ["hbm:item.bedrock_ore",1,149]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreBeryllium"],
-      "output": ["hbm:item.crystal_beryllium"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,80],
-      "output": ["hbm:item.bedrock_ore",1,176]
+      "input": ["item","hbm:item.bedrock_ore",1,84],
+      "output": ["hbm:item.bedrock_ore",1,180]
     },
     {
       "duration": 100,
@@ -1828,44 +2188,92 @@
     {
       "duration": 100,
       "fluid": ["WATER",250],
+      "input": ["item","hbm:item.bedrock_ore",4,354],
+      "output": ["hbm:item.bedrock_ore",1,402]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,49],
+      "output": ["hbm:item.bedrock_ore",1,81]
+    },
+    {
+      "duration": 20,
+      "fluid": ["FISHOIL",100],
+      "input": ["dict","dustIron"],
+      "output": ["hbm:item.chemical_dye",4,1]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,165],
+      "output": ["hbm:item.bedrock_ore",1,181]
+    },
+    {
+      "duration": 100,
+      "fluid": ["WATER",250],
       "input": ["item","hbm:item.bedrock_ore",4,289],
       "output": ["hbm:item.bedrock_ore",1,337]
     },
     {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,145],
-      "output": ["hbm:item.bedrock_ore",1,177]
+      "input": ["item","hbm:item.bedrock_ore",1,100],
+      "output": ["hbm:item.bedrock_ore",1,180]
     },
     {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,354],
-      "output": ["hbm:item.bedrock_ore",1,402]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,4],
-      "output": ["hbm:item.ore_seared",1,4]
-    },
-    {
-      "duration": 200,
+      "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,6],
-      "output": ["hbm:item.ore_cleaned",1,6]
+      "input": ["item","hbm:item.scrap_plastic"],
+      "output": ["hbm:item.circuit_star_piece"]
     },
     {
       "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,6],
-      "output": ["hbm:item.ore_deepcleaned",1,6]
+      "fluid": ["SULFURIC_ACID",250],
+      "input": ["item","hbm:item.bedrock_ore",1,65],
+      "output": ["hbm:item.bedrock_ore",1,81]
+    },
+    {
+      "duration": 600,
+      "fluid": ["PEROXIDE",500],
+      "input": ["dict","oreLead"],
+      "output": ["hbm:item.crystal_lead"]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,51],
+      "output": ["hbm:item.bedrock_ore",1,179]
+    },
+    {
+      "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,116],
+      "output": ["hbm:item.bedrock_ore",1,180]
     },
     {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
       "input": ["item","hbm:item.scrap_plastic",1,18],
       "output": ["hbm:item.circuit_star_piece",1,18]
+    },
+    {
+      "duration": 200,
+      "fluid": ["RADIOSOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,2],
+      "output": ["hbm:item.ore_seared",1,2]
+    },
+    {
+      "duration": 200,
+      "fluid": ["PEROXIDE",500],
+      "input": ["item","hbm:item.ore_centrifuged",1,4],
+      "output": ["hbm:item.ore_cleaned",1,4]
+    },
+    {
+      "duration": 200,
+      "fluid": ["NITRIC_ACID",500],
+      "input": ["item","hbm:item.ore_separated",1,4],
+      "output": ["hbm:item.ore_nitrated",1,4]
     },
     {
       "duration": 100,
@@ -1881,33 +2289,27 @@
     },
     {
       "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,68],
-      "output": ["hbm:item.bedrock_ore",1,84]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,1],
-      "output": ["hbm:item.circuit_star_piece",1,1]
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,69],
+      "output": ["hbm:item.bedrock_ore",1,181]
     },
     {
       "duration": 200,
       "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,9],
-      "output": ["hbm:item.ore_purified",1,9]
+      "input": ["item","hbm:item.ore_separated",1,11],
+      "output": ["hbm:item.ore_purified",1,11]
+    },
+    {
+      "duration": 200,
+      "fluid": ["SOLVENT",500],
+      "input": ["item","hbm:item.ore_nitrocrystalline",1,6],
+      "output": ["hbm:item.ore_deepcleaned",1,6]
     },
     {
       "duration": 100,
       "fluid": ["WATER",250],
       "input": ["item","hbm:item.bedrock_ore",4,304],
       "output": ["hbm:item.bedrock_ore",1,336]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",1000],
-      "input": ["item","hbm:item.bedrock_ore",64,213],
-      "output": ["hbm:item.bedrock_ore",1,5]
     },
     {
       "duration": 100,
@@ -1917,9 +2319,21 @@
     },
     {
       "duration": 200,
+      "fluid": ["HYDROGEN",250],
+      "input": ["item","hbm:item.bedrock_ore",1,85],
+      "output": ["hbm:item.bedrock_ore",1,181]
+    },
+    {
+      "duration": 20,
+      "fluid": ["WOODOIL",100],
+      "input": ["dict","dustCobalt"],
+      "output": ["hbm:item.chemical_dye",4,4]
+    },
+    {
+      "duration": 200,
       "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,52],
-      "output": ["hbm:item.bedrock_ore",1,84]
+      "input": ["item","hbm:item.bedrock_ore",1,48],
+      "output": ["hbm:item.bedrock_ore",1,80]
     },
     {
       "duration": 100,
@@ -1928,142 +2342,10 @@
       "output": ["hbm:item.bedrock_ore",1,336]
     },
     {
-      "duration": 20,
-      "fluid": ["NITROGLYCERIN",250],
-      "input": ["dict","dustNetherQuartz"],
-      "output": ["hbm:item.ball_dynamite",4]
-    },
-    {
       "duration": 100,
       "fluid": ["WATER",250],
       "input": ["item","hbm:item.bedrock_ore",4,353],
       "output": ["hbm:item.bedrock_ore",1,401]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,3],
-      "output": ["hbm:item.ore_seared",1,3]
-    },
-    {
-      "duration": 20,
-      "fluid": ["FISHOIL",100],
-      "input": ["dict","dustTitanium"],
-      "output": ["hbm:item.chemical_dye",4,15]
-    },
-    {
-      "duration": 20,
-      "fluid": ["COLLOID",1000],
-      "input": ["dict","sand"],
-      "output": ["minecraft:clay"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,7],
-      "output": ["hbm:item.ore_deepcleaned",1,7]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,7],
-      "output": ["hbm:item.ore_cleaned",1,7]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,17],
-      "output": ["hbm:item.circuit_star_piece",1,17]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,384],
-      "output": ["hbm:item.bedrock_ore",1,400]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,14],
-      "output": ["hbm:item.ore_nitrated",1,14]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,67],
-      "output": ["hbm:item.bedrock_ore",1,83]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,10],
-      "output": ["hbm:item.ore_purified",1,10]
-    },
-    {
-      "duration": 20,
-      "fluid": ["CHLORINE",100],
-      "input": ["item","hbm:item.oil_tar",1,5],
-      "output": ["hbm:item.oil_tar",1,4]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic"],
-      "output": ["hbm:item.circuit_star_piece"]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,368],
-      "output": ["hbm:item.bedrock_ore",1,400]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,51],
-      "output": ["hbm:item.bedrock_ore",1,83]
-    },
-    {
-      "duration": 100,
-      "fluid": ["WATER",250],
-      "input": ["item","hbm:item.bedrock_ore",4,352],
-      "output": ["hbm:item.bedrock_ore",1,400]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,85],
-      "output": ["hbm:item.bedrock_ore",1,181]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.powder_semtex_mix"],
-      "output": ["hbm:item.ingot_semtex"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,48],
-      "output": ["hbm:item.bedrock_ore",1,192]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,1],
-      "output": ["hbm:item.ore_nitrated",1,1]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,113],
-      "output": ["hbm:item.bedrock_ore",1,193]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreSaltpeter"],
-      "output": ["hbm:item.crystal_niter"]
     },
     {
       "duration": 200,
@@ -2074,44 +2356,14 @@
     {
       "duration": 600,
       "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,20],
-      "output": ["hbm:item.circuit_star_piece",1,20]
+      "input": ["item","hbm:item.scrap_plastic",1,1],
+      "output": ["hbm:item.circuit_star_piece",1,1]
     },
     {
       "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,4],
-      "output": ["hbm:item.ore_cleaned",1,4]
-    },
-    {
-      "duration": 20,
-      "fluid": ["WOODOIL",100],
-      "input": ["dict","dustIron"],
-      "output": ["hbm:item.chemical_dye",4,1]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
+      "fluid": ["SULFURIC_ACID",250],
       "input": ["item","hbm:item.bedrock_ore",1,64],
-      "output": ["hbm:item.bedrock_ore",1,192]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,6],
-      "output": ["hbm:item.ore_seared",1,6]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","blockCoal"],
-      "output": ["hbm:tile.block_graphite"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,129],
-      "output": ["hbm:item.bedrock_ore",1,193]
+      "output": ["hbm:item.bedrock_ore",1,80]
     },
     {
       "duration": 200,
@@ -2120,262 +2372,10 @@
       "output": ["hbm:item.bedrock_ore",1,180]
     },
     {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:tile.gravel_diamond"],
-      "output": ["hbm:item.crystal_diamond"]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SCHRABIDIC",1000],
-      "input": ["item","hbm:item.powder_impure_osmiridium"],
-      "output": ["hbm:item.crystal_osmiridium"]
-    },
-    {
-      "duration": 100,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:tile.gravel_obsidian"],
-      "output": ["hbm:tile.brick_obsidian"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,53],
-      "output": ["hbm:item.bedrock_ore",1,181]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,66],
-      "output": ["hbm:item.bedrock_ore",1,82]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,3],
-      "output": ["hbm:item.circuit_star_piece",1,3]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,11],
-      "output": ["hbm:item.ore_purified",1,11]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,80],
-      "output": ["hbm:item.bedrock_ore",1,192]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,4],
-      "output": ["hbm:item.ore_deepcleaned",1,4]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,145],
-      "output": ["hbm:item.bedrock_ore",1,193]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,69],
-      "output": ["hbm:item.bedrock_ore",1,181]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,50],
-      "output": ["hbm:item.bedrock_ore",1,82]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,96],
-      "output": ["hbm:item.bedrock_ore",1,192]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,161],
-      "output": ["hbm:item.bedrock_ore",1,193]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,149],
-      "output": ["hbm:item.bedrock_ore",1,181]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,112],
-      "output": ["hbm:item.bedrock_ore",1,192]
-    },
-    {
-      "duration": 200,
-      "fluid": ["NITRIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated"],
-      "output": ["hbm:item.ore_nitrated"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,100],
-      "output": ["hbm:item.bedrock_ore",1,180]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","crystalCinnabar"],
-      "output": ["hbm:item.nugget_mercury",3]
-    },
-    {
-      "duration": 20,
-      "fluid": ["WOODOIL",100],
-      "input": ["dict","dustCopper"],
-      "output": ["hbm:item.chemical_dye",4,2]
-    },
-    {
-      "duration": 200,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.ore_centrifuged",1,5],
-      "output": ["hbm:item.ore_cleaned",1,5]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,5],
-      "output": ["hbm:item.ore_deepcleaned",1,5]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,165],
-      "output": ["hbm:item.bedrock_ore",1,181]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,19],
-      "output": ["hbm:item.circuit_star_piece",1,19]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,128],
-      "output": ["hbm:item.bedrock_ore",1,192]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","orePlutonium"],
-      "output": ["hbm:item.crystal_plutonium"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["RADIOSOLVENT",500],
-      "input": ["item","hbm:item.ore_nitrocrystalline",1,5],
-      "output": ["hbm:item.ore_seared",1,5]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,116],
-      "output": ["hbm:item.bedrock_ore",1,180]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,51],
-      "output": ["hbm:item.bedrock_ore",1,179]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreLead"],
-      "output": ["hbm:item.crystal_lead"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["item","hbm:item.ore_separated",1,12],
-      "output": ["hbm:item.ore_purified",1,12]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,65],
-      "output": ["hbm:item.bedrock_ore",1,81]
-    },
-    {
       "duration": 200,
       "fluid": ["HYDROGEN",250],
       "input": ["item","hbm:item.bedrock_ore",1,117],
       "output": ["hbm:item.bedrock_ore",1,181]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["item","hbm:item.scrap_plastic",1,2],
-      "output": ["hbm:item.circuit_star_piece",1,2]
-    },
-    {
-      "duration": 600,
-      "fluid": ["SULFURIC_ACID",500],
-      "input": ["dict","oreUraninite"],
-      "output": ["hbm:item.crystal_uranium"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,144],
-      "output": ["hbm:item.bedrock_ore",1,192]
-    },
-    {
-      "duration": 600,
-      "fluid": ["PEROXIDE",500],
-      "input": ["dict","oreIron"],
-      "output": ["hbm:item.crystal_iron"]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,68],
-      "output": ["hbm:item.bedrock_ore",1,180]
-    },
-    {
-      "duration": 200,
-      "fluid": ["SULFURIC_ACID",250],
-      "input": ["item","hbm:item.bedrock_ore",1,49],
-      "output": ["hbm:item.bedrock_ore",1,81]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,133],
-      "output": ["hbm:item.bedrock_ore",1,181]
-    },
-    {
-      "duration": 200,
-      "fluid": ["CHLORINE",250],
-      "input": ["item","hbm:item.bedrock_ore",1,160],
-      "output": ["hbm:item.bedrock_ore",1,192]
-    },
-    {
-      "duration": 20,
-      "fluid": ["FISHOIL",100],
-      "input": ["dict","dustCobalt"],
-      "output": ["hbm:item.chemical_dye",4,4]
-    },
-    {
-      "duration": 200,
-      "fluid": ["HYDROGEN",250],
-      "input": ["item","hbm:item.bedrock_ore",1,84],
-      "output": ["hbm:item.bedrock_ore",1,180]
     }
   ]
 }

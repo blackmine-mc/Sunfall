@@ -1,18 +1,6 @@
 {
   "recipes": [
     {
-      "input": ["HEAVYWATER",2000],
-      "output1": ["DEUTERIUM",200],
-      "output2": ["OXYGEN",200],
-      "duration": 10
-    },
-    {
-      "input": ["CALCIUM_CHLORIDE",250],
-      "output1": ["CHLORINE",125],
-      "output2": ["CALCIUM_SOLUTION",125],
-      "duration": 20
-    },
-    {
       "input": ["SLOP",1000],
       "output1": ["MERCURY",250],
       "output2": ["NONE",0],
@@ -30,13 +18,16 @@
       "duration": 10
     },
     {
-      "input": ["POTASSIUM_CHLORIDE",250],
+      "input": ["CALCIUM_CHLORIDE",250],
       "output1": ["CHLORINE",125],
-      "output2": ["NONE",0],
-      "byproducts": [
-        ["hbm:item.dust"]
-      ],
+      "output2": ["CALCIUM_SOLUTION",125],
       "duration": 20
+    },
+    {
+      "input": ["HEAVYWATER",2000],
+      "output1": ["DEUTERIUM",200],
+      "output2": ["OXYGEN",200],
+      "duration": 10
     },
     {
       "input": ["VITRIOL",1000],
@@ -45,6 +36,15 @@
       "byproducts": [
         ["hbm:item.powder_iron"],
         ["hbm:item.nugget_mercury"]
+      ],
+      "duration": 20
+    },
+    {
+      "input": ["POTASSIUM_CHLORIDE",250],
+      "output1": ["CHLORINE",125],
+      "output2": ["NONE",0],
+      "byproducts": [
+        ["hbm:item.dust"]
       ],
       "duration": 20
     }
