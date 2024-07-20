@@ -1014,6 +1014,10 @@
       "output": ["hbm:item.powder_sawdust"]
     },
     {
+      "input": ["hbm:item.bedrock_ore",1,32767],
+      "output": ["minecraft:gravel"]
+    },
+    {
       "input": ["hbm:item.ore_bedrock",1,10],
       "output": ["hbm:item.ore_enriched",1,10]
     },
@@ -1024,6 +1028,10 @@
     {
       "input": ["hbm:tile.bobblehead",1,23],
       "output": ["hbm:item.scrap_plastic",1,22]
+    },
+    {
+      "input": ["hbm:tile.block_slag"],
+      "output": ["hbm:item.powder_cement",4]
     },
     {
       "input": ["hbm:tile.sellafield",1,2],
@@ -1379,7 +1387,7 @@
     },
     {
       "input": ["hbm:tile.stone_resource",1,4],
-      "output": ["hbm:item.powder_calcium"]
+      "output": ["hbm:item.powder_limestone",4]
     },
     {
       "input": ["chisel:birch_planks",1,2],

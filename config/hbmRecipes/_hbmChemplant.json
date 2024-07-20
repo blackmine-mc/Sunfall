@@ -54,10 +54,7 @@
         ["BITUMEN",1000]
       ],
       "itemOutput": [
-        ["minecraft:sand",4],
-        ["minecraft:sand",4],
-        ["minecraft:sand",4],
-        ["minecraft:sand",4]
+        ["minecraft:sand",16]
       ]
     },
     {
@@ -457,6 +454,7 @@
         ["WATER",2000]
       ],
       "itemInput": [
+        ["item","hbm:item.powder_cement"],
         ["item","minecraft:gravel",8],
         ["dict","sand",8]
       ],
@@ -473,6 +471,7 @@
         ["WATER",2000]
       ],
       "itemInput": [
+        ["item","hbm:item.powder_cement"],
         ["item","minecraft:gravel",2],
         ["dict","sand",2],
         ["dict","ingotAsbestos",4]
@@ -490,9 +489,10 @@
         ["WATER",2000]
       ],
       "itemInput": [
+        ["item","hbm:item.powder_cement",4],
+        ["item","minecraft:gravel",2],
         ["dict","sand",8],
-        ["dict","billetUranium238",2],
-        ["item","minecraft:clay_ball",4]
+        ["dict","billetUranium238",2]
       ],
       "fluidOutput": [],
       "itemOutput": [

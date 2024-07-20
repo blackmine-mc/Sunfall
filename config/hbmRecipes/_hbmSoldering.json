@@ -81,6 +81,24 @@
     },
     {
       "toppings": [
+        ["item","hbm:item.circuit",4,16],
+        ["item","hbm:item.circuit",16,6],
+        ["item","hbm:item.circuit",4,18]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",16,3],
+        ["dict","ingotAnyHardPlastic",4]
+      ],
+      "solder": [
+        ["dict","wireFineLead",16]
+      ],
+      "fluid": ["HELIUM4",1000],
+      "output": ["hbm:item.circuit",1,15],
+      "duration": 400,
+      "consumption": 100000
+    },
+    {
+      "toppings": [
         ["item","hbm:item.circuit",32,5],
         ["item","hbm:item.circuit",32,1],
         ["item","hbm:item.circuit",16,2]
@@ -99,8 +117,8 @@
     {
       "toppings": [
         ["item","hbm:item.circuit",16,6],
-        ["item","hbm:item.circuit",48,1],
-        ["item","hbm:item.circuit",32,2]
+        ["item","hbm:item.circuit",48,2],
+        ["item","hbm:item.circuit",1,18]
       ],
       "pcb": [
         ["item","hbm:item.circuit",1,12],
@@ -112,6 +130,23 @@
       "output": ["hbm:item.circuit",1,14],
       "duration": 600,
       "consumption": 25000
+    },
+    {
+      "toppings": [
+        ["item","hbm:item.circuit",16,16],
+        ["item","hbm:item.circuit",48,6],
+        ["item","hbm:item.circuit",8,18]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",2,14],
+        ["item","hbm:item.upgrade_overdrive_1"]
+      ],
+      "solder": [
+        ["dict","wireFineLead",32]
+      ],
+      "output": ["hbm:item.circuit",1,17],
+      "duration": 600,
+      "consumption": 250000
     },
     {
       "toppings": [

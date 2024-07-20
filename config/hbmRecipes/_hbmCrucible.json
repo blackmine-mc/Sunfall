@@ -215,6 +215,21 @@
       "output": [
         ["MagnetizedTungsten",72]
       ]
+    },
+    {
+      "id": 17,
+      "name": "crucible.bscco",
+      "frequency": 3,
+      "icon": ["hbm:item.ingot_bscco"],
+      "input": [
+        ["Bismuth",16],
+        ["Strontium",16],
+        ["Calcium",16],
+        ["Copper",24]
+      ],
+      "output": [
+        ["BSCCO",72]
+      ]
     }
   ]
 }

@@ -30,6 +30,10 @@
       "output": ["SEEDSLURRY",100]
     },
     {
+      "input": ["item","hbm:tile.ore_oil_sand"],
+      "output": ["BITUMEN",100]
+    },
+    {
       "input": ["dict","coaltar"],
       "output": ["BITUMEN",50]
     },

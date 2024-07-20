@@ -10,6 +10,16 @@
     "This final step also means that any custom non-config values added to the JSON, while not causing errors, will be deleted when the config is re-created.",
     "It also means that should an update add more values to an existing machines, those will be retroactively added to the config using the default value."
   ],
+  "HEToRFConverter": {
+    "L:HEUsed": 1,
+    "L:RFCreated": 5,
+    "D:inputDecay": 0.05
+  },
+  "RFToHEConverter": {
+    "L:RFUsed": 5,
+    "L:HECreated": 1,
+    "D:inputDecay": 0.05
+  },
   "dieselgen": {
     "L:powerCap": 50000,
     "I:fuelCap": 16000,

@@ -22,6 +22,37 @@
     },
     {
       "inputs": [
+        ["dict","plateAluminum",4],
+        ["dict","ingotFiberglass",4],
+        ["dict","ingotAnyHardPlastic"]
+      ],
+      "output": ["hbm:item.part_generic",1,3],
+      "duration": 200,
+      "consumption": 5000
+    },
+    {
+      "inputs": [
+        ["dict","plateTitanium",2],
+        ["dict","ingotFiberglass",4],
+        ["dict","ingotAnyHardPlastic"]
+      ],
+      "output": ["hbm:item.part_generic",1,3],
+      "duration": 200,
+      "consumption": 10000
+    },
+    {
+      "inputs": [
+        ["dict","plateTripleAnyBismoidBronze",2],
+        ["dict","plateSextupleCMBSteel"],
+        ["item","hbm:item.ingot_cft"]
+      ],
+      "fluid": ["STELLAR_FLUX",4000],
+      "output": ["hbm:item.part_generic",1,4],
+      "duration": 600,
+      "consumption": 25000000
+    },
+    {
+      "inputs": [
         ["dict","wireFineAdvancedAlloy",8]
       ],
       "output": ["hbm:item.wire_dense",1,32],
@@ -110,6 +141,15 @@
       "output": ["hbm:item.plate_welded",1,7400],
       "duration": 1200,
       "consumption": 250000
+    },
+    {
+      "inputs": [
+        ["dict","plateTripleCMBSteel",2]
+      ],
+      "fluid": ["REFORMGAS",1000],
+      "output": ["hbm:item.plate_welded",1,39],
+      "duration": 1200,
+      "consumption": 10000000
     },
     {
       "inputs": [
@@ -357,6 +397,51 @@
         ["item","hbm:item.thruster_large",3]
       ],
       "output": ["hbm:item.missile_volcano"],
+      "duration": 600,
+      "consumption": 50000
+    },
+    {
+      "inputs": [
+        ["item","hbm:item.sat_base"],
+        ["item","hbm:item.sat_head_mapper"]
+      ],
+      "output": ["hbm:item.sat_mapper"],
+      "duration": 600,
+      "consumption": 10000
+    },
+    {
+      "inputs": [
+        ["item","hbm:item.sat_base"],
+        ["item","hbm:item.sat_head_scanner"]
+      ],
+      "output": ["hbm:item.sat_scanner"],
+      "duration": 600,
+      "consumption": 10000
+    },
+    {
+      "inputs": [
+        ["item","hbm:item.sat_base"],
+        ["item","hbm:item.sat_head_radar"]
+      ],
+      "output": ["hbm:item.sat_radar"],
+      "duration": 600,
+      "consumption": 10000
+    },
+    {
+      "inputs": [
+        ["item","hbm:item.sat_base"],
+        ["item","hbm:item.sat_head_laser"]
+      ],
+      "output": ["hbm:item.sat_laser"],
+      "duration": 600,
+      "consumption": 50000
+    },
+    {
+      "inputs": [
+        ["item","hbm:item.sat_base"],
+        ["item","hbm:item.sat_head_resonator"]
+      ],
+      "output": ["hbm:item.sat_resonator"],
       "duration": 600,
       "consumption": 50000
     }
