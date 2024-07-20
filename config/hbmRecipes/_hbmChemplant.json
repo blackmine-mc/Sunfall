@@ -864,7 +864,7 @@
         ["item","hbm:item.nugget_bismuth",4]
       ],
       "fluidOutput": [
-        ["DEATH",1000,5]
+        ["DEATH",1000]
       ],
       "itemOutput": []
     },

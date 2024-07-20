@@ -81,6 +81,40 @@
     },
     {
       "toppings": [
+        ["item","hbm:item.circuit",32,5],
+        ["item","hbm:item.circuit",32,1],
+        ["item","hbm:item.circuit",16,2]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",1,12],
+        ["item","hbm:item.upgrade_speed_1"]
+      ],
+      "solder": [
+        ["dict","wireFineLead",16]
+      ],
+      "output": ["hbm:item.circuit",1,13],
+      "duration": 400,
+      "consumption": 15000
+    },
+    {
+      "toppings": [
+        ["item","hbm:item.circuit",16,6],
+        ["item","hbm:item.circuit",48,1],
+        ["item","hbm:item.circuit",32,2]
+      ],
+      "pcb": [
+        ["item","hbm:item.circuit",1,12],
+        ["item","hbm:item.upgrade_speed_3"]
+      ],
+      "solder": [
+        ["dict","wireFineLead",24]
+      ],
+      "output": ["hbm:item.circuit",1,14],
+      "duration": 600,
+      "consumption": 25000
+    },
+    {
+      "toppings": [
         ["item","hbm:item.circuit",4],
         ["item","hbm:item.circuit",1,1]
       ],

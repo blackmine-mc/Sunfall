@@ -1815,7 +1815,7 @@
     },
     {
       "input": ["hbm:tile.machine_fluidtank"],
-      "output": ["hbm:item.powder_steel",32]
+      "output": ["hbm:item.powder_steel",16]
     },
     {
       "input": ["hbm:item.ore_bedrock",1,1],

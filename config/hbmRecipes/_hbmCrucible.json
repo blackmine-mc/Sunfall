@@ -202,6 +202,19 @@
       "output": [
         ["CMBSteel",72]
       ]
+    },
+    {
+      "id": 16,
+      "name": "crucible.magtung",
+      "frequency": 3,
+      "icon": ["hbm:item.ingot_magnetized_tungsten"],
+      "input": [
+        ["Tungsten",72],
+        ["Schrabidium",8]
+      ],
+      "output": [
+        ["MagnetizedTungsten",72]
+      ]
     }
   ]
 }

@@ -318,14 +318,13 @@
     {
       "output": ["hbm:item.warhead_mirv"],
       "input": [
-        ["dict","plateTitanium",24],
+        ["dict","plateTripleTitanium",12],
         ["dict","plateSteel",12],
-        ["dict","ingotPlutonium239"],
+        ["item","hbm:item.man_core"],
         ["item","hbm:item.ball_tatb",8],
-        ["dict","ingotBeryllium",4],
-        ["dict","ingotLithium",4],
-        ["item","hbm:item.cell_deuterium",6],
-        ["item","hbm:item.circuit",8,9]
+        ["dict","ingotLithium",8],
+        ["dict","container1000deuterium",8],
+        ["item","hbm:item.circuit",4,14]
       ],
       "duration": 500
     },
@@ -590,9 +589,8 @@
         ["item","hbm:item.sphere_steel"],
         ["item","hbm:item.fins_flat",2],
         ["item","hbm:item.pedestal_steel"],
-        ["item","hbm:item.circuit",2,9],
-        ["dict","wireFineGold",6],
-        ["dict","dyeGray",6]
+        ["item","hbm:item.circuit",3,13],
+        ["dict","dyeGray",8]
       ],
       "duration": 300
     },
@@ -688,9 +686,8 @@
       "input": [
         ["dict","shellSteel",6],
         ["dict","wireFineMagnetizedTungsten",12],
-        ["dict","ntmpipeSteel",16],
-        ["item","hbm:item.circuit",1,9],
-        ["dict","dyeBlack",12]
+        ["item","hbm:item.circuit",2,13],
+        ["dict","dyeBlack",8]
       ],
       "duration": 300
     },
@@ -912,14 +909,13 @@
         ["dict","shellTitanium",6],
         ["item","hbm:item.fins_big_steel"],
         ["item","hbm:item.powder_magic",8],
-        ["dict","wireFineGold",12],
-        ["item","hbm:item.circuit",16,9],
-        ["dict","dyeGray",6]
+        ["item","hbm:item.circuit",4,14],
+        ["dict","dyeGray",8]
       ],
       "duration": 600,
       "folders": [
-        "hbm:item.journal_bj",
-        "hbm:item.journal_pip"
+        "hbm:item.journal_pip",
+        "hbm:item.journal_bj"
       ]
     },
     {
@@ -1041,8 +1037,7 @@
       "input": [
         ["dict","shellSteel",2],
         ["item","hbm:item.fins_small_steel"],
-        ["item","hbm:item.circuit",2,9],
-        ["dict","wireFineAluminum",6],
+        ["item","hbm:item.circuit",2,13],
         ["dict","dyeBlue",4]
       ],
       "duration": 300
@@ -1149,10 +1144,8 @@
         ["dict","shellTitanium",6],
         ["dict","shellSteel",2],
         ["item","hbm:item.fins_tri_steel"],
-        ["item","hbm:item.circuit",4,11],
-        ["dict","wireFineGold",24],
-        ["dict","wireFineTungsten",12],
-        ["dict","dyeBlack",6]
+        ["item","hbm:item.circuit",16,14],
+        ["dict","dyeBlack",8]
       ],
       "duration": 600
     },
@@ -1990,9 +1983,8 @@
         ["item","hbm:item.boy_target"],
         ["item","hbm:item.boy_bullet"],
         ["item","hbm:item.boy_propellant"],
-        ["dict","wireFineMingrade",6],
-        ["dict","plateTitanium",24],
-        ["item","hbm:item.circuit",3,9]
+        ["dict","plateTripleTitanium",12],
+        ["item","hbm:item.circuit",1,13]
       ],
       "duration": 300
     },
@@ -2200,8 +2192,7 @@
         ["item","hbm:item.sphere_steel"],
         ["dict","shellSteel",2],
         ["item","hbm:item.fins_big_steel"],
-        ["item","hbm:item.circuit",3,9],
-        ["dict","wireFineCopper",6],
+        ["item","hbm:item.circuit",3,13],
         ["dict","dyeYellow",6]
       ],
       "duration": 300
@@ -2314,8 +2305,7 @@
       "input": [
         ["dict","shellSteel",2],
         ["item","hbm:item.fins_small_steel"],
-        ["item","hbm:item.circuit",4,9],
-        ["dict","wireFineGold",12],
+        ["item","hbm:item.circuit",8,14],
         ["dict","dyeGray",4]
       ],
       "duration": 300
@@ -2404,16 +2394,6 @@
         ["item","hbm:item.pipes_steel",2]
       ],
       "duration": 500
-    },
-    {
-      "output": ["hbm:item.crt_display",8],
-      "input": [
-        ["dict","dustAluminum",2],
-        ["item","minecraft:glass_pane",2],
-        ["dict","wireFineTungsten",4],
-        ["dict","shellSteel"]
-      ],
-      "duration": 100
     },
     {
       "output": ["hbm:item.heavy_component",1,2900],
@@ -2600,10 +2580,8 @@
       "input": [
         ["dict","shellSteel",2],
         ["item","hbm:item.fins_quad_titanium"],
-        ["item","hbm:item.circuit",2,9],
-        ["dict","wireFineGold",10],
-        ["dict","ntmpipeSteel",16],
-        ["dict","dyeGray",4]
+        ["item","hbm:item.circuit",1,13],
+        ["dict","dyeGray",8]
       ],
       "duration": 400
     },
@@ -2819,8 +2797,7 @@
         ["item","hbm:item.dysfunctional_reactor"],
         ["dict","shellSteel",2],
         ["item","hbm:item.ingot_euphemium",3],
-        ["item","hbm:item.circuit",16,11],
-        ["dict","wireFineGold",16]
+        ["item","hbm:item.circuit",8,14]
       ],
       "duration": 500
     },
@@ -2829,8 +2806,7 @@
       "input": [
         ["dict","shellAluminum"],
         ["item","hbm:item.fins_quad_titanium"],
-        ["item","hbm:item.circuit",8,9],
-        ["dict","wireFineGold",8],
+        ["item","hbm:item.circuit",1,13],
         ["dict","dyeWhite",4]
       ],
       "duration": 400
@@ -2960,10 +2936,8 @@
       "input": [
         ["item","hbm:item.sphere_steel"],
         ["dict","shellAluminum",4],
-        ["dict","plateAluminum",3],
-        ["item","hbm:item.circuit",10,9],
-        ["dict","wireFineGold",18],
-        ["dict","dyeLightGray",12]
+        ["item","hbm:item.circuit",8,14],
+        ["dict","dyeLightGray",16]
       ],
       "duration": 300
     },
