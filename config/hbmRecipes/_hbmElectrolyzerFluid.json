@@ -12,12 +12,6 @@
       "duration": 20
     },
     {
-      "input": ["WATER",2000],
-      "output1": ["HYDROGEN",200],
-      "output2": ["OXYGEN",200],
-      "duration": 10
-    },
-    {
       "input": ["CALCIUM_CHLORIDE",250],
       "output1": ["CHLORINE",125],
       "output2": ["CALCIUM_SOLUTION",125],
@@ -38,6 +32,12 @@
         ["hbm:item.nugget_mercury"]
       ],
       "duration": 20
+    },
+    {
+      "input": ["WATER",2000],
+      "output1": ["HYDROGEN",200],
+      "output2": ["OXYGEN",200],
+      "duration": 10
     },
     {
       "input": ["POTASSIUM_CHLORIDE",250],

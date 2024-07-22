@@ -902,8 +902,8 @@
       ],
       "duration": 600,
       "folders": [
-        "hbm:item.journal_pip",
-        "hbm:item.journal_bj"
+        "hbm:item.journal_bj",
+        "hbm:item.journal_pip"
       ]
     },
     {
