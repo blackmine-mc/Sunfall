@@ -50,6 +50,7 @@ config/gregtech/*
 !config/hbm.cfg
 !config/hbmConfig
 !config/hbmRecipes
+config/hbmRecipes/_*
 
 !config/hodgepodge.cfg
 
