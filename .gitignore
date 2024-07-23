@@ -48,7 +48,6 @@ config/gregtech/*
 !config/gregtech/worldgenerationnew.cfg
 
 !config/hbm.cfg
-!config/hbmConfig
 !config/hbmRecipes
 config/hbmRecipes/_*
 
