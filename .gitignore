@@ -14,6 +14,10 @@ config/AppliedEnergistics2/*
 
 !config/archaicfix.cfg
 
+!config/aroma1997
+config/aroma1997/*
+!config/aroma1997/Aroma1997Core.cfg
+
 !config/betterquesting
 !config/betterquesting.cfg
 
