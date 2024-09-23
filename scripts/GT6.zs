@@ -1,3 +1,6 @@
+import mods.MTUtils.Utils;
+import mods.MTUtilsGT;
+
 val bath = <gregtech:gt.multitileentity:32721>;
 recipes.remove(bath);
 recipes.addShaped(bath, [
@@ -27,3 +30,6 @@ recipes.addShaped(<gregtech:gt.multitileentity:31000>, [
     [<ore:dustRedstone>,    <gregtech:gt.multiitem.randomtools:10000>,     <ore:dustRedstone>],
     [<ore:wireFineRedAlloy>,    <ore:dustRedstone>,     <ore:wireFineRedAlloy>]
 ]);
+
+//HBM bauxite
+MTUtilsGT.addCustomRecipe("gt.recipe.crusher", true, 16, 6, [10000], [<hbm:tile.stone_resource:5>],[<gregtech:gt.meta.crushed:9105>, <gregtech:gt.meta.crushed:9105>]);
