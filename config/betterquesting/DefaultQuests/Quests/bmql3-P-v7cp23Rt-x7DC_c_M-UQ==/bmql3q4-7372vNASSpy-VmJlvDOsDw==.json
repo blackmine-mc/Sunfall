@@ -1,0 +1,76 @@
+{
+  "questIDHigh:4": -1189241960774088036,
+  "preRequisites:9": {
+    "0:10": {
+      "questIDHigh:4": -7472185835638864205,
+      "questIDLow:4": -8693649251169932528
+    },
+    "1:10": {
+      "questIDHigh:4": -6577793416821781027,
+      "questIDLow:4": -6124128961279369531
+    },
+    "2:10": {
+      "questIDHigh:4": 5011904326903546654,
+      "questIDLow:4": -6646095765848718892
+    },
+    "3:10": {
+      "questIDHigh:4": -5436378699024676175,
+      "questIDLow:4": -5691677997304789889
+    },
+    "4:10": {
+      "questIDHigh:4": -3361807014001817578,
+      "questIDLow:4": -9215847635204169385
+    },
+    "5:10": {
+      "questIDHigh:4": -5937683659523996227,
+      "questIDLow:4": -5943455634205122669
+    }
+  },
+  "questIDLow:4": -4731486169417405425,
+  "properties:10": {
+    "betterquesting:10": {
+      "snd_complete:8": "random.levelup",
+      "taskLogic:8": "AND",
+      "visibility:8": "NORMAL",
+      "isMain:1": 0,
+      "simultaneous:1": 0,
+      "icon:10": {
+        "id:8": "gregtech:gt.multitileentity",
+        "Count:3": 1,
+        "Damage:2": 6000,
+        "OreDict:8": ""
+      },
+      "snd_update:8": "random.levelup",
+      "repeatTime:3": -1,
+      "globalShare:1": 0,
+      "questLogic:8": "AND",
+      "repeat_relative:1": 1,
+      "name:8": "bm.ql3.q4",
+      "lockedProgress:1": 0,
+      "autoClaim:1": 0,
+      "isSilent:1": 0,
+      "desc:8": ""
+    }
+  },
+  "tasks:9": {
+    "0:10": {
+      "partialMatch:1": 1,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
+      "ignoreNBT:1": 1,
+      "index:3": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 6000,
+          "OreDict:8": ""
+        }
+      },
+      "taskID:8": "bq_standard:crafting"
+    }
+  },
+  "rewards:9": {}
+}
