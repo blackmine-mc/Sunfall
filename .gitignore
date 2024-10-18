@@ -43,6 +43,7 @@ config/Enderlicious/*
 !config/etfuturum/
 config/etfuturum/*
 !config/etfuturum/world.cfg
+!config/etfuturum/mixins.cfg
 
 !config/Galacticraft
 config/Galacticraft/*
