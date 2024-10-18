@@ -8,6 +8,8 @@
 !config
 config/*
 
+!config/advRocketry
+
 !config/AppliedEnergistics2
 config/AppliedEnergistics2/*
 !config/AppliedEnergistics2/AppliedEnergistics2.cfg
@@ -78,6 +80,8 @@ config/Netherlicious/*
 !config/smoothfont
 
 !config/Traincraft.cfg
+
+!config/tumbleweed.cfg
 
 !config/Wasteland
 

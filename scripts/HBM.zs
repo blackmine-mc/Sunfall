@@ -13,7 +13,7 @@ recipes.addShaped(meteorSword, [
     [goldenRod, null],
 ]);
 
-furnace.addRecipe(<hbm:item.ingot_meteorite_forged>, <GalacticraftCore:item.meteoricIronIngot>);
+furnace.addRecipe(<hbm:item.ingot_meteorite_forged>, <gregtech:gt.meta.ingot:8649>);
 
 val heatedMeteoriteIngot = <hbm:item.ingot_meteorite_forged>;
 recipes.addShaped(<hbm:item.meteorite_sword_reforged>, [
