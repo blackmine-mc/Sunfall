@@ -40,7 +40,14 @@
       "ignoreNBT:1": 1,
       "index:3": 0,
       "consume:1": 0,
-      "requiredItems:9": {},
+      "requiredItems:9": {
+        "0:10": {
+          "id:8": "etfuturum:copper_ingot",
+          "Count:3": 64,
+          "Damage:2": 0,
+          "OreDict:8": ""
+        }
+      },
       "taskID:8": "bq_standard:retrieval"
     }
   },

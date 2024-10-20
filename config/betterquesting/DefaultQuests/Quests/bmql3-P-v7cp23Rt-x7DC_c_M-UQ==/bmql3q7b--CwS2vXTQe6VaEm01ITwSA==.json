@@ -1,12 +1,12 @@
 {
-  "questIDHigh:4": -7472185835638864205,
+  "questIDHigh:4": -564055121691721234,
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 491007883554081655,
-      "questIDLow:4": -7009904366837530732
+      "questIDHigh:4": 4739328487501483791,
+      "questIDLow:4": -7226699437145048942
     }
   },
-  "questIDLow:4": -8693649251169932528,
+  "questIDLow:4": -7680808123471957944,
   "properties:10": {
     "betterquesting:10": {
       "snd_complete:8": "random.levelup",
@@ -15,9 +15,9 @@
       "isMain:1": 0,
       "simultaneous:1": 0,
       "icon:10": {
-        "id:8": "hbm:tile.stone_resource",
+        "id:8": "gregtech:gt.multitileentity",
         "Count:3": 1,
-        "Damage:2": 2,
+        "Damage:2": 32703,
         "OreDict:8": ""
       },
       "snd_update:8": "random.levelup",
@@ -25,7 +25,7 @@
       "globalShare:1": 0,
       "questLogic:8": "AND",
       "repeat_relative:1": 1,
-      "name:8": "bm.ql3.q3b",
+      "name:8": "bm.ql3.q7b",
       "lockedProgress:1": 0,
       "autoClaim:1": 0,
       "isSilent:1": 0,
@@ -35,20 +35,21 @@
   "tasks:9": {
     "0:10": {
       "partialMatch:1": 1,
-      "autoConsume:1": 0,
-      "groupDetect:1": 0,
+      "allowCraftedFromStatistics:1": 0,
+      "allowSmelt:1": 1,
       "ignoreNBT:1": 1,
       "index:3": 0,
-      "consume:1": 0,
+      "allowCraft:1": 1,
+      "allowAnvil:1": 0,
       "requiredItems:9": {
         "0:10": {
-          "id:8": "hbm:tile.stone_resource",
-          "Count:3": 64,
-          "Damage:2": 2,
+          "id:8": "gregtech:gt.multitileentity",
+          "Count:3": 1,
+          "Damage:2": 32703,
           "OreDict:8": ""
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:crafting"
     }
   },
   "rewards:9": {}

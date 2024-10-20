@@ -82,22 +82,9 @@ betterquesting.quest.iQNSR3GOTveFPL62IVdOJg.desc=§2 - You can use that furnace 
 betterquesting.quest.NjrSeP4UQsaITePm1mKHgA.name=The journey begins
 betterquesting.quest.NjrSeP4UQsaITePm1mKHgA.desc=§2 - Feels better, right?%n§9 - Indeed, it's more comfortable to wield now.%n§2 - With that sword you can finally go outside and look for a permanent base. Remember those oversized ants, glyphids?%n§9 - Yeah, what's with them?%n§2 - Their nests are mostly organic. Steel cuts those like Rambo's machete through jungle. Get inside the nest, cut the yellow eggs and you'll find some of their loot. They tend to hoard different stuff into the nests. It's all yours if you can get there.%n§9 - What should I look for before establishing a permanent base?%n§2 - First, look for a source of fuel. You gonna need a lot of it. The huge deposits of §6Lignite§2 and §6Antracite§2 are common. Just don't forget about the gas mask, it's a coal after all. Another thing is a water source. If you can find a sinkhole, below is likely a lot of water. Get both water and fuel and you're ready to go.%n§9 - How do I secure myself while sleeping?%n§2 - That's a good question. Good point would also be mining a tunnel under the highways. Local life hates asphalt for whatever reason. Probably reminds them of men.%n§9 - Then it's time to go, I guess.%n§2 - Wait, I'll airdrop you a couple of stimpacks. Won't save you from a mine explosion, but would be enough to heal and desinfect a wound by glyphids. Contact me again when you got a base, I'll send you more info.
 
-#Questline 2
-# 1     4hqklnCfQZOgvQ24ojzshw      STOP! HAMMER TIME!
-# 2     2_rwTbwLTJi6NS5QufFoXw      Strike, while... wait, strike what?
-# 3a    gulCtShnRMaoJWKYFdNIvQ      Bending your lead
-# 3b    v_ngTxU9QNiy3UBkU69W6Q      Bending your copper
-# 3c    k4U6E16pR1-oNK32vV6lXQ      Clay... but not exactly
-# 4     64TOV_OURRCn2vc9v5eCdA      Clay, the real one!
-# 5     KglwhW8eScOHRJJalhSEAA      The Crucible
-# 6a    vhZFXv34Rky9xr6uavTIhw      Fuel supply
-# 6b    E2cgCAcETUyHH28iKNx7cw      The firebox?
-# 7a    gGH6et0wSmuh2mZVmKFb8Q      Safety measures
-# 7b    Hrv9NO3KSBWb-GFuzraFFQ      Advanced safety measures
-# 8     JBLjvRjYQmOgC8pIgNY-Pg      Preparing the forms
-# 9     1EwvcNoTS1GH6QAIsgP8Ug      My first bronze
-# 10    z-UnPgqqSdyOLEIYvQ6VMg      The metallic sky
-# 11    6zB8EH48S22xMao4eum_9w      Upgrading your weapon (Bronze)
+#
+#   questline 2
+#
 
 betterquesting.quest.4hqklnCfQZOgvQ24ojzshw.name=STOP! HAMMER TIME!
 betterquesting.quest.4hqklnCfQZOgvQ24ojzshw.desc=§2 - Guess you've got a new space to live now. Congratulations! Now we can start THE GREGIFICATION.%n§9 - The what?%n§2 - Just kidding, it's already started. You need to get a hammer.%n§9 - Can I hit someone with a hammer?%n§2 - Yes, but that's not what's important. Question is the material. You could use almost everything but I'd stick with something harder than stone (unless you want to replace it after a couple of strikes). Like lead, which you can find in small ores or granite which is... just rocks, yeah.
@@ -144,4 +131,114 @@ betterquesting.quest.z-UnPgqqSdyOLEIYvQ6VMg.desc=§2 - If I'm hearing you then y
 betterquesting.quest.6zB8EH48S22xMao4eum_9w.name=Upgrading your weapon (Bronze)
 betterquesting.quest.6zB8EH48S22xMao4eum_9w.desc=§2 - Now put those ingots in your regular furnace to forge them.%n§9 - Is that how you make those swords in the first place?%n§2 - No, we use a more difficult process involving meteoric steel, but you'll get to that soon.%n§9 - What should I do with this thing?%n§2 - You wouldn't believe it, but put it in the furnace again. It's gonna be warm enough to work it. Now listen closely, you have only A COUPLE OF SECONDS before those ingots will be cold again. While they are not black QUICKLY move them to the crafting table and work on your existing sword and those using a hammer. Ingots should still be orange when you work with them. After that you should have an even better sword than before.%n§9 - Noice. %n§2 - And that sword could be even better! So stay tuned.
 
+#
 #Questline 3
+#
+
+betterquesting.quest.zUdx0ICTTMqPezXz4fVD1A.name=Disturbing news
+betterquesting.quest.zUdx0ICTTMqPezXz4fVD1A.desc=§2 - Look, there is something wrong with our life support system. I've prepared a solid package of food and some pre-recorded messages to get you through, but this is may be the last message from Horizon. Additionally I've packed some new experimental fuel. Try not to use it for now. The rest is up to you. %n§9 - ...%n§7 - Transmission is over
+
+betterquesting.quest.BtBpEZEoS3eet9EeUTB_lA.name=Warm bed... kind of
+betterquesting.quest.BtBpEZEoS3eet9EeUTB_lA.desc=§2 - You'll need some resources. But before going outside you'd probably want a way to skip the night. Here's how you can create a simple sleeping bag.%n%n§7 A sleeping bag won't change your respawn point.
+
+betterquesting.quest.BtBpEZEoS3eet9EeUTB_lA.name=Hoarding Coal
+betterquesting.quest.BtBpEZEoS3eet9EeUTB_lA.desc=§2 - No jokes, you gonna need a lot of fuel. And don't even think about using those logs for that! They can burn almost forever. You need something that you can quickly extinguish. Lignite is the best case for this. You probably saw it already during your travels outside.
+
+betterquesting.quest.mE12kmMKRrOHWfQRJizrEA.name=Hoarding Iron
+betterquesting.quest.mE12kmMKRrOHWfQRJizrEA.desc=§2 - Hematite can be found inside the caves in a large quantities. If you're lucky, you'll be able to spot a vein right on the surface.
+
+betterquesting.quest.tI4aYFwiSrGxAxkEar3Efw.name=Hoarding Aluminium?
+betterquesting.quest.tI4aYFwiSrGxAxkEar3Efw.desc=§2 - Bauxite generates in the same way as hematite. You won't be able  to process it now, but it doesn't matter anyway.
+
+betterquesting.quest.tI4aYFwiSrGxAxkEar3Efw.name=Hoarding Aluminium?
+betterquesting.quest.tI4aYFwiSrGxAxkEar3Efw.desc=§2 - Bauxite generates in the same way as hematite. You won't be able to process it now, but it doesn't matter anyway.
+
+betterquesting.quest.rZkcK71uRb2thJqXKOjfkw.name=Hoarding Copper
+betterquesting.quest.rZkcK71uRb2thJqXKOjfkw.desc=§2 - The remaining ones gonna be harder to find but you gonna need it anyway. Gladly, copper is everywhere, even though in smaller quantities.
+
+betterquesting.quest.pLb7vPBvTd2rArkoIELexQ.name=Hoarding Tin
+betterquesting.quest.pLb7vPBvTd2rArkoIELexQ.desc=§2 - Same as copper. Everywhere, but not in veins.
+
+betterquesting.quest.0Vh2VRcBSBaAGrtnR4ghVw.name=Hoarding Zinc?
+betterquesting.quest.0Vh2VRcBSBaAGrtnR4ghVw.desc=§2 - Now that's a weird one. It is both rare and doesn't spawn in veins. But you still gonna need it. 
+
+betterquesting.quest.7372vNASSpy-VmJlvDOsDw.name=Basic logistics
+betterquesting.quest.7372vNASSpy-VmJlvDOsDw.desc=§2 - You probably using the chests to save all that stuff you managed to find. That's where you wrong! This boy can fit so much items in it!%n%n§7 If you have enough resources you can make a Mass Storage (Bronze) to fit 1 million of each items instead of 5000 for a barrel.
+
+betterquesting.quest.QcV6JjtqTw-btZsmjnQ4kg.name=Safety first
+betterquesting.quest.QcV6JjtqTw-btZsmjnQ4kg.desc=§2 - You have almost everything to get your first steam machines. But there is something you should know. You're not the first survivor. It's sad to admit but we lost a person like you due to fault in steam pipelines. As far as I know it was a boiler explosion. So let's prevent it before you've made your first machine. Craft a pressue valve, which you can later put on a pipe to release the excessive pressure.
+
+betterquesting.quest.8gmBp5FAQiyppqxO2PqU6g.name=Go touch some (dead) grass
+betterquesting.quest.8gmBp5FAQiyppqxO2PqU6g.desc=§2 - GO TOUCH GRASS. Literally. Something managed to survive the apocalypse, but it's just a tumbleweed. Try to get more of those, they tend to collect the stuff on the ground.
+
+betterquesting.quest.fofjCdI8QPGVr4HDnX7oCw.name=Digging in dirt
+betterquesting.quest.fofjCdI8QPGVr4HDnX7oCw.desc=§2 - Who could think that dirt could be a rare resource? Well, it is now. Time to go underground and find some dirt that wasn't blown by the sand.
+
+betterquesting.quest.UlQm6daWS9-5Qa7Efhis7w.name=The bucket list
+betterquesting.quest.UlQm6daWS9-5Qa7Efhis7w.desc=§2 - Usually people make buckets from iron, but the it's gonna be hard to produce a dozen of them. Wood is cheaper. Fill it with water. You'll be able to find huge water sources in the underground caves. Just don't dig under the mountains, there's only lava there. %n%n§7 You won't have a renewable water source (for now), so you'll need multiple buckets to carry the water.
+
+betterquesting.quest.tPGyqj_3TKmOGuv1MfnCDQ.name=My first terraforming
+betterquesting.quest.tPGyqj_3TKmOGuv1MfnCDQ.desc=§2 - Carefully put a seed in the dirt and spray it with water. If you're lucky, you'll get some fresh grassland which you can use for farming. Do I really need to tell you how to make bread?
+
+betterquesting.quest.GlFzkluqTXymm2RNyEws8g.name=Lava gathering
+betterquesting.quest.GlFzkluqTXymm2RNyEws8g.desc=§2 - Wooden buckets won't do the thing here, you need something more heat resistant. At the very least, an iron bucket. What is lava in a cooled form? It's obsidian. Why would you need obsidian? I'll cover that in my next message, just get the lava for now. Or better get a couple of buckets.%n%n§7 Bronze drum is hot resistant enough to store your lava, though.
+
+betterquesting.quest.-CwS2vXTQe6VaEm01ITwSA.name=Sharpening
+betterquesting.quest.-CwS2vXTQe6VaEm01ITwSA.desc=§2 - You could make a sharpening table using some of the iron you've collection. Don't worry, it's a one-time investment. Use sandstone as the abrasive, you have a lots of sand around you. How you can use it? For example, for sharpening your fresh tool heads out of crucible.
+
+betterquesting.quest.usBR8pIQTx2w6Z22HakR9w.name=Obsidian tools
+betterquesting.quest.usBR8pIQTx2w6Z22HakR9w.desc=§2 - Put a bucket of lava into the crucible, prepare a pickaxe (or whatever else you want) mold, heat the lava back to ~1500K, shut down the heater, get three pickaxe heads from one bucket. Don't burn yourself and forget to sharp it! %n%n§7 Obsidian tools are around 25% less durable than iron ones, but they are sharper and on the same mining levels as vanilla diamond tools. And you can stack the heads and stick separately not to fill your inventory with multiple pickaxes!
+
+betterquesting.quest.UuPkVtCCQCKvSA5cNuCFpg.name=Liquid storage
+betterquesting.quest.UuPkVtCCQCKvSA5cNuCFpg.desc=§2 - You should have some amount of bronze by now. Don't worry, you gonna need even more, haha. You can make a drum out of bronze that would be enough to fit around 64 buckets of liquid. It's a little different than your conventional fluid containers because you'll need to attach a tap and a facet there to interact with it.
+
+betterquesting.quest.GFLteVP0SWWMYQbLMXEV0A.name=Zooming in
+betterquesting.quest.GFLteVP0SWWMYQbLMXEV0A.desc=§2 - Before proceeding with actual steam, you should make this small tool. It will allow you to inspect different things like amount of liquid in your drums or how much water and steam there is in the boiler.
+
+betterquesting.quest.Cri--BoNQTGE1vL2nPl5kg.name=Downloading Steam
+betterquesting.quest.Cri--BoNQTGE1vL2nPl5kg.desc=§2 - There it is, your first steam generator. Usage is similar to the crucible, put a Burning Box below it, and let it heat. Just don't forget to put a pipe that can handle more than the amount of steam you're producing. Oh, and don't put the mechanical stuff in the rain, it can explode. DO NOT USE THE PRESTO LOGS UNTIL YOU HAVE AUTOMATED SUPPLY OF WATER, THE BOILER _WILL_ EXPLODE.
+
+betterquesting.quest.OFBpwo9sQzaiLoUwPoFhyQ.name=Piping
+betterquesting.quest.OFBpwo9sQzaiLoUwPoFhyQ.desc=§2 - Unlike water you won't be able to carry your steam in the buckets. It will both vaporize and hurt you, don't even try it. So you gonna need something to transport steam from the boiler to the machines. Good idea would be to use a bigger pipe for the main steam pipeway and limit the output for specific machines by using smaller. Don't forget the valve you've made to release the excessive pressure or the entire pipeline will explode.
+
+betterquesting.quest.5u85u-byQK2XgREUcjFA8g.name=Kinetic energy
+betterquesting.quest.5u85u-byQK2XgREUcjFA8g.desc=§2 - You can't just put steam into machine and expect it to work. Something needs force, something needs rotation, something needs heat or cooling. So you need to generate specific type of energy first. Basic bronze steam engine can handle up to 96 liters of steam per tick but it won't explode if you put 100l at once there. Small copper pipe is exactly what you need to put the right amount of steam in the engine. And your default boiler won't be able to output that much of steam at once, so you gonna need more of them. Once again, don't forget about releasing the pressure.
+
+betterquesting.quest.jL7McchHRH6s6u0BDEYuwg.name=Rotary energy
+betterquesting.quest.jL7McchHRH6s6u0BDEYuwg.desc=§2 - Same thing as kinetic, except it spins things instead of pressing them. You'll need that for centrifuge and sluice. And once again as the kinetic engine, 48 liters of steam won't be enough to run this on full power. Just don't try to put more than 100 liters of steam at once there, or it will, haha, you guessed it right, explode.
+
+betterquesting.quest.NQn-U6jTSDyYZep5sxq2Mg.name=Crush it!
+betterquesting.quest.NQn-U6jTSDyYZep5sxq2Mg.desc=§2 - Your first machine. Essentially a hammer, but with a greater precision. How about two pieces of ore instead of one? Oh, and did I mentioned that you need two diamonds to make it? Also different machines take energy from different sites. This one is simple, just put the engine on the back.
+
+betterquesting.quest.VYATZLyeQ8a3Ws6Lv5EIdA.name=Wash it!
+betterquesting.quest.VYATZLyeQ8a3Ws6Lv5EIdA.desc=§2 - First use of rotary energy! Connect from the back. Don't forget to add water. Also this thing generates sluice juice, so you'll need something to pump it out. For now just attach a tap and collect it with buckets.
+
+betterquesting.quest.4qb9L6GsSLK4ETJ9UIb8Nw.name=Spin it!
+betterquesting.quest.4qb9L6GsSLK4ETJ9UIb8Nw.desc=§2 - Hahhaha centrifuge go brrrrrrrrrr. Powered by rotary energy from the bottom. At the (current) end of your manufacturing chain you should have more ore than you started with. Hope you have enough storage to keep all those things.
+
+betterquesting.quest.d_HW0KA1RZ22qQH95agjOQ.name=Balls of steel
+betterquesting.quest.d_HW0KA1RZ22qQH95agjOQ.desc=§2 - There it is. Another step for the greatness of humanity. Connect a steam engine to the crucible to blow air, put some iron there, CAREFULLY heat it to 2046K, turn it off when it changes the color from molten iron to molten steel. There will be an easier way to do this, but for now this is the way.
+
+betterquesting.quest.1BXMqpiCSoW0De5QAz-QQg.name=Under pressure
+betterquesting.quest.1BXMqpiCSoW0De5QAz-QQg.desc=§2 - Now it's time to create something useful from that steel. And this will be some practice of creating steel. Good luck!
+
+betterquesting.quest.2sTxufeRTmyEh_nHarAPRw.name=I guess we're compressing meteorites now
+betterquesting.quest.2sTxufeRTmyEh_nHarAPRw.desc=§2 - Ain't that why you are here? A better sword. Just put it into your new press and enjoy an ever better quality of steel.
+
+betterquesting.quest.uDfbVdvKQtu6QsDtLMyVmw.name=Unlimited* water
+betterquesting.quest.uDfbVdvKQtu6QsDtLMyVmw.desc=§2 - Have you noticed the amount of rain out there? You can (and should) collect it to use in boilers. Get more drums!
+
+betterquesting.quest.49ZayWrATdCchjJPLvXMAg.name=Drains
+betterquesting.quest.49ZayWrATdCchjJPLvXMAg.desc=§2 - Craft them, put on a roof, connect to pipes, enjoy your free* water generation!
+
+betterquesting.quest.WuOspQFNR7ipfT6JAvGQag.name=Monkey wrench
+betterquesting.quest.WuOspQFNR7ipfT6JAvGQag.desc=§2 - Oh, and don't forget to make small changes into your drums so you could stack them. It could be done with a monkey wrench.%n%n§7 Stack the drums on top of each other to let the gravity do it's thing. Pipe water to the top of the topmost drum. Add more columns of drums if you want more storage.
+
+betterquesting.quest.kliwQ2wpRI2keQIu1yw3Og.name=Extreme compression
+betterquesting.quest.kliwQ2wpRI2keQIu1yw3Og.desc=§2 - You'll likely want to use one of those extra cool logs we gave you. But don't waste them on cheap boilers. Make a better one! But for that you need an already working steam setup. You gonna need dense plates which you can only make using a compressor. Also unlike other things, this machine takes kinetic energy from it's left side.
+
+betterquesting.quest.D2t_3_t_Tjm13BLflWtf7g.name=Strong boiler
+betterquesting.quest.D2t_3_t_Tjm13BLflWtf7g.desc=§2 - Boiler. But a strong one. That's the power of 4 boilers in one! Your normal firebox won't be able to heat it quick enough, though, so get a dense one as well. This thing will evaporate your water even faster, so don't even try it without an automated water connection.
+
+betterquesting.quest.sbrS3-wuS9CVkqZnrtMbrA.name=Dense burning box
+betterquesting.quest.sbrS3-wuS9CVkqZnrtMbrA.desc=§2 - Better heating for a better boiler! Finally, a good use for those logs.
