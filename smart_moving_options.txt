@@ -65,7 +65,7 @@ move.speed.user:false;c:true
 move.speed.user.factor:0.2
 
 # The exponent for in-game speed manipulation
-move.speed.user.exponent:1
+move.speed.user.exponent:2
 
 
 
