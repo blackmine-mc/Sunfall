@@ -9,3 +9,6 @@
 !config
 config/*
 !config/ASJCore.cfg
+!config/enviromine
+config/enviromine/*
+!config/enviromine/CaveDimension.cfg
