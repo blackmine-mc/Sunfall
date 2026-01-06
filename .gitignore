@@ -22,3 +22,4 @@ config/enviromine/*
 !config/Wasteland
 config/Wasteland/*
 !config/Wasteland/TerrainGen.cfg
+!config/Wasteland/CreatureSpawns.cfg
