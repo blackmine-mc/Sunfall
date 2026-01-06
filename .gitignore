@@ -4,3 +4,8 @@
 !LICENSE.MD
 !README.MD
 !logo.png
+
+
+!config
+config/*
+!config/ASJCore.cfg
