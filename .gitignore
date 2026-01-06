@@ -18,3 +18,7 @@ config/AppliedEnergistics2/*
 !config/enviromine
 config/enviromine/*
 !config/enviromine/CaveDimension.cfg
+
+!config/Wasteland
+config/Wasteland/*
+!config/Wasteland/TerrainGen.cfg
