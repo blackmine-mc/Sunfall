@@ -8,7 +8,13 @@
 
 !config
 config/*
+
 !config/ASJCore.cfg
+
+!config/AppliedEnergistics2
+config/AppliedEnergistics2/*
+!config/AppliedEnergistics2/AppliedEnergistics2.cfg
+
 !config/enviromine
 config/enviromine/*
 !config/enviromine/CaveDimension.cfg
