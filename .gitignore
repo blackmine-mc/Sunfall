@@ -11,6 +11,10 @@ config/*
 
 !config/ASJCore.cfg
 
+!config/advRocketry/
+config/advRocketry/*
+!config/advRocketry/advancedRocketry.cfg
+
 !config/AppliedEnergistics2
 config/AppliedEnergistics2/*
 !config/AppliedEnergistics2/AppliedEnergistics2.cfg
