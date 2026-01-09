@@ -38,6 +38,9 @@ config/enviromine/profiles/default/*
 config/enviromine/profiles/default/CustomProperties/*
 !config/enviromine/profiles/default/CustomProperties/WLM.cfg
 
+!config/etfuturum/
+config/etfuturum/*
+!config/etfuturum/world.cfg
 
 !config/Wasteland
 config/Wasteland/*
