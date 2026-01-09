@@ -19,6 +19,11 @@ config/advRocketry/*
 config/AppliedEnergistics2/*
 !config/AppliedEnergistics2/AppliedEnergistics2.cfg
 
+!config/cofh
+config/cofh/*
+!config/cofh/world
+!config/cofh/world/*
+
 !config/enviromine
 config/enviromine/*
 !config/enviromine/CaveDimension.cfg
