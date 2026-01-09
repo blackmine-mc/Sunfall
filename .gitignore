@@ -10,6 +10,7 @@
 config/*
 
 !config/ASJCore.cfg
+!config/CodeChickenCore.cfg
 
 !config/advRocketry/
 config/advRocketry/*
