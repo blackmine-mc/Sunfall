@@ -24,6 +24,10 @@ config/cofh/*
 !config/cofh/world
 !config/cofh/world/*
 
+!config/Enderlicious/
+config/Enderlicious/*
+!config/Enderlicious/Worldgeneration_Configuration.cfg
+
 !config/enviromine
 config/enviromine/*
 !config/enviromine/CaveDimension.cfg
@@ -33,6 +37,7 @@ config/enviromine/profiles/default/*
 !config/enviromine/profiles/default/CustomProperties
 config/enviromine/profiles/default/CustomProperties/*
 !config/enviromine/profiles/default/CustomProperties/WLM.cfg
+
 
 !config/Wasteland
 config/Wasteland/*
