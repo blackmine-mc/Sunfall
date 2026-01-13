@@ -10,6 +10,7 @@
 config/*
 
 !config/ASJCore.cfg
+!config/chisel.cfg
 !config/CodeChickenCore.cfg
 !config/hbm.cfg
 
