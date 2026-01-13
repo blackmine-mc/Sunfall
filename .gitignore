@@ -11,6 +11,7 @@ config/*
 
 !config/ASJCore.cfg
 !config/CodeChickenCore.cfg
+!config/hbm.cfg
 
 !config/advRocketry/
 config/advRocketry/*
