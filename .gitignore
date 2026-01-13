@@ -43,6 +43,10 @@ config/enviromine/profiles/default/CustomProperties/*
 config/etfuturum/*
 !config/etfuturum/world.cfg
 
+!config/gregtech/
+config/gregtech/*
+!config/gregtech/worldgenerationnew.cfg
+
 !config/Wasteland
 config/Wasteland/*
 !config/Wasteland/TerrainGen.cfg
