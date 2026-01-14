@@ -13,6 +13,7 @@ config/*
 !config/chisel.cfg
 !config/CodeChickenCore.cfg
 !config/hbm.cfg
+!config/OpenBlocks.cfg
 
 !config/advRocketry/
 config/advRocketry/*
