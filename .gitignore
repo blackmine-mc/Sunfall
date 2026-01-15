@@ -12,6 +12,7 @@ config/*
 !config/ASJCore.cfg
 !config/chisel.cfg
 !config/CodeChickenCore.cfg
+!config/harvestcraft.cfg
 !config/hbm.cfg
 !config/OpenBlocks.cfg
 
