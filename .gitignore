@@ -33,6 +33,7 @@ config/cofh/*
 
 !config/Enderlicious/
 config/Enderlicious/*
+!config/Enderlicious/Biome_Configuration.cfg
 !config/Enderlicious/Worldgeneration_Configuration.cfg
 
 !config/enviromine
