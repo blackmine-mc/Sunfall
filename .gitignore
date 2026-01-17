@@ -53,6 +53,10 @@ config/etfuturum/*
 config/gregtech/*
 !config/gregtech/worldgenerationnew.cfg
 
+!config/Netherlicious/
+config/Netherlicious/*
+!config/Netherlicious/Biome_Configuration.cfg
+
 !config/Wasteland
 config/Wasteland/*
 !config/Wasteland/TerrainGen.cfg
