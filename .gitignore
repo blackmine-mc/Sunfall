@@ -28,6 +28,9 @@ config/AppliedEnergistics2/*
 
 !config/cofh
 config/cofh/*
+!config/cofh/thermaldynamics
+config/cofh/thermaldynamics/*
+!config/cofh/thermaldynamics/common.cfg
 !config/cofh/world
 !config/cofh/world/*
 
