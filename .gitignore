@@ -1,71 +1,58 @@
 *
 
-!.gitignore
-!LICENSE.MD
-!README.MD
-!logo.png
+!/.gitignore
+!/LICENSE.MD
+!/README.MD
+!/logo.png
 
-!gregtech.cfg
+!/gregtech.cfg
 
-!config
-config/*
+!/config
 
-!config/ASJCore.cfg
-!config/chisel.cfg
-!config/CodeChickenCore.cfg
-!config/defaultworldgenerator.cfg
-!config/harvestcraft.cfg
-!config/hbm.cfg
-!config/OpenBlocks.cfg
+!/config/ASJCore.cfg
+!/config/chisel.cfg
+!/config/CodeChickenCore.cfg
+!/config/defaultworldgenerator.cfg
+!/config/harvestcraft.cfg
+!/config/hbm.cfg
+!/config/OpenBlocks.cfg
 
-!config/advRocketry/
-config/advRocketry/*
-!config/advRocketry/advancedRocketry.cfg
+!/config/advRocketry/
+!/config/advRocketry/advancedRocketry.cfg
 
-!config/AppliedEnergistics2
-config/AppliedEnergistics2/*
-!config/AppliedEnergistics2/AppliedEnergistics2.cfg
+!/config/AppliedEnergistics2
+!/config/AppliedEnergistics2/AppliedEnergistics2.cfg
 
-!config/cofh
-config/cofh/*
-!config/cofh/thermaldynamics
-config/cofh/thermaldynamics/*
-!config/cofh/thermaldynamics/common.cfg
-!config/cofh/world
-!config/cofh/world/*
+!/config/cofh/
+!/config/cofh/thermaldynamics/
+!/config/cofh/thermaldynamics/common.cfg
+!/config/cofh/world/
+!/config/cofh/world/*
 
-!config/Enderlicious/
-config/Enderlicious/*
-!config/Enderlicious/Biome_Configuration.cfg
-!config/Enderlicious/Worldgeneration_Configuration.cfg
+!/config/Enderlicious/
+!/config/Enderlicious/Biome_Configuration.cfg
+!/config/Enderlicious/Worldgeneration_Configuration.cfg
 
-!config/enviromine
-config/enviromine/*
-!config/enviromine/CaveDimension.cfg
-!config/enviromine/profiles
-!config/enviromine/profiles/default
-config/enviromine/profiles/default/*
-!config/enviromine/profiles/default/CustomProperties
-config/enviromine/profiles/default/CustomProperties/*
-!config/enviromine/profiles/default/CustomProperties/WLM.cfg
+!/config/enviromine
+!/config/enviromine/CaveDimension.cfg
+!/config/enviromine/profiles
+!/config/enviromine/profiles/default
+!/config/enviromine/profiles/default/CustomProperties
+!/config/enviromine/profiles/default/CustomProperties/WLM.cfg
 
-!config/etfuturum/
-config/etfuturum/*
-!config/etfuturum/world.cfg
+!/config/etfuturum/
+!/config/etfuturum/world.cfg
 
-!config/gregtech/
-config/gregtech/*
-!config/gregtech/worldgenerationnew.cfg
+!/config/gregtech/
+!/config/gregtech/worldgenerationnew.cfg
 
-!config/Netherlicious/
-config/Netherlicious/*
-!config/Netherlicious/Biome_Configuration.cfg
+!/config/Netherlicious/
+!/config/Netherlicious/Biome_Configuration.cfg
 
-!config/powercrystals/
-!config/powercrystals/minefactoryreloaded/
-!config/powercrystals/minefactoryreloaded/common.cfg
+!/config/powercrystals/
+!/config/powercrystals/minefactoryreloaded/
+!/config/powercrystals/minefactoryreloaded/common.cfg
 
-!config/Wasteland
-config/Wasteland/*
-!config/Wasteland/TerrainGen.cfg
-!config/Wasteland/CreatureSpawns.cfg
+!/config/Wasteland
+!/config/Wasteland/TerrainGen.cfg
+!/config/Wasteland/CreatureSpawns.cfg
