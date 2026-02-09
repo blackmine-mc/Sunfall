@@ -61,6 +61,10 @@ config/gregtech/*
 config/Netherlicious/*
 !config/Netherlicious/Biome_Configuration.cfg
 
+!config/powercrystals/
+!config/powercrystals/minefactoryreloaded/
+!config/powercrystals/minefactoryreloaded/common.cfg
+
 !config/Wasteland
 config/Wasteland/*
 !config/Wasteland/TerrainGen.cfg
