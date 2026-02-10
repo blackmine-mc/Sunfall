@@ -13,6 +13,7 @@
 !/config/chisel.cfg
 !/config/CodeChickenCore.cfg
 !/config/defaultworldgenerator.cfg
+!/config/FloodLights.cfg
 !/config/harvestcraft.cfg
 !/config/hbm.cfg
 !/config/OpenBlocks.cfg
