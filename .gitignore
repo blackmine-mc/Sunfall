@@ -23,6 +23,17 @@
 !/config/AppliedEnergistics2
 !/config/AppliedEnergistics2/AppliedEnergistics2.cfg
 
+!/config/betterquesting
+!/config/betterquesting/resources
+# Not elegant but there can be a lot of subfolders
+!/config/betterquesting/resources/*
+!/config/betterquesting/resources/*/*
+!/config/betterquesting/resources/*/*/*
+!/config/betterquesting/resources/*/*/*/*
+!/config/betterquesting/resources/*/*/*/*/*
+!/config/betterquesting/resources/*/*/*/*/*/*
+!/config/betterquesting/resources/*/*/*/*/*/*/*
+
 !/config/cofh/
 !/config/cofh/thermaldynamics/
 !/config/cofh/thermaldynamics/common.cfg
