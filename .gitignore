@@ -68,6 +68,9 @@
 !/config/powercrystals/minefactoryreloaded/
 !/config/powercrystals/minefactoryreloaded/common.cfg
 
+!config/VillageNames4
+!config/VillageNames4/general.cfg
+
 !/config/Wasteland
 !/config/Wasteland/TerrainGen.cfg
 !/config/Wasteland/CreatureSpawns.cfg
