@@ -74,5 +74,6 @@
 !config/VillageNames4/general.cfg
 
 !/config/Wasteland
-!/config/Wasteland/TerrainGen.cfg
+!/config/Wasteland/ChestLoot.cfg
 !/config/Wasteland/CreatureSpawns.cfg
+!/config/Wasteland/TerrainGen.cfg
