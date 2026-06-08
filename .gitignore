@@ -36,6 +36,15 @@
 !/config/betterquesting/resources/*/*/*/*/*
 !/config/betterquesting/resources/*/*/*/*/*/*
 !/config/betterquesting/resources/*/*/*/*/*/*/*
+# Same with quests 
+!/config/betterquesting/DefaultQuests
+!/config/betterquesting/DefaultQuests/*
+!/config/betterquesting/DefaultQuests/*/*
+!/config/betterquesting/DefaultQuests/*/*/*
+!/config/betterquesting/DefaultQuests/*/*/*/*
+!/config/betterquesting/DefaultQuests/*/*/*/*/*
+!/config/betterquesting/DefaultQuests/*/*/*/*/*/*
+!/config/betterquesting/DefaultQuests/*/*/*/*/*/*/*
 
 !/config/cofh/
 !/config/cofh/thermaldynamics/
